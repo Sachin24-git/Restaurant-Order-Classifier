@@ -1,0 +1,2001 @@
+order_id,order_date,order_time,cuisine,meal_type,payment_method,country,order_value,delivery_distance,prep_time,num_items,is_weekend,is_peak_hour,status
+1,2025-09-05,11,Italian,Dinner,Debit Card,Australia,40.96,6.58,28.62,3,0,0,Delivered
+2,2025-09-15,21,Mediterranean,Breakfast,Digital Wallet,Japan,21.66,0.85,33.19,1,0,0,Cancelled
+3,2025-05-24,18,Korean,Breakfast,Digital Wallet,Australia,40.79,0.1,37.67,7,1,1,Delivered
+4,2025-08-23,14,Italian,Lunch,Cash on Delivery,France,28.03,1.01,24.75,5,1,1,Delivered
+5,2025-06-20,11,Chinese,Snack,Credit Card,France,27.42,2.83,10.87,6,0,0,Delivered
+6,2025-04-06,21,French,Breakfast,Cash on Delivery,UK,57.25,0.75,14.76,5,1,0,Delivered
+7,2025-08-31,15,Korean,Lunch,Credit Card,USA,15.92,3.04,15.88,4,1,0,Delivered
+8,2025-04-15,13,Chinese,Snack,PayPal,India,18.71,3.61,35.98,6,0,1,Delivered
+9,2025-06-24,13,Japanese,Breakfast,Digital Wallet,Canada,36.83,4.68,31.11,4,0,1,Delivered
+10,2025-07-01,14,Mediterranean,Lunch,PayPal,USA,27.8,0.51,39.47,4,0,1,Delivered
+11,2025-06-14,16,Japanese,Breakfast,Debit Card,Mexico,35.97,0.65,48.52,6,1,0,Delivered
+12,2025-09-06,17,Mexican,Dinner,Debit Card,Australia,19.66,12.0,29.94,5,1,0,Late Delivery
+13,2025-08-22,16,American,Lunch,Debit Card,Brazil,33.23,1.87,17.79,8,0,0,Delivered
+14,2025-04-23,12,Mexican,Snack,Digital Wallet,UK,52.78,1.02,41.94,7,0,1,Delivered
+15,2025-08-08,14,Mediterranean,Breakfast,Credit Card,Brazil,43.86,0.46,31.71,5,0,1,Delivered
+16,2025-06-21,11,Japanese,Snack,Debit Card,India,29.86,1.58,14.17,1,1,0,Delivered
+17,2025-06-01,18,Mexican,Breakfast,PayPal,Brazil,20.39,1.65,40.57,4,1,1,Delivered
+18,2025-08-11,22,Mediterranean,Breakfast,Digital Wallet,France,21.43,8.1,31.34,8,0,0,Late Delivery
+19,2025-06-12,13,Italian,Lunch,Digital Wallet,UK,26.88,0.03,36.12,2,0,1,Delivered
+20,2025-04-12,22,Mediterranean,Lunch,Debit Card,India,41.99,6.53,38.88,3,1,0,Delivered
+21,2025-08-28,16,Indian,Lunch,PayPal,Japan,16.61,9.94,26.91,6,0,0,Delivered
+22,2025-08-05,17,Chinese,Lunch,Debit Card,UK,9.92,0.33,41.0,6,0,0,Delivered
+23,2025-08-23,13,Italian,Breakfast,Credit Card,Australia,21.72,6.54,18.04,2,1,1,Delivered
+24,2025-06-18,11,Mediterranean,Lunch,PayPal,India,45.02,3.2,32.97,4,0,0,Delivered
+25,2025-08-19,19,French,Lunch,Cash on Delivery,Japan,50.42,7.15,23.55,4,0,1,Issues with Order
+26,2025-06-24,16,Thai,Snack,Credit Card,UK,39.95,3.4,33.38,1,0,0,Delivered
+27,2025-06-20,22,Chinese,Lunch,Debit Card,Australia,5.0,0.13,38.22,8,0,0,Delivered
+28,2025-05-11,14,French,Lunch,Credit Card,India,23.72,3.55,40.42,2,1,1,Delivered
+29,2025-03-29,11,Indian,Lunch,Cash on Delivery,India,22.8,2.64,33.57,8,1,0,Delivered
+30,2025-07-06,10,Mexican,Snack,Credit Card,Japan,17.11,0.4,37.44,5,1,0,Delivered
+31,2025-07-20,14,Thai,Snack,Debit Card,Australia,16.92,13.27,24.98,5,1,1,Delivered
+32,2025-06-14,10,Italian,Snack,Digital Wallet,Brazil,41.02,10.26,41.58,3,1,0,Issues with Order
+33,2025-04-12,19,Chinese,Lunch,Cash on Delivery,UK,19.7,11.15,35.13,4,1,1,Delivered
+34,2025-07-11,20,Korean,Dinner,PayPal,Australia,38.72,11.32,31.76,6,0,1,Delivered
+35,2025-09-13,20,Japanese,Snack,PayPal,UK,34.47,1.29,26.72,1,1,1,Delivered
+36,2025-08-17,11,Chinese,Lunch,Digital Wallet,Germany,37.74,9.86,27.08,3,1,0,Delivered
+37,2025-04-12,13,American,Dinner,Debit Card,India,25.05,2.7,27.65,5,1,1,Delivered
+38,2025-09-09,18,Italian,Dinner,Credit Card,Canada,30.25,2.06,27.11,5,0,1,Delivered
+39,2025-04-22,21,Mediterranean,Lunch,PayPal,Germany,33.06,3.66,34.04,4,0,0,Delivered
+40,2025-05-17,20,Japanese,Snack,PayPal,USA,30.85,17.84,44.04,2,1,1,Late Delivery
+41,2025-04-06,10,American,Lunch,PayPal,Canada,5.81,1.68,29.73,8,1,0,Delivered
+42,2025-07-13,18,Italian,Breakfast,Credit Card,Canada,36.23,3.49,25.67,1,1,1,Delivered
+43,2025-08-22,18,Mexican,Snack,Debit Card,USA,23.08,0.78,33.02,5,0,1,Delivered
+44,2025-04-05,15,Indian,Lunch,Credit Card,France,28.4,1.39,29.93,7,1,0,Delivered
+45,2025-05-04,13,Mexican,Lunch,Cash on Delivery,USA,36.43,1.36,37.52,3,1,1,Delivered
+46,2025-06-19,22,Thai,Lunch,PayPal,Canada,16.98,5.0,43.84,2,0,0,Issues with Order
+47,2025-05-21,13,French,Dinner,PayPal,Australia,53.8,0.47,51.9,4,0,1,Delivered
+48,2025-06-18,14,Chinese,Dinner,PayPal,Brazil,20.07,1.03,39.23,7,0,1,Delivered
+49,2025-08-10,15,Italian,Breakfast,PayPal,Canada,36.2,5.66,24.97,5,1,0,Issues with Order
+50,2025-06-22,21,American,Snack,Digital Wallet,Brazil,25.09,1.28,26.34,2,1,0,Delivered
+51,2025-08-20,13,Japanese,Breakfast,Cash on Delivery,USA,29.07,5.87,34.74,4,0,1,Delivered
+52,2025-04-12,20,American,Dinner,Credit Card,Germany,31.21,0.74,28.39,5,1,1,Delivered
+53,2025-06-17,16,Japanese,Lunch,Debit Card,Japan,33.25,12.93,26.78,7,0,0,Late Delivery
+54,2025-08-30,19,Japanese,Snack,Digital Wallet,USA,39.65,5.39,35.56,5,1,1,Delivered
+55,2025-07-14,22,Korean,Dinner,Cash on Delivery,India,27.27,3.77,43.07,8,0,0,Issues with Order
+56,2025-05-08,20,Chinese,Dinner,Digital Wallet,Mexico,21.76,11.38,27.94,6,0,1,Delivered
+57,2025-05-25,20,Japanese,Lunch,Debit Card,Canada,48.9,2.07,37.82,1,1,1,Issues with Order
+58,2025-08-29,22,Chinese,Snack,Cash on Delivery,Mexico,37.99,11.37,21.33,4,0,0,Late Delivery
+59,2025-07-06,13,Mexican,Breakfast,Credit Card,Japan,27.5,5.14,33.46,4,1,1,Delivered
+60,2025-09-20,18,French,Breakfast,Digital Wallet,Australia,48.39,0.05,38.47,2,1,1,Delivered
+61,2025-07-22,20,Mediterranean,Dinner,Cash on Delivery,Mexico,38.52,0.03,22.86,7,0,1,Delivered
+62,2025-08-13,17,Mexican,Snack,Cash on Delivery,Germany,26.75,5.89,17.83,4,0,0,Delivered
+63,2025-06-04,22,Mediterranean,Snack,Debit Card,Germany,20.7,6.23,36.57,8,0,0,Late Delivery
+64,2025-05-25,14,American,Dinner,Digital Wallet,UK,17.49,6.86,18.7,3,1,1,Delivered
+65,2025-07-02,21,Mexican,Lunch,Credit Card,Japan,34.63,5.36,34.13,7,0,0,Delivered
+66,2025-07-23,16,Italian,Lunch,Cash on Delivery,Japan,24.59,2.29,31.46,1,0,0,Delivered
+67,2025-08-20,16,French,Breakfast,PayPal,Germany,31.66,18.06,21.84,7,0,0,Late Delivery
+68,2025-07-11,18,Mediterranean,Lunch,Cash on Delivery,Australia,45.54,4.99,27.6,5,0,1,Delivered
+69,2025-04-02,16,American,Snack,Debit Card,India,25.13,4.3,44.54,3,0,0,Issues with Order
+70,2025-07-04,19,Korean,Breakfast,Credit Card,Japan,10.94,6.41,29.65,3,0,1,Delivered
+71,2025-05-11,10,Japanese,Snack,PayPal,Australia,28.94,14.11,34.82,8,1,0,Late Delivery
+72,2025-07-01,14,Thai,Dinner,Credit Card,India,23.76,17.0,37.4,1,0,1,Late Delivery
+73,2025-05-22,20,Chinese,Breakfast,Credit Card,Australia,16.53,9.52,14.85,4,0,1,Delivered
+74,2025-09-01,12,Indian,Lunch,Cash on Delivery,UK,15.74,4.07,24.87,4,0,1,Delivered
+75,2025-05-30,22,American,Lunch,Digital Wallet,Mexico,26.73,4.22,33.85,2,0,0,Delivered
+76,2025-05-06,14,Chinese,Breakfast,PayPal,Mexico,27.31,23.05,21.91,7,0,1,Late Delivery
+77,2025-04-14,19,Indian,Breakfast,PayPal,Mexico,25.58,10.49,18.57,2,0,1,Late Delivery
+78,2025-04-05,15,Mediterranean,Snack,PayPal,UK,45.47,6.06,40.66,6,1,0,Delivered
+79,2025-07-29,11,Thai,Dinner,Cash on Delivery,Canada,11.22,8.29,20.62,7,0,0,Delivered
+80,2025-08-06,20,Japanese,Snack,Cash on Delivery,Japan,49.57,12.22,32.57,5,0,1,Late Delivery
+81,2025-04-17,14,French,Lunch,Cash on Delivery,Mexico,52.73,8.0,68.53,7,0,1,Delivered
+82,2025-06-17,12,French,Lunch,PayPal,Germany,64.96,7.94,39.88,6,0,1,Delivered
+83,2025-08-25,21,Japanese,Breakfast,Digital Wallet,Australia,40.27,2.35,37.59,2,0,0,Delivered
+84,2025-07-08,17,Mediterranean,Lunch,Cash on Delivery,India,36.98,0.18,21.44,8,0,0,Delivered
+85,2025-04-18,14,Indian,Snack,Debit Card,Germany,48.15,1.69,11.33,6,0,1,Delivered
+86,2025-08-08,15,Thai,Dinner,PayPal,India,20.85,0.19,30.8,5,0,0,Delivered
+87,2025-05-24,11,Indian,Dinner,Credit Card,Brazil,20.28,0.68,40.89,3,1,0,Delivered
+88,2025-06-04,21,Korean,Dinner,Credit Card,Australia,40.6,1.22,31.29,5,0,0,Delivered
+89,2025-05-10,14,Italian,Lunch,PayPal,USA,26.24,0.27,32.16,1,1,1,Delivered
+90,2025-09-20,12,French,Breakfast,Credit Card,Mexico,80.84,5.07,48.43,5,1,1,Issues with Order
+91,2025-04-08,14,French,Breakfast,Credit Card,Japan,14.62,7.93,31.86,8,0,1,Delivered
+92,2025-05-03,12,Korean,Dinner,Credit Card,Australia,20.56,0.41,13.31,2,1,1,Delivered
+93,2025-07-10,19,Korean,Lunch,Digital Wallet,Japan,30.05,2.63,38.66,8,0,1,Delivered
+94,2025-06-10,19,Thai,Dinner,Digital Wallet,Mexico,21.66,1.44,26.82,1,0,1,Delivered
+95,2025-04-20,22,Indian,Lunch,PayPal,UK,42.65,5.4,34.05,3,1,0,Delivered
+96,2025-08-14,11,Mexican,Breakfast,Cash on Delivery,India,28.77,4.73,46.51,8,0,0,Delivered
+97,2025-09-22,14,French,Breakfast,Debit Card,Germany,22.21,2.2,25.16,4,0,1,Delivered
+98,2025-08-12,13,Mexican,Dinner,Debit Card,UK,22.63,0.51,48.72,1,0,1,Delivered
+99,2025-08-18,14,French,Breakfast,Cash on Delivery,Germany,5.0,0.95,19.76,7,0,1,Delivered
+100,2025-08-01,18,French,Snack,Credit Card,Mexico,15.08,4.78,17.0,1,0,1,Delivered
+101,2025-06-16,19,Japanese,Breakfast,Credit Card,Australia,38.4,2.35,31.31,1,0,1,Delivered
+102,2025-09-14,14,Korean,Breakfast,Debit Card,India,25.59,9.71,53.48,8,1,1,Issues with Order
+103,2025-08-22,16,French,Breakfast,Cash on Delivery,France,30.28,0.37,34.62,7,0,0,Delivered
+104,2025-09-13,11,Mexican,Dinner,Cash on Delivery,India,22.98,4.41,30.61,5,1,0,Delivered
+105,2025-07-06,22,Mediterranean,Breakfast,Cash on Delivery,UK,36.36,2.46,36.62,6,1,0,Delivered
+106,2025-04-24,22,Thai,Breakfast,Digital Wallet,India,18.85,3.94,51.11,7,0,0,Delivered
+107,2025-09-01,22,French,Snack,Credit Card,Australia,42.72,16.25,35.88,5,0,0,Late Delivery
+108,2025-07-16,21,French,Breakfast,Credit Card,Mexico,37.7,1.92,32.08,4,0,0,Delivered
+109,2025-06-13,18,Italian,Snack,Credit Card,Australia,27.93,0.63,38.5,2,0,1,Delivered
+110,2025-04-25,20,Mexican,Snack,PayPal,Brazil,34.52,10.5,44.53,5,0,1,Late Delivery
+111,2025-07-24,13,French,Lunch,Cash on Delivery,Australia,57.19,1.66,36.3,3,0,1,Delivered
+112,2025-06-04,22,Thai,Dinner,Digital Wallet,Germany,30.52,8.22,22.9,1,0,0,Delivered
+113,2025-06-10,19,Korean,Snack,Debit Card,India,24.79,2.33,31.17,8,0,1,Delivered
+114,2025-08-14,22,Mediterranean,Snack,Cash on Delivery,France,26.97,13.35,41.62,4,0,0,Late Delivery
+115,2025-07-02,13,Thai,Breakfast,PayPal,India,22.82,6.95,40.99,7,0,1,Delivered
+116,2025-09-08,12,French,Breakfast,Debit Card,Brazil,38.88,11.64,32.62,6,0,1,Late Delivery
+117,2025-07-16,11,Mediterranean,Snack,Credit Card,Canada,50.67,1.93,30.21,7,0,0,Delivered
+118,2025-05-04,11,French,Dinner,PayPal,Mexico,41.41,0.05,38.54,7,1,0,Delivered
+119,2025-06-18,20,Mediterranean,Snack,PayPal,India,38.89,15.04,28.7,1,0,1,Late Delivery
+120,2025-09-17,14,Indian,Breakfast,Cash on Delivery,UK,44.12,2.98,40.65,2,0,1,Issues with Order
+121,2025-04-02,10,American,Breakfast,PayPal,France,14.94,5.58,17.86,6,0,0,Delivered
+122,2025-05-27,18,Thai,Lunch,Debit Card,Canada,32.71,7.79,36.67,2,0,1,Delivered
+123,2025-07-01,19,Indian,Snack,Digital Wallet,Canada,24.88,0.3,21.03,4,0,1,Delivered
+124,2025-05-30,17,Japanese,Breakfast,Cash on Delivery,Germany,13.65,10.93,47.7,3,0,0,Issues with Order
+125,2025-06-10,20,Thai,Dinner,Cash on Delivery,Germany,16.75,0.77,26.79,4,0,1,Delivered
+126,2025-07-27,11,Indian,Snack,Digital Wallet,France,31.14,0.53,43.58,5,1,0,Issues with Order
+127,2025-09-10,16,Japanese,Breakfast,Digital Wallet,USA,48.67,0.38,24.93,8,0,0,Delivered
+128,2025-06-07,22,Indian,Dinner,Debit Card,Australia,30.59,0.42,38.73,5,1,0,Delivered
+129,2025-09-10,20,Mexican,Breakfast,Credit Card,Germany,10.52,8.38,15.93,8,0,1,Late Delivery
+130,2025-04-28,11,Japanese,Dinner,Cash on Delivery,Canada,35.04,0.44,43.6,4,0,0,Delivered
+131,2025-06-27,18,Mediterranean,Dinner,Debit Card,Germany,38.73,2.76,44.75,8,0,1,Issues with Order
+132,2025-06-20,22,Chinese,Snack,Credit Card,Canada,21.98,3.16,29.95,4,0,0,Delivered
+133,2025-09-14,16,Mediterranean,Dinner,Credit Card,Japan,38.87,6.85,21.73,1,1,0,Delivered
+134,2025-04-26,17,American,Dinner,Digital Wallet,Japan,29.93,2.35,30.89,6,1,0,Delivered
+135,2025-05-24,17,Italian,Dinner,Digital Wallet,Australia,43.28,1.27,25.99,2,1,0,Delivered
+136,2025-07-22,21,Japanese,Snack,Credit Card,Canada,46.04,24.78,39.84,1,0,0,Late Delivery
+137,2025-07-30,11,Chinese,Lunch,Digital Wallet,Canada,25.98,17.42,22.27,7,0,0,Late Delivery
+138,2025-09-20,18,Thai,Lunch,Cash on Delivery,UK,47.76,5.95,34.06,8,1,1,Delivered
+139,2025-06-05,10,American,Lunch,Cash on Delivery,India,46.53,4.39,22.33,4,0,0,Delivered
+140,2025-04-20,20,American,Dinner,Credit Card,Japan,23.89,4.84,39.76,5,1,1,Delivered
+141,2025-04-26,17,Chinese,Lunch,Digital Wallet,USA,16.6,3.12,24.01,1,1,0,Delivered
+142,2025-05-27,12,Korean,Lunch,Credit Card,Brazil,35.33,0.4,11.9,4,0,1,Delivered
+143,2025-05-24,15,Mexican,Breakfast,PayPal,Canada,28.42,1.85,48.76,3,1,0,Issues with Order
+144,2025-04-23,20,Italian,Lunch,Credit Card,France,41.86,0.89,39.71,4,0,1,Delivered
+145,2025-03-30,12,Japanese,Breakfast,Debit Card,Japan,25.2,13.5,48.31,2,1,1,Late Delivery
+146,2025-06-26,18,Korean,Breakfast,Cash on Delivery,Brazil,24.26,8.32,27.18,4,0,1,Delivered
+147,2025-04-06,21,Mediterranean,Dinner,Cash on Delivery,USA,14.44,17.52,43.54,1,1,0,Late Delivery
+148,2025-07-13,20,Chinese,Snack,Cash on Delivery,UK,27.76,3.16,32.79,2,1,1,Delivered
+149,2025-05-02,11,Mexican,Dinner,Digital Wallet,Mexico,9.06,0.29,24.01,6,0,0,Delivered
+150,2025-08-25,18,Japanese,Snack,Digital Wallet,Mexico,48.89,40.86,33.02,7,0,1,Delivered
+151,2025-09-09,20,Mediterranean,Lunch,Cash on Delivery,India,35.06,7.33,30.47,4,0,1,Delivered
+152,2025-07-20,16,Thai,Breakfast,PayPal,Japan,21.87,0.69,14.01,6,1,0,Delivered
+153,2025-06-29,12,French,Breakfast,Credit Card,UK,46.8,1.3,35.14,2,1,1,Delivered
+154,2025-06-29,22,Mexican,Breakfast,Digital Wallet,Brazil,35.6,2.22,45.41,6,1,0,Issues with Order
+155,2025-09-12,22,Thai,Breakfast,PayPal,Mexico,28.32,3.67,22.52,5,0,0,Delivered
+156,2025-08-20,18,Indian,Lunch,Cash on Delivery,Australia,26.15,9.56,45.51,2,0,1,Delivered
+157,2025-04-24,22,Japanese,Lunch,Cash on Delivery,Brazil,75.91,10.46,47.55,1,0,0,Late Delivery
+158,2025-09-19,14,Italian,Lunch,PayPal,Germany,22.76,0.15,27.31,6,0,1,Delivered
+159,2025-05-11,12,Korean,Snack,Credit Card,Canada,31.45,6.09,43.69,1,1,1,Delivered
+160,2025-06-30,16,French,Dinner,Debit Card,France,38.5,0.07,26.58,5,0,0,Delivered
+161,2025-08-18,19,Chinese,Breakfast,Debit Card,Canada,35.58,2.49,12.41,1,0,1,Delivered
+162,2025-06-03,17,Thai,Snack,Digital Wallet,India,33.86,2.14,28.63,7,0,0,Delivered
+163,2025-08-04,11,American,Snack,Credit Card,Germany,40.02,2.53,30.74,8,0,0,Delivered
+164,2025-06-12,10,Indian,Snack,Digital Wallet,USA,34.82,14.93,33.31,1,0,0,Delivered
+165,2025-04-30,22,Japanese,Dinner,PayPal,UK,19.45,3.07,29.44,1,0,0,Delivered
+166,2025-07-14,12,Mexican,Snack,Digital Wallet,Australia,24.94,1.99,34.03,6,0,1,Delivered
+167,2025-07-15,10,French,Breakfast,PayPal,Mexico,25.43,0.39,36.7,7,0,0,Delivered
+168,2025-09-05,16,Japanese,Breakfast,Cash on Delivery,USA,28.48,2.12,34.88,6,0,0,Delivered
+169,2025-08-31,17,American,Breakfast,Cash on Delivery,UK,24.37,5.51,39.55,4,1,0,Delivered
+170,2025-07-06,18,Chinese,Snack,PayPal,France,20.53,0.21,25.24,4,1,1,Delivered
+171,2025-05-08,11,Mediterranean,Breakfast,Digital Wallet,Brazil,28.64,0.97,22.07,4,0,0,Delivered
+172,2025-06-23,15,Mexican,Lunch,Credit Card,Canada,10.66,2.26,28.08,5,0,0,Delivered
+173,2025-08-27,12,Chinese,Lunch,Cash on Delivery,India,44.65,0.2,30.35,8,0,1,Delivered
+174,2025-08-17,20,Korean,Dinner,PayPal,Canada,30.15,0.43,42.05,8,1,1,Delivered
+175,2025-06-11,22,Japanese,Breakfast,PayPal,Brazil,43.32,8.2,27.79,2,0,0,Delivered
+176,2025-07-19,10,Italian,Dinner,PayPal,UK,26.16,1.17,35.8,2,1,0,Delivered
+177,2025-08-02,16,French,Breakfast,Cash on Delivery,Mexico,40.87,4.82,10.0,4,1,0,Delivered
+178,2025-07-25,18,Mexican,Breakfast,Cash on Delivery,UK,18.73,6.88,10.0,6,0,1,Delivered
+179,2025-04-16,18,Mexican,Breakfast,Debit Card,India,30.77,3.58,33.11,8,0,1,Delivered
+180,2025-08-29,12,American,Dinner,PayPal,Japan,15.28,2.97,30.79,7,0,1,Delivered
+181,2025-09-15,19,Italian,Dinner,Credit Card,France,15.72,1.57,32.03,2,0,1,Delivered
+182,2025-07-02,14,Japanese,Lunch,PayPal,UK,42.2,1.94,29.52,3,0,1,Delivered
+183,2025-06-13,20,Thai,Lunch,Digital Wallet,UK,18.53,0.64,19.18,5,0,1,Delivered
+184,2025-09-06,22,American,Lunch,Digital Wallet,UK,27.18,5.68,39.11,7,1,0,Delivered
+185,2025-03-30,15,Japanese,Lunch,Debit Card,France,44.88,0.45,44.8,8,1,0,Delivered
+186,2025-05-04,11,Japanese,Breakfast,Digital Wallet,Brazil,80.61,6.84,40.15,1,1,0,Cancelled
+187,2025-08-31,12,Korean,Snack,Debit Card,Canada,14.63,1.67,28.1,3,1,1,Delivered
+188,2025-09-01,22,Mexican,Snack,Credit Card,Japan,38.96,4.23,16.9,6,0,0,Delivered
+189,2025-05-25,17,Korean,Dinner,Cash on Delivery,Australia,11.01,0.54,35.63,4,1,0,Delivered
+190,2025-07-24,13,American,Snack,Cash on Delivery,Germany,20.42,0.88,23.74,7,0,1,Delivered
+191,2025-07-11,12,Indian,Lunch,PayPal,USA,19.08,0.95,21.36,8,0,1,Delivered
+192,2025-08-14,11,Mediterranean,Breakfast,PayPal,UK,5.0,20.19,36.85,3,0,0,Delivered
+193,2025-05-02,16,Chinese,Lunch,Cash on Delivery,France,22.61,17.45,20.92,1,0,0,Late Delivery
+194,2025-06-29,13,Thai,Breakfast,PayPal,Australia,27.37,1.49,32.74,1,1,1,Delivered
+195,2025-04-20,21,American,Lunch,Debit Card,USA,30.01,13.25,20.22,5,1,0,Late Delivery
+196,2025-04-30,22,French,Snack,Digital Wallet,USA,75.65,1.64,46.2,2,0,0,Delivered
+197,2025-08-28,18,Thai,Breakfast,PayPal,Australia,18.37,1.96,35.71,5,0,1,Delivered
+198,2025-05-26,16,Korean,Snack,Credit Card,UK,27.8,1.39,10.0,8,0,0,Delivered
+199,2025-03-30,20,Mediterranean,Lunch,Debit Card,Germany,38.12,1.7,20.96,7,1,1,Late Delivery
+200,2025-05-26,19,Thai,Lunch,Credit Card,Brazil,13.61,3.28,32.68,6,0,1,Delivered
+201,2025-07-03,17,Italian,Snack,PayPal,Germany,27.18,2.05,30.47,1,0,0,Delivered
+202,2025-04-12,15,Indian,Breakfast,Digital Wallet,France,18.98,5.72,37.6,3,1,0,Late Delivery
+203,2025-09-06,12,French,Snack,Debit Card,Canada,52.95,3.19,44.42,2,1,1,Issues with Order
+204,2025-04-04,14,Indian,Breakfast,Debit Card,USA,7.3,13.26,19.67,6,0,1,Late Delivery
+205,2025-08-12,17,Japanese,Breakfast,Debit Card,Germany,50.57,13.93,23.96,6,0,0,Late Delivery
+206,2025-06-03,11,American,Snack,Cash on Delivery,India,29.88,9.22,45.8,7,0,0,Delivered
+207,2025-09-19,17,American,Dinner,Credit Card,Japan,28.38,1.13,25.88,2,0,0,Delivered
+208,2025-05-11,18,Japanese,Dinner,Credit Card,UK,40.22,8.43,26.81,6,1,1,Delivered
+209,2025-06-12,17,Korean,Snack,Debit Card,India,27.9,2.22,50.75,6,0,0,Issues with Order
+210,2025-06-24,19,Thai,Dinner,Credit Card,UK,22.3,8.48,39.48,7,0,1,Delivered
+211,2025-09-15,12,Italian,Lunch,Digital Wallet,India,10.54,3.11,19.92,1,0,1,Delivered
+212,2025-05-25,22,American,Dinner,Cash on Delivery,Mexico,35.52,3.49,21.56,1,1,0,Delivered
+213,2025-09-15,17,American,Dinner,Cash on Delivery,UK,28.27,2.42,27.81,3,0,0,Delivered
+214,2025-07-05,15,Japanese,Lunch,Credit Card,USA,58.39,4.89,30.96,3,1,0,Delivered
+215,2025-07-03,18,Chinese,Dinner,PayPal,India,10.21,0.75,41.44,4,0,1,Issues with Order
+216,2025-07-29,13,Chinese,Lunch,Credit Card,India,30.09,3.81,42.47,3,0,1,Issues with Order
+217,2025-04-17,22,American,Dinner,Credit Card,Brazil,26.82,0.82,32.48,5,0,0,Delivered
+218,2025-05-05,21,Mexican,Dinner,Digital Wallet,Australia,14.09,6.81,21.83,2,0,0,Delivered
+219,2025-04-30,13,French,Breakfast,PayPal,Brazil,46.07,7.19,25.22,6,0,1,Delivered
+220,2025-08-14,12,Korean,Breakfast,Credit Card,Germany,21.52,8.61,38.29,7,0,1,Delivered
+221,2025-07-26,18,Thai,Snack,Digital Wallet,UK,22.3,7.98,20.21,3,1,1,Delivered
+222,2025-09-06,11,French,Snack,Digital Wallet,France,38.59,6.41,24.47,3,1,0,Delivered
+223,2025-08-14,20,Korean,Lunch,Debit Card,Japan,33.7,5.92,43.56,1,0,1,Issues with Order
+224,2025-06-11,12,Mexican,Dinner,Debit Card,France,8.68,2.12,32.81,5,0,1,Delivered
+225,2025-05-29,13,Mediterranean,Dinner,Debit Card,Germany,13.66,3.1,44.96,2,0,1,Issues with Order
+226,2025-08-21,12,Mexican,Dinner,Digital Wallet,USA,26.81,4.73,56.44,1,0,1,Delivered
+227,2025-08-20,14,Indian,Snack,Digital Wallet,USA,26.09,5.96,37.26,8,0,1,Delivered
+228,2025-08-12,14,Japanese,Snack,Debit Card,Japan,48.25,0.83,34.42,5,0,1,Delivered
+229,2025-09-18,10,Mexican,Snack,Cash on Delivery,India,43.82,2.76,43.45,8,0,0,Delivered
+230,2025-06-14,21,American,Dinner,Cash on Delivery,Canada,26.84,12.99,31.0,6,1,0,Late Delivery
+231,2025-05-26,17,Chinese,Dinner,Cash on Delivery,Australia,15.1,20.95,28.74,3,0,0,Delivered
+232,2025-07-02,19,Thai,Lunch,Debit Card,France,50.39,2.55,35.24,6,0,1,Delivered
+233,2025-05-05,17,Mediterranean,Snack,Cash on Delivery,Germany,33.1,8.12,25.73,8,0,0,Issues with Order
+234,2025-08-02,17,Indian,Lunch,Digital Wallet,France,33.52,12.62,10.0,1,1,0,Delivered
+235,2025-09-09,20,French,Dinner,Digital Wallet,USA,25.65,6.69,17.05,2,0,1,Delivered
+236,2025-06-01,21,American,Snack,PayPal,USA,9.97,3.01,27.39,7,1,0,Cancelled
+237,2025-06-26,18,Japanese,Breakfast,Cash on Delivery,Brazil,41.31,3.45,27.27,8,0,1,Delivered
+238,2025-06-05,19,Korean,Breakfast,Debit Card,UK,33.04,2.25,28.43,7,0,1,Delivered
+239,2025-06-20,18,American,Lunch,Debit Card,Mexico,43.49,0.07,41.27,7,0,1,Cancelled
+240,2025-06-19,22,French,Snack,Debit Card,Mexico,29.74,16.23,35.17,3,0,0,Late Delivery
+241,2025-05-06,16,Korean,Dinner,Digital Wallet,France,22.31,0.45,18.93,8,0,0,Delivered
+242,2025-06-10,17,Italian,Dinner,PayPal,UK,35.01,4.52,31.58,7,0,0,Delivered
+243,2025-09-18,20,Italian,Snack,PayPal,Mexico,35.17,1.18,29.76,4,0,1,Delivered
+244,2025-08-22,17,Mexican,Snack,Debit Card,Australia,23.85,1.06,31.55,1,0,0,Delivered
+245,2025-09-21,11,Indian,Breakfast,Cash on Delivery,France,24.67,4.16,24.57,7,1,0,Delivered
+246,2025-09-18,13,Thai,Snack,Credit Card,Canada,38.89,2.91,10.0,4,0,1,Delivered
+247,2025-09-11,17,Mediterranean,Snack,PayPal,Canada,49.95,0.84,10.0,8,0,0,Delivered
+248,2025-06-21,18,American,Dinner,Digital Wallet,India,27.9,14.6,27.45,4,1,1,Late Delivery
+249,2025-06-10,13,Japanese,Dinner,Debit Card,India,23.89,5.16,22.22,6,0,1,Delivered
+250,2025-08-16,22,Japanese,Dinner,Credit Card,Mexico,39.57,0.85,29.3,7,1,0,Delivered
+251,2025-07-05,15,Mexican,Dinner,Credit Card,Germany,34.36,0.14,42.72,2,1,0,Delivered
+252,2025-05-30,21,French,Lunch,Debit Card,Brazil,34.43,5.57,22.72,5,0,0,Delivered
+253,2025-09-20,14,Mexican,Breakfast,Digital Wallet,Mexico,19.75,5.29,34.89,4,1,1,Delivered
+254,2025-09-13,18,Indian,Lunch,Credit Card,UK,21.49,1.39,27.71,7,1,1,Delivered
+255,2025-07-24,11,Mexican,Breakfast,Digital Wallet,Canada,32.11,8.87,34.44,7,0,0,Delivered
+256,2025-07-25,17,Indian,Dinner,PayPal,Germany,41.46,1.15,19.93,1,0,0,Delivered
+257,2025-04-17,20,Korean,Lunch,Digital Wallet,USA,30.93,0.07,26.9,3,0,1,Delivered
+258,2025-05-10,10,Thai,Snack,Debit Card,Germany,8.3,11.16,47.65,1,1,0,Issues with Order
+259,2025-06-19,14,French,Snack,Debit Card,Brazil,37.16,1.5,40.49,8,0,1,Delivered
+260,2025-06-18,12,French,Dinner,Debit Card,USA,64.74,1.56,12.47,6,0,1,Delivered
+261,2025-08-18,20,Indian,Lunch,Digital Wallet,Japan,12.2,4.02,47.55,7,0,1,Delivered
+262,2025-05-12,12,French,Dinner,Debit Card,USA,18.7,14.83,24.55,5,0,1,Late Delivery
+263,2025-06-02,15,Japanese,Breakfast,PayPal,France,36.83,10.14,33.99,4,0,0,Delivered
+264,2025-06-12,12,Thai,Dinner,Credit Card,Germany,34.72,8.04,29.69,6,0,1,Delivered
+265,2025-05-21,12,French,Lunch,Cash on Delivery,Mexico,39.55,1.56,29.43,6,0,1,Delivered
+266,2025-08-13,17,Mediterranean,Lunch,Debit Card,Mexico,60.86,1.49,36.72,2,0,0,Delivered
+267,2025-08-08,21,American,Breakfast,Digital Wallet,UK,26.71,20.8,28.16,1,0,0,Late Delivery
+268,2025-05-16,19,Mediterranean,Lunch,Debit Card,France,19.54,1.59,31.01,8,0,1,Delivered
+269,2025-05-17,21,Korean,Snack,Credit Card,Brazil,26.96,1.6,20.22,8,1,0,Delivered
+270,2025-07-20,12,Mediterranean,Snack,Cash on Delivery,Mexico,59.07,8.85,37.18,1,1,1,Delivered
+271,2025-09-14,22,Japanese,Breakfast,Cash on Delivery,Germany,48.84,4.59,39.83,1,1,0,Delivered
+272,2025-08-21,11,Italian,Snack,PayPal,UK,22.95,12.29,35.1,1,0,0,Issues with Order
+273,2025-04-03,14,Thai,Lunch,Debit Card,Japan,6.59,3.66,17.2,6,0,1,Delivered
+274,2025-07-01,17,Thai,Snack,Credit Card,Brazil,21.52,4.62,31.99,3,0,0,Delivered
+275,2025-06-23,11,Mexican,Snack,Digital Wallet,Canada,18.88,1.7,15.93,4,0,0,Delivered
+276,2025-03-31,14,French,Snack,Digital Wallet,Japan,65.12,1.76,21.16,4,0,1,Delivered
+277,2025-06-22,12,Japanese,Lunch,Credit Card,USA,30.76,5.45,56.32,7,1,1,Issues with Order
+278,2025-03-30,13,Indian,Breakfast,Credit Card,Mexico,25.95,1.21,31.79,1,1,1,Delivered
+279,2025-09-14,21,Italian,Lunch,Credit Card,Japan,28.09,3.43,31.22,8,1,0,Delivered
+280,2025-05-20,22,Italian,Lunch,Digital Wallet,Germany,14.73,7.37,39.87,4,0,0,Delivered
+281,2025-08-20,15,Korean,Dinner,Debit Card,Germany,24.65,5.83,47.71,3,0,0,Issues with Order
+282,2025-07-09,14,Japanese,Breakfast,Digital Wallet,Mexico,21.63,8.55,26.0,3,0,1,Delivered
+283,2025-07-13,18,French,Breakfast,PayPal,Japan,54.49,1.59,39.73,6,1,1,Delivered
+284,2025-07-08,12,Japanese,Snack,Debit Card,Brazil,18.56,0.48,41.44,8,0,1,Delivered
+285,2025-05-01,22,French,Breakfast,Digital Wallet,Japan,43.88,1.02,36.21,7,0,0,Delivered
+286,2025-04-29,16,Indian,Dinner,Debit Card,France,35.65,6.59,31.2,2,0,0,Delivered
+287,2025-06-28,11,Mediterranean,Lunch,Credit Card,Germany,41.72,5.89,40.81,7,1,0,Issues with Order
+288,2025-04-13,13,Korean,Lunch,Cash on Delivery,Australia,20.46,3.36,36.33,6,1,1,Delivered
+289,2025-03-29,13,Indian,Breakfast,Cash on Delivery,Australia,29.3,1.0,32.08,4,1,1,Delivered
+290,2025-05-26,18,American,Dinner,Cash on Delivery,India,33.18,0.17,31.34,6,0,1,Delivered
+291,2025-06-26,18,French,Snack,Credit Card,India,28.78,12.91,40.53,6,0,1,Late Delivery
+292,2025-07-09,10,Korean,Lunch,Debit Card,USA,36.29,9.31,29.2,5,0,0,Delivered
+293,2025-08-22,19,Thai,Dinner,Debit Card,Australia,34.38,0.19,24.84,6,0,1,Delivered
+294,2025-08-18,13,French,Dinner,PayPal,India,23.92,0.64,35.01,8,0,1,Delivered
+295,2025-06-24,12,Mexican,Snack,Debit Card,Brazil,27.22,2.08,25.21,1,0,1,Delivered
+296,2025-04-14,20,Italian,Breakfast,Cash on Delivery,Canada,31.87,1.89,31.35,4,0,1,Cancelled
+297,2025-03-28,13,Mediterranean,Snack,PayPal,USA,52.36,1.92,31.97,8,0,1,Delivered
+298,2025-03-30,10,Mediterranean,Snack,Credit Card,USA,45.41,4.78,32.83,5,1,0,Delivered
+299,2025-06-07,10,Mediterranean,Snack,Debit Card,UK,35.99,13.99,40.65,2,1,0,Late Delivery
+300,2025-08-31,18,Japanese,Dinner,PayPal,Japan,63.35,2.57,23.17,2,1,1,Delivered
+301,2025-07-07,17,Korean,Lunch,Debit Card,Germany,47.99,10.34,26.37,2,0,0,Late Delivery
+302,2025-04-03,11,Thai,Snack,Cash on Delivery,Brazil,8.18,6.69,12.41,8,0,0,Delivered
+303,2025-09-21,12,Chinese,Snack,Cash on Delivery,France,20.8,2.19,27.18,2,1,1,Delivered
+304,2025-04-05,13,Indian,Snack,PayPal,USA,14.94,1.33,19.49,2,1,1,Delivered
+305,2025-06-05,18,Korean,Breakfast,Debit Card,France,24.65,2.43,32.34,1,0,1,Delivered
+306,2025-08-23,12,Thai,Breakfast,PayPal,Canada,14.29,14.97,36.83,4,1,1,Late Delivery
+307,2025-09-15,18,American,Snack,Debit Card,UK,34.84,14.48,27.86,6,0,1,Delivered
+308,2025-04-14,15,Korean,Snack,PayPal,USA,48.1,0.91,23.36,5,0,0,Delivered
+309,2025-07-19,17,Indian,Dinner,Digital Wallet,Japan,26.66,4.68,34.92,7,1,0,Delivered
+310,2025-08-22,20,Thai,Breakfast,Digital Wallet,Germany,9.3,0.97,30.74,4,0,1,Delivered
+311,2025-04-16,14,Mexican,Snack,Debit Card,Japan,18.77,7.56,24.45,6,0,1,Delivered
+312,2025-04-18,10,Japanese,Snack,PayPal,Germany,37.56,17.39,28.32,2,0,0,Delivered
+313,2025-07-18,18,Mediterranean,Snack,Credit Card,USA,52.05,5.95,24.29,2,0,1,Delivered
+314,2025-04-18,19,Korean,Dinner,Cash on Delivery,USA,28.44,1.27,26.23,5,0,1,Delivered
+315,2025-04-16,21,Mediterranean,Lunch,Digital Wallet,Brazil,37.44,4.49,14.84,3,0,0,Delivered
+316,2025-05-08,12,Japanese,Dinner,PayPal,India,32.4,10.5,31.65,3,0,1,Delivered
+317,2025-07-11,14,French,Breakfast,PayPal,Germany,35.81,10.98,26.12,4,0,1,Late Delivery
+318,2025-08-30,13,French,Breakfast,Debit Card,Germany,53.15,4.0,40.84,1,1,1,Issues with Order
+319,2025-08-31,16,American,Snack,PayPal,Japan,23.23,2.33,22.02,3,1,0,Delivered
+320,2025-08-27,21,Indian,Snack,PayPal,Canada,33.84,3.42,20.49,7,0,0,Delivered
+321,2025-06-08,21,French,Lunch,PayPal,Japan,37.24,9.53,32.24,5,1,0,Delivered
+322,2025-07-04,15,Chinese,Lunch,Digital Wallet,Brazil,5.0,4.49,21.3,3,0,0,Delivered
+323,2025-08-13,10,French,Lunch,Cash on Delivery,Germany,37.66,5.67,40.44,2,0,0,Issues with Order
+324,2025-07-08,20,French,Lunch,PayPal,Australia,20.41,10.54,34.63,5,0,1,Late Delivery
+325,2025-06-30,11,French,Snack,Digital Wallet,Japan,53.86,9.51,41.09,7,0,0,Issues with Order
+326,2025-06-26,21,Mediterranean,Breakfast,Credit Card,Australia,39.87,9.07,37.15,6,0,0,Delivered
+327,2025-08-29,10,Korean,Snack,PayPal,Japan,35.67,4.82,41.69,2,0,0,Delivered
+328,2025-08-03,21,Mediterranean,Lunch,Cash on Delivery,France,27.21,10.64,34.81,7,1,0,Late Delivery
+329,2025-09-18,18,Mexican,Dinner,Credit Card,India,23.33,2.04,31.47,2,0,1,Delivered
+330,2025-04-16,11,Mexican,Dinner,PayPal,France,18.1,8.52,34.95,8,0,0,Delivered
+331,2025-08-06,17,American,Snack,Credit Card,India,25.29,0.03,42.78,8,0,0,Delivered
+332,2025-04-24,10,American,Breakfast,Debit Card,Australia,33.18,19.87,15.11,3,0,0,Late Delivery
+333,2025-07-13,17,Indian,Snack,Debit Card,Canada,11.4,5.03,37.46,7,1,0,Delivered
+334,2025-08-30,13,French,Snack,Cash on Delivery,USA,67.43,0.57,32.14,4,1,1,Delivered
+335,2025-09-22,22,Chinese,Breakfast,Digital Wallet,Canada,27.49,16.48,45.77,6,0,0,Late Delivery
+336,2025-06-01,20,French,Dinner,Digital Wallet,Japan,63.13,13.44,15.59,7,1,1,Late Delivery
+337,2025-07-21,19,Mexican,Dinner,Digital Wallet,Mexico,20.54,1.79,31.94,2,0,1,Delivered
+338,2025-06-14,11,Indian,Dinner,Credit Card,Canada,21.37,4.36,31.75,6,1,0,Delivered
+339,2025-08-03,16,Thai,Lunch,Digital Wallet,Japan,36.95,0.23,14.77,7,1,0,Delivered
+340,2025-09-04,18,Mexican,Lunch,Cash on Delivery,Germany,28.67,0.12,24.74,3,0,1,Delivered
+341,2025-07-19,19,Italian,Dinner,Credit Card,India,53.79,5.75,29.34,3,1,1,Delivered
+342,2025-07-02,18,Mediterranean,Snack,Cash on Delivery,India,14.59,29.26,25.94,7,0,1,Late Delivery
+343,2025-05-07,11,Korean,Breakfast,Debit Card,Germany,10.52,0.89,10.0,1,0,0,Delivered
+344,2025-08-10,14,Mexican,Snack,Digital Wallet,India,31.49,1.25,39.87,2,1,1,Delivered
+345,2025-06-02,22,Mediterranean,Dinner,Digital Wallet,USA,37.93,5.31,24.36,8,0,0,Delivered
+346,2025-07-12,11,Indian,Dinner,Credit Card,India,22.78,14.38,18.53,5,1,0,Late Delivery
+347,2025-07-16,11,Indian,Lunch,Digital Wallet,France,43.47,2.53,19.3,7,0,0,Delivered
+348,2025-04-30,22,Indian,Lunch,Credit Card,Mexico,33.98,1.31,27.93,6,0,0,Delivered
+349,2025-08-25,18,Mexican,Dinner,PayPal,Germany,12.48,9.99,44.44,5,0,1,Issues with Order
+350,2025-09-15,11,Mexican,Snack,Credit Card,Germany,30.06,1.03,29.71,3,0,0,Delivered
+351,2025-04-28,13,Mexican,Dinner,Debit Card,Japan,28.43,7.37,34.57,8,0,1,Delivered
+352,2025-09-03,14,Thai,Snack,Cash on Delivery,UK,29.6,4.92,36.08,2,0,1,Delivered
+353,2025-06-05,21,American,Snack,Cash on Delivery,France,26.97,7.96,37.09,1,0,0,Delivered
+354,2025-04-18,21,French,Dinner,Credit Card,Brazil,29.54,0.67,29.5,7,0,0,Delivered
+355,2025-07-13,13,French,Dinner,PayPal,Germany,34.85,1.12,48.01,6,1,1,Issues with Order
+356,2025-07-28,22,American,Breakfast,Credit Card,UK,17.59,4.36,29.86,8,0,0,Cancelled
+357,2025-07-16,17,Italian,Snack,Debit Card,Canada,45.09,1.86,23.47,5,0,0,Delivered
+358,2025-06-04,11,American,Dinner,Credit Card,France,22.23,0.38,29.75,3,0,0,Late Delivery
+359,2025-09-21,22,Indian,Snack,Credit Card,UK,20.48,4.58,10.0,1,1,0,Delivered
+360,2025-04-14,12,Korean,Lunch,Digital Wallet,India,35.24,9.83,19.06,1,0,1,Late Delivery
+361,2025-04-25,16,Mexican,Snack,Credit Card,Australia,15.33,1.39,29.52,7,0,0,Delivered
+362,2025-04-21,15,American,Dinner,Debit Card,Japan,49.02,6.06,29.77,3,0,0,Delivered
+363,2025-09-15,12,Chinese,Breakfast,Digital Wallet,Canada,22.79,1.98,30.27,8,0,1,Delivered
+364,2025-05-19,20,Mexican,Snack,Digital Wallet,India,16.24,2.16,30.38,4,0,1,Delivered
+365,2025-04-30,22,Chinese,Snack,PayPal,Japan,14.98,4.19,27.19,6,0,0,Delivered
+366,2025-05-28,14,Chinese,Lunch,Digital Wallet,Mexico,34.89,1.12,36.23,5,0,1,Delivered
+367,2025-09-18,10,Japanese,Lunch,Digital Wallet,Mexico,65.99,0.16,39.25,4,0,0,Delivered
+368,2025-06-09,20,Italian,Lunch,Cash on Delivery,Japan,56.74,10.24,33.58,2,0,1,Delivered
+369,2025-04-13,18,Italian,Dinner,PayPal,Canada,45.74,2.07,36.35,7,1,1,Delivered
+370,2025-08-18,16,American,Lunch,Cash on Delivery,UK,26.15,8.5,39.5,1,0,0,Delivered
+371,2025-03-29,14,Indian,Breakfast,Credit Card,Japan,45.75,3.74,23.11,5,1,1,Delivered
+372,2025-08-01,22,Thai,Snack,Cash on Delivery,UK,21.3,0.31,32.05,3,0,0,Delivered
+373,2025-06-13,11,Mediterranean,Lunch,Debit Card,Brazil,27.18,10.27,25.16,6,0,0,Late Delivery
+374,2025-09-08,20,Chinese,Dinner,Cash on Delivery,Australia,14.68,7.8,24.71,1,0,1,Delivered
+375,2025-07-15,11,French,Breakfast,PayPal,Canada,44.63,4.05,51.42,2,0,0,Delivered
+376,2025-03-28,12,French,Dinner,Digital Wallet,Brazil,31.0,28.04,37.53,5,0,1,Delivered
+377,2025-06-02,21,Chinese,Breakfast,PayPal,Japan,25.38,1.11,31.2,5,0,0,Delivered
+378,2025-06-01,21,Korean,Breakfast,Cash on Delivery,India,19.98,0.16,32.12,6,1,0,Cancelled
+379,2025-06-28,12,Japanese,Breakfast,Digital Wallet,UK,41.14,10.14,13.31,4,1,1,Delivered
+380,2025-05-27,10,French,Dinner,Cash on Delivery,Canada,58.99,2.77,38.73,3,0,0,Delivered
+381,2025-04-04,18,Thai,Lunch,PayPal,Australia,12.74,21.97,15.36,7,0,1,Late Delivery
+382,2025-04-14,19,American,Breakfast,Digital Wallet,USA,9.38,6.46,50.02,3,0,1,Delivered
+383,2025-04-06,16,Chinese,Snack,PayPal,Germany,35.79,11.55,29.61,6,1,0,Delivered
+384,2025-06-28,13,Japanese,Dinner,Digital Wallet,Australia,20.51,4.49,24.27,8,1,1,Delivered
+385,2025-07-30,22,Indian,Lunch,Debit Card,USA,39.77,6.6,43.8,7,0,0,Delivered
+386,2025-09-04,21,Italian,Dinner,Credit Card,Japan,39.82,11.99,23.14,5,0,0,Delivered
+387,2025-05-25,16,French,Breakfast,Debit Card,Germany,36.75,17.77,23.28,2,1,0,Delivered
+388,2025-08-06,16,American,Snack,Credit Card,Mexico,28.24,3.39,27.09,2,0,0,Delivered
+389,2025-09-05,16,Chinese,Breakfast,Cash on Delivery,Canada,30.44,2.95,26.29,4,0,0,Delivered
+390,2025-06-14,22,Thai,Dinner,PayPal,India,5.0,4.49,32.35,5,1,0,Delivered
+391,2025-05-16,12,Korean,Breakfast,Debit Card,UK,21.38,17.44,18.8,3,0,1,Late Delivery
+392,2025-04-25,18,American,Lunch,Cash on Delivery,Germany,33.07,1.97,17.54,8,0,1,Delivered
+393,2025-04-25,11,Mexican,Dinner,Digital Wallet,USA,20.32,17.5,33.47,4,0,0,Late Delivery
+394,2025-04-18,21,Indian,Dinner,Cash on Delivery,Brazil,9.44,0.38,27.28,1,0,0,Delivered
+395,2025-05-31,12,Italian,Snack,Cash on Delivery,Brazil,35.92,2.05,17.17,4,1,1,Delivered
+396,2025-04-30,11,Italian,Breakfast,Debit Card,Canada,31.89,1.43,42.34,4,0,0,Issues with Order
+397,2025-09-03,20,Chinese,Dinner,Credit Card,USA,40.01,0.91,38.5,2,0,1,Delivered
+398,2025-09-07,17,Mexican,Breakfast,PayPal,UK,33.47,3.22,42.23,1,1,0,Issues with Order
+399,2025-07-05,17,Italian,Snack,Cash on Delivery,Canada,39.58,4.4,34.3,6,1,0,Delivered
+400,2025-05-12,14,Japanese,Snack,Debit Card,USA,40.45,0.59,33.8,4,0,1,Delivered
+401,2025-07-31,16,Mediterranean,Snack,Credit Card,UK,34.14,3.79,29.63,5,0,0,Delivered
+402,2025-07-11,13,Mediterranean,Lunch,Digital Wallet,USA,33.43,13.58,19.65,7,0,1,Late Delivery
+403,2025-08-12,22,French,Dinner,Digital Wallet,Brazil,46.18,0.21,10.02,6,0,0,Delivered
+404,2025-05-11,10,American,Lunch,Credit Card,Germany,26.39,10.12,34.53,1,1,0,Late Delivery
+405,2025-06-25,22,Korean,Lunch,Debit Card,UK,34.98,3.36,10.0,4,0,0,Delivered
+406,2025-06-02,18,Italian,Lunch,Digital Wallet,Japan,24.55,0.15,34.03,6,0,1,Delivered
+407,2025-05-09,12,Indian,Dinner,PayPal,Mexico,36.08,1.13,19.6,1,0,1,Delivered
+408,2025-06-24,19,Korean,Lunch,Digital Wallet,Australia,27.77,2.93,23.49,8,0,1,Delivered
+409,2025-05-09,17,Italian,Breakfast,Credit Card,Australia,32.71,5.9,32.17,4,0,0,Issues with Order
+410,2025-03-26,15,Korean,Lunch,Debit Card,France,24.69,4.81,50.03,3,0,0,Issues with Order
+411,2025-06-16,10,Italian,Lunch,Digital Wallet,Canada,37.41,0.15,40.51,2,0,0,Issues with Order
+412,2025-04-13,15,Thai,Breakfast,PayPal,Germany,26.98,5.64,34.49,6,1,0,Delivered
+413,2025-05-05,21,Thai,Snack,PayPal,Canada,31.39,2.5,18.57,6,0,0,Delivered
+414,2025-08-23,12,Thai,Dinner,PayPal,Canada,17.28,5.36,32.97,3,1,1,Delivered
+415,2025-09-21,19,Thai,Breakfast,Debit Card,Mexico,24.36,10.23,33.29,6,1,1,Late Delivery
+416,2025-05-21,20,Korean,Breakfast,Cash on Delivery,Canada,28.41,6.71,44.35,6,0,1,Issues with Order
+417,2025-06-15,12,Chinese,Dinner,Cash on Delivery,USA,22.56,1.98,39.64,5,1,1,Delivered
+418,2025-09-19,11,American,Dinner,Credit Card,USA,35.47,7.18,35.7,1,0,0,Delivered
+419,2025-07-11,12,Thai,Snack,Cash on Delivery,France,22.02,8.51,43.76,7,0,1,Delivered
+420,2025-08-20,20,Indian,Lunch,Cash on Delivery,UK,26.2,0.03,19.71,1,0,1,Delivered
+421,2025-06-15,14,Chinese,Breakfast,PayPal,Canada,14.04,2.52,15.6,7,1,1,Delivered
+422,2025-04-14,18,Chinese,Dinner,Digital Wallet,Mexico,16.15,2.98,45.53,8,0,1,Issues with Order
+423,2025-09-09,12,Korean,Snack,Debit Card,USA,18.61,1.29,16.77,2,0,1,Delivered
+424,2025-05-13,16,Mediterranean,Dinner,PayPal,Germany,37.04,5.52,23.0,4,0,0,Issues with Order
+425,2025-08-19,18,French,Lunch,Credit Card,France,34.68,2.39,52.52,1,0,1,Issues with Order
+426,2025-09-11,20,Korean,Snack,Debit Card,UK,25.59,3.26,41.26,1,0,1,Delivered
+427,2025-04-15,17,Chinese,Dinner,Cash on Delivery,India,11.1,4.34,13.55,8,0,0,Delivered
+428,2025-06-01,11,Mediterranean,Snack,Debit Card,France,62.94,7.24,37.25,7,1,0,Delivered
+429,2025-07-18,10,Japanese,Snack,Cash on Delivery,Germany,53.92,15.56,38.53,4,0,0,Late Delivery
+430,2025-05-03,22,Chinese,Breakfast,PayPal,Brazil,22.47,13.09,33.92,7,1,0,Late Delivery
+431,2025-08-14,10,Thai,Snack,Digital Wallet,India,17.46,3.33,27.19,4,0,0,Delivered
+432,2025-04-15,16,Italian,Lunch,Credit Card,India,24.55,1.84,20.16,3,0,0,Delivered
+433,2025-05-07,13,Indian,Lunch,Credit Card,Japan,26.8,1.86,43.92,2,0,1,Issues with Order
+434,2025-09-02,12,Korean,Dinner,PayPal,UK,40.15,1.59,37.73,2,0,1,Delivered
+435,2025-07-05,18,American,Dinner,Digital Wallet,India,15.18,1.0,27.75,1,1,1,Delivered
+436,2025-09-01,19,Mediterranean,Snack,Credit Card,Japan,23.37,3.72,35.51,3,0,1,Delivered
+437,2025-08-23,19,Chinese,Breakfast,Digital Wallet,UK,18.99,4.19,33.2,5,1,1,Delivered
+438,2025-06-22,16,Japanese,Snack,Cash on Delivery,Mexico,65.96,4.0,29.25,8,1,0,Late Delivery
+439,2025-07-07,12,Korean,Snack,Credit Card,Japan,26.25,15.12,25.71,6,0,1,Issues with Order
+440,2025-06-02,15,Italian,Dinner,PayPal,Germany,49.47,10.78,33.84,5,0,0,Late Delivery
+441,2025-09-17,11,Indian,Lunch,PayPal,India,17.98,4.72,23.37,6,0,0,Delivered
+442,2025-07-10,19,Chinese,Lunch,Cash on Delivery,Australia,36.49,11.51,26.99,7,0,1,Late Delivery
+443,2025-06-29,10,Mediterranean,Lunch,Credit Card,Germany,20.07,7.58,23.07,7,1,0,Delivered
+444,2025-08-07,19,Italian,Lunch,Debit Card,Australia,44.63,2.76,24.4,1,0,1,Delivered
+445,2025-07-20,10,American,Lunch,PayPal,France,18.27,4.89,32.79,8,1,0,Delivered
+446,2025-09-04,11,Italian,Lunch,PayPal,India,61.67,0.92,17.62,8,0,0,Delivered
+447,2025-07-25,19,Mediterranean,Dinner,PayPal,Canada,42.61,1.22,34.14,5,0,1,Delivered
+448,2025-09-18,11,Japanese,Breakfast,Cash on Delivery,USA,63.37,3.96,46.23,3,0,0,Issues with Order
+449,2025-05-19,13,Indian,Lunch,PayPal,Japan,19.43,4.51,16.3,1,0,1,Delivered
+450,2025-09-16,10,French,Lunch,Debit Card,Mexico,49.72,0.73,29.98,1,0,0,Delivered
+451,2025-08-28,22,Japanese,Dinner,Cash on Delivery,Japan,32.94,2.79,46.39,6,0,0,Issues with Order
+452,2025-06-11,20,Mediterranean,Snack,Digital Wallet,UK,46.72,23.7,41.04,1,0,1,Late Delivery
+453,2025-06-29,18,Korean,Dinner,PayPal,UK,30.69,1.6,46.28,8,1,1,Delivered
+454,2025-09-05,15,Japanese,Dinner,PayPal,Australia,28.49,2.19,22.89,3,0,0,Delivered
+455,2025-05-26,10,Korean,Snack,PayPal,Canada,25.34,0.35,22.3,1,0,0,Delivered
+456,2025-06-09,14,Thai,Snack,Cash on Delivery,USA,18.78,3.88,37.01,4,0,1,Delivered
+457,2025-05-21,20,Mediterranean,Snack,PayPal,Brazil,38.97,3.81,38.34,5,0,1,Delivered
+458,2025-09-10,18,Mexican,Dinner,Credit Card,India,13.27,5.54,17.67,3,0,1,Delivered
+459,2025-08-16,22,Mexican,Dinner,Credit Card,Australia,41.73,3.13,34.19,6,1,0,Delivered
+460,2025-06-12,16,American,Dinner,PayPal,Mexico,25.96,15.81,23.19,5,0,0,Late Delivery
+461,2025-04-08,20,Korean,Breakfast,Cash on Delivery,Australia,30.39,1.12,20.79,2,0,1,Delivered
+462,2025-07-01,18,Japanese,Snack,Credit Card,Canada,31.28,2.99,30.81,3,0,1,Delivered
+463,2025-06-21,16,Korean,Snack,Debit Card,France,17.64,5.47,42.36,3,1,0,Issues with Order
+464,2025-09-03,12,American,Breakfast,Credit Card,India,19.66,0.83,15.93,5,0,1,Delivered
+465,2025-05-08,19,Mexican,Snack,Credit Card,Canada,37.13,3.68,31.42,7,0,1,Delivered
+466,2025-07-07,16,French,Snack,Credit Card,USA,33.76,7.04,32.25,4,0,0,Delivered
+467,2025-03-29,15,Mediterranean,Lunch,Credit Card,USA,36.6,7.62,28.48,4,1,0,Delivered
+468,2025-06-22,14,Mexican,Breakfast,Cash on Delivery,Brazil,14.29,2.23,21.1,5,1,1,Delivered
+469,2025-04-06,14,Japanese,Snack,Digital Wallet,Mexico,17.46,2.53,35.08,6,1,1,Delivered
+470,2025-09-17,12,American,Snack,PayPal,Australia,46.56,3.63,18.69,3,0,1,Delivered
+471,2025-07-07,10,Indian,Lunch,Debit Card,Australia,24.94,24.24,38.38,1,0,0,Late Delivery
+472,2025-06-27,21,Italian,Snack,PayPal,Brazil,30.38,13.34,34.64,1,0,0,Delivered
+473,2025-09-09,10,Italian,Breakfast,Cash on Delivery,India,35.98,2.4,29.01,7,0,0,Delivered
+474,2025-05-29,17,Mexican,Lunch,Credit Card,Germany,30.68,1.82,36.0,7,0,0,Delivered
+475,2025-09-11,18,Japanese,Lunch,Cash on Delivery,UK,42.38,0.95,22.44,2,0,1,Delivered
+476,2025-04-22,17,Indian,Lunch,PayPal,Brazil,14.63,18.57,43.13,4,0,0,Late Delivery
+477,2025-05-06,10,Mediterranean,Snack,Debit Card,India,48.03,0.71,34.75,6,0,0,Delivered
+478,2025-03-29,20,Chinese,Breakfast,Digital Wallet,India,49.65,7.24,27.0,3,1,1,Delivered
+479,2025-08-03,11,Chinese,Dinner,Debit Card,India,25.1,2.54,16.88,5,1,0,Delivered
+480,2025-04-07,11,Mexican,Breakfast,PayPal,France,21.28,0.35,20.08,6,0,0,Delivered
+481,2025-04-24,11,Italian,Breakfast,Debit Card,Canada,35.68,16.88,35.3,6,0,0,Late Delivery
+482,2025-09-01,14,Chinese,Dinner,PayPal,Canada,6.98,3.53,23.53,2,0,1,Delivered
+483,2025-07-20,14,Thai,Snack,Cash on Delivery,Canada,15.61,5.12,28.56,2,1,1,Delivered
+484,2025-04-10,12,Chinese,Snack,Digital Wallet,India,30.4,5.25,17.18,8,0,1,Delivered
+485,2025-07-01,22,American,Breakfast,Debit Card,India,22.87,0.3,44.91,8,0,0,Delivered
+486,2025-04-06,11,Japanese,Dinner,Credit Card,Brazil,36.55,0.65,25.89,4,1,0,Delivered
+487,2025-09-13,15,Mediterranean,Breakfast,Cash on Delivery,Australia,27.64,5.89,26.98,8,1,0,Delivered
+488,2025-09-15,20,Thai,Lunch,Digital Wallet,Mexico,25.16,28.56,22.71,1,0,1,Delivered
+489,2025-08-02,17,French,Lunch,Credit Card,India,51.55,1.83,41.91,6,1,0,Delivered
+490,2025-04-07,18,Indian,Snack,Cash on Delivery,Australia,30.0,2.78,52.89,2,0,1,Issues with Order
+491,2025-07-18,11,French,Snack,PayPal,UK,24.5,2.29,27.75,8,0,0,Delivered
+492,2025-03-30,11,Thai,Snack,Credit Card,Brazil,37.08,6.61,26.83,1,1,0,Delivered
+493,2025-08-27,19,Japanese,Lunch,Cash on Delivery,France,36.35,0.1,10.0,6,0,1,Delivered
+494,2025-05-22,17,American,Snack,PayPal,India,33.63,0.74,22.04,2,0,0,Cancelled
+495,2025-03-26,15,American,Dinner,Digital Wallet,Brazil,10.21,0.06,31.83,6,0,0,Delivered
+496,2025-04-06,12,French,Lunch,Cash on Delivery,UK,30.09,3.97,29.69,5,1,1,Delivered
+497,2025-05-13,11,Thai,Lunch,Cash on Delivery,Australia,36.97,0.52,28.41,6,0,0,Delivered
+498,2025-07-10,10,Korean,Breakfast,Cash on Delivery,India,13.07,1.96,29.6,3,0,0,Delivered
+499,2025-03-27,18,Italian,Snack,Digital Wallet,India,32.92,2.36,47.12,3,0,1,Issues with Order
+500,2025-04-27,11,Thai,Dinner,Digital Wallet,Japan,16.25,7.69,10.0,7,1,0,Delivered
+501,2025-09-19,22,Indian,Dinner,Cash on Delivery,France,18.31,5.83,40.4,5,0,0,Issues with Order
+502,2025-07-09,19,Mediterranean,Dinner,Digital Wallet,France,15.81,9.19,25.93,4,0,1,Delivered
+503,2025-09-01,21,Japanese,Dinner,Debit Card,Canada,77.36,5.38,23.94,6,0,0,Cancelled
+504,2025-08-16,17,Korean,Snack,Digital Wallet,Germany,27.77,4.76,37.99,7,1,0,Delivered
+505,2025-08-06,11,Italian,Snack,Debit Card,USA,35.38,0.81,22.47,1,0,0,Delivered
+506,2025-05-06,14,Japanese,Lunch,Credit Card,Germany,46.33,5.7,47.22,4,0,1,Issues with Order
+507,2025-04-21,19,Mediterranean,Lunch,Digital Wallet,Japan,30.62,0.37,31.85,4,0,1,Delivered
+508,2025-09-20,14,Italian,Snack,Cash on Delivery,Japan,25.37,1.76,42.99,6,1,1,Late Delivery
+509,2025-05-16,19,French,Lunch,PayPal,Mexico,63.01,5.41,23.43,4,0,1,Delivered
+510,2025-05-14,14,French,Lunch,Credit Card,Canada,38.23,0.52,25.64,3,0,1,Delivered
+511,2025-04-25,16,Italian,Snack,PayPal,Brazil,49.23,1.54,37.19,5,0,0,Delivered
+512,2025-08-22,14,Italian,Dinner,Cash on Delivery,Canada,42.29,2.41,43.11,1,0,1,Delivered
+513,2025-04-08,22,Korean,Dinner,Cash on Delivery,Mexico,21.77,4.77,27.49,6,0,0,Late Delivery
+514,2025-08-07,13,Mexican,Breakfast,Digital Wallet,Canada,31.42,3.78,42.25,7,0,1,Issues with Order
+515,2025-06-23,13,Indian,Dinner,PayPal,France,18.56,19.55,39.28,5,0,1,Delivered
+516,2025-08-08,17,Mediterranean,Breakfast,Credit Card,France,52.47,6.89,47.99,8,0,0,Delivered
+517,2025-09-01,13,Italian,Dinner,Cash on Delivery,UK,41.46,0.69,40.73,7,0,1,Delivered
+518,2025-04-01,18,American,Snack,Cash on Delivery,USA,30.57,1.27,27.9,5,0,1,Delivered
+519,2025-05-14,15,Mediterranean,Breakfast,Credit Card,Canada,22.46,2.89,10.34,1,0,0,Delivered
+520,2025-05-18,20,Indian,Snack,Credit Card,Australia,30.79,1.38,31.48,7,1,1,Delivered
+521,2025-04-13,21,Mexican,Breakfast,Cash on Delivery,France,22.79,10.9,27.23,1,1,0,Late Delivery
+522,2025-08-15,11,Korean,Lunch,PayPal,Japan,11.59,8.46,39.13,7,0,0,Delivered
+523,2025-07-07,16,American,Breakfast,Cash on Delivery,UK,23.33,7.03,32.83,1,0,0,Delivered
+524,2025-08-31,11,Korean,Breakfast,Credit Card,France,37.14,6.52,28.6,2,1,0,Delivered
+525,2025-09-17,14,Korean,Breakfast,PayPal,India,31.63,0.98,41.73,7,0,1,Delivered
+526,2025-07-25,12,Mediterranean,Lunch,Debit Card,Japan,38.92,13.85,30.3,5,0,1,Late Delivery
+527,2025-09-15,22,American,Breakfast,Digital Wallet,Brazil,29.0,8.51,23.49,3,0,0,Delivered
+528,2025-03-27,19,Korean,Snack,Digital Wallet,Brazil,25.3,9.18,15.08,2,0,1,Delivered
+529,2025-06-22,13,Thai,Lunch,Debit Card,Canada,28.09,4.46,47.02,4,1,1,Issues with Order
+530,2025-04-24,12,Korean,Breakfast,Digital Wallet,India,6.01,4.16,30.78,2,0,1,Delivered
+531,2025-04-12,14,Chinese,Lunch,Digital Wallet,India,32.53,5.06,33.81,6,1,1,Delivered
+532,2025-09-13,20,Indian,Breakfast,PayPal,Mexico,18.78,3.1,34.78,2,1,1,Delivered
+533,2025-06-15,17,French,Dinner,Digital Wallet,Germany,41.86,8.05,21.49,3,1,0,Delivered
+534,2025-06-27,22,American,Snack,Debit Card,USA,27.61,6.6,15.99,6,0,0,Delivered
+535,2025-05-21,21,Thai,Dinner,PayPal,Canada,13.04,2.2,34.45,6,0,0,Delivered
+536,2025-07-22,17,American,Dinner,Cash on Delivery,Brazil,27.78,0.03,44.55,2,0,0,Delivered
+537,2025-06-05,12,Mediterranean,Lunch,PayPal,UK,25.58,15.86,36.48,2,0,1,Late Delivery
+538,2025-09-03,10,Korean,Snack,Digital Wallet,Australia,10.5,0.81,18.94,1,0,0,Delivered
+539,2025-08-12,18,French,Lunch,PayPal,Japan,55.84,28.04,26.27,4,0,1,Late Delivery
+540,2025-06-08,12,French,Breakfast,Cash on Delivery,France,32.74,6.4,10.0,1,1,1,Delivered
+541,2025-08-30,20,Mexican,Lunch,Cash on Delivery,Canada,27.25,2.48,39.33,3,1,1,Delivered
+542,2025-08-17,20,Mexican,Snack,PayPal,USA,41.81,0.02,22.49,4,1,1,Delivered
+543,2025-05-24,11,Japanese,Dinner,Debit Card,USA,22.12,7.9,42.63,4,1,0,Issues with Order
+544,2025-07-03,17,French,Breakfast,Credit Card,France,47.72,3.28,21.64,2,0,0,Delivered
+545,2025-08-06,20,Japanese,Dinner,Digital Wallet,Brazil,36.54,4.34,31.85,3,0,1,Delivered
+546,2025-06-30,15,Korean,Breakfast,Digital Wallet,Germany,43.61,4.63,48.87,7,0,0,Issues with Order
+547,2025-07-07,15,American,Snack,Cash on Delivery,Mexico,35.24,1.57,35.93,1,0,0,Delivered
+548,2025-04-30,17,Mexican,Lunch,Credit Card,Brazil,24.93,0.4,43.12,5,0,0,Delivered
+549,2025-06-26,19,Chinese,Lunch,Cash on Delivery,France,23.3,7.68,25.47,2,0,1,Delivered
+550,2025-07-26,17,Indian,Lunch,Cash on Delivery,USA,34.48,3.64,36.82,4,1,0,Cancelled
+551,2025-04-29,20,Mediterranean,Breakfast,Digital Wallet,Canada,21.3,1.99,28.06,1,0,1,Delivered
+552,2025-05-11,18,Thai,Breakfast,PayPal,UK,16.57,1.25,28.65,4,1,1,Delivered
+553,2025-07-24,17,Mexican,Lunch,Cash on Delivery,Mexico,40.13,32.03,36.31,3,0,0,Late Delivery
+554,2025-05-11,19,Mediterranean,Dinner,Debit Card,France,37.28,2.73,35.77,8,1,1,Delivered
+555,2025-04-12,13,Thai,Snack,Debit Card,UK,37.21,0.63,35.82,1,1,1,Delivered
+556,2025-08-02,20,Thai,Lunch,Digital Wallet,UK,36.47,2.42,26.96,3,1,1,Delivered
+557,2025-08-30,19,Italian,Breakfast,Credit Card,India,57.62,1.02,45.43,3,1,1,Issues with Order
+558,2025-03-26,22,Thai,Snack,PayPal,USA,10.89,0.13,18.26,7,0,0,Delivered
+559,2025-07-27,22,Thai,Dinner,Digital Wallet,Mexico,26.41,1.77,12.32,2,1,0,Delivered
+560,2025-05-30,17,Indian,Breakfast,PayPal,Mexico,35.33,9.22,28.05,7,0,0,Delivered
+561,2025-03-27,21,Italian,Breakfast,Digital Wallet,USA,41.16,3.06,24.67,7,0,0,Delivered
+562,2025-09-18,22,American,Snack,PayPal,UK,13.89,0.42,29.48,3,0,0,Delivered
+563,2025-08-22,14,Japanese,Snack,Digital Wallet,France,44.59,2.87,47.72,5,0,1,Issues with Order
+564,2025-05-17,16,Mediterranean,Snack,Debit Card,France,45.8,0.87,37.78,8,1,0,Delivered
+565,2025-06-12,19,American,Snack,Debit Card,UK,15.02,6.96,33.02,4,0,1,Delivered
+566,2025-09-21,12,Chinese,Lunch,Digital Wallet,Japan,28.53,0.36,31.22,6,1,1,Delivered
+567,2025-08-30,21,Italian,Lunch,Cash on Delivery,USA,33.8,1.52,27.96,2,1,0,Delivered
+568,2025-07-24,19,Thai,Breakfast,Credit Card,Germany,28.55,1.44,27.79,4,0,1,Delivered
+569,2025-08-28,10,Thai,Snack,Digital Wallet,Brazil,34.14,2.99,21.97,5,0,0,Delivered
+570,2025-08-25,10,Mexican,Snack,Cash on Delivery,USA,19.74,0.32,29.86,4,0,0,Delivered
+571,2025-08-05,14,Indian,Breakfast,Digital Wallet,Brazil,5.0,2.13,38.84,4,0,1,Delivered
+572,2025-09-14,10,American,Lunch,Credit Card,Canada,27.47,4.11,30.87,2,1,0,Delivered
+573,2025-07-06,15,Thai,Snack,Digital Wallet,Australia,9.37,6.56,24.71,1,1,0,Delivered
+574,2025-04-12,11,Mediterranean,Dinner,Digital Wallet,Mexico,21.68,4.17,35.67,6,1,0,Delivered
+575,2025-06-04,13,Korean,Lunch,Cash on Delivery,Japan,29.66,4.69,29.64,1,0,1,Delivered
+576,2025-07-08,18,Chinese,Breakfast,Digital Wallet,Germany,16.92,0.82,26.85,6,0,1,Delivered
+577,2025-08-04,14,Mediterranean,Dinner,Cash on Delivery,Japan,26.18,9.51,21.9,8,0,1,Delivered
+578,2025-06-20,22,French,Snack,Digital Wallet,USA,60.26,0.61,56.63,8,0,0,Cancelled
+579,2025-09-15,21,Indian,Dinner,Cash on Delivery,France,29.29,0.35,36.93,1,0,0,Delivered
+580,2025-06-01,13,Japanese,Breakfast,Cash on Delivery,France,50.69,0.43,48.12,2,1,1,Issues with Order
+581,2025-06-14,15,Indian,Dinner,Debit Card,Australia,14.28,0.91,10.0,8,1,0,Delivered
+582,2025-05-25,21,Indian,Dinner,Debit Card,Australia,20.52,2.65,50.1,4,1,0,Issues with Order
+583,2025-06-25,12,Chinese,Breakfast,Credit Card,India,31.19,0.32,50.57,1,0,1,Issues with Order
+584,2025-04-05,17,American,Dinner,Cash on Delivery,Mexico,38.97,3.07,30.57,5,1,0,Delivered
+585,2025-08-03,14,Thai,Lunch,Digital Wallet,Canada,18.54,0.9,22.01,1,1,1,Delivered
+586,2025-07-12,17,Mediterranean,Breakfast,Digital Wallet,France,48.94,3.66,22.32,7,1,0,Delivered
+587,2025-05-09,17,Chinese,Snack,PayPal,USA,28.23,10.58,27.48,1,0,0,Late Delivery
+588,2025-04-20,15,American,Dinner,Debit Card,Brazil,21.4,3.0,35.11,5,1,0,Delivered
+589,2025-07-24,19,American,Dinner,Debit Card,India,33.83,3.87,29.22,7,0,1,Delivered
+590,2025-09-21,22,American,Dinner,Cash on Delivery,Germany,15.27,5.35,29.95,8,1,0,Delivered
+591,2025-04-28,19,Indian,Breakfast,PayPal,Australia,20.74,7.47,41.48,7,0,1,Issues with Order
+592,2025-05-03,17,Italian,Lunch,Cash on Delivery,India,13.03,7.87,32.01,3,1,0,Delivered
+593,2025-09-03,18,Mediterranean,Dinner,Cash on Delivery,Germany,57.48,8.0,40.8,5,0,1,Issues with Order
+594,2025-07-05,11,Mexican,Breakfast,Debit Card,Germany,32.65,3.81,28.08,8,1,0,Delivered
+595,2025-04-19,17,American,Dinner,PayPal,France,29.85,7.88,21.54,5,1,0,Delivered
+596,2025-07-09,11,American,Lunch,Digital Wallet,Mexico,33.34,11.83,25.72,3,0,0,Late Delivery
+597,2025-06-17,20,Mediterranean,Snack,Cash on Delivery,UK,30.98,1.02,25.96,7,0,1,Delivered
+598,2025-07-22,20,Mexican,Lunch,PayPal,Japan,27.98,0.82,37.61,7,0,1,Delivered
+599,2025-04-13,11,Mexican,Dinner,Debit Card,France,45.63,0.44,19.32,6,1,0,Delivered
+600,2025-06-02,19,Thai,Dinner,Cash on Delivery,France,26.92,3.52,32.41,8,0,1,Delivered
+601,2025-05-12,10,Mexican,Lunch,PayPal,UK,24.2,20.71,34.52,4,0,0,Delivered
+602,2025-04-11,17,Mediterranean,Breakfast,Credit Card,Japan,48.78,0.91,44.32,2,0,0,Delivered
+603,2025-04-16,20,Thai,Dinner,Debit Card,Australia,23.13,0.89,39.86,5,0,1,Delivered
+604,2025-04-27,12,Mediterranean,Lunch,Credit Card,USA,35.39,3.75,27.33,6,1,1,Delivered
+605,2025-06-17,17,French,Dinner,Digital Wallet,India,53.69,0.41,33.26,3,0,0,Delivered
+606,2025-09-20,18,Mexican,Snack,Digital Wallet,Japan,16.95,9.77,35.96,5,1,1,Delivered
+607,2025-07-27,18,Indian,Breakfast,Cash on Delivery,Germany,26.68,6.19,43.18,6,1,1,Issues with Order
+608,2025-03-28,10,Mediterranean,Lunch,PayPal,Germany,31.36,8.62,10.45,8,0,0,Delivered
+609,2025-09-18,17,French,Dinner,Credit Card,Japan,13.17,3.41,23.92,5,0,0,Delivered
+610,2025-03-27,18,American,Lunch,Cash on Delivery,Brazil,20.02,0.95,39.93,7,0,1,Delivered
+611,2025-05-06,21,Thai,Snack,Debit Card,Germany,33.41,0.53,35.47,2,0,0,Delivered
+612,2025-05-26,18,Korean,Dinner,PayPal,Brazil,19.35,2.14,25.89,5,0,1,Delivered
+613,2025-04-12,12,Mexican,Dinner,Credit Card,India,41.15,5.27,26.78,8,1,1,Delivered
+614,2025-09-01,17,Indian,Dinner,Credit Card,Canada,9.82,9.21,42.44,1,0,0,Delivered
+615,2025-06-06,14,Mexican,Snack,Credit Card,Australia,29.04,5.03,29.76,2,0,1,Delivered
+616,2025-07-30,13,American,Snack,PayPal,India,28.72,1.97,22.1,6,0,1,Delivered
+617,2025-04-03,15,Chinese,Lunch,Credit Card,Germany,20.35,0.96,32.01,7,0,0,Issues with Order
+618,2025-05-11,13,Japanese,Snack,Credit Card,UK,38.97,9.07,35.24,4,1,1,Delivered
+619,2025-07-17,13,Italian,Lunch,Cash on Delivery,UK,45.46,5.92,16.54,4,0,1,Delivered
+620,2025-09-16,14,American,Lunch,Credit Card,Brazil,5.64,1.2,31.26,2,0,1,Delivered
+621,2025-09-05,14,Indian,Dinner,Credit Card,Australia,30.14,10.25,31.8,2,0,1,Delivered
+622,2025-03-29,12,Japanese,Breakfast,Cash on Delivery,Australia,55.85,5.47,36.67,1,1,1,Delivered
+623,2025-08-21,22,French,Lunch,PayPal,UK,51.15,5.55,27.59,4,0,0,Delivered
+624,2025-04-18,20,Korean,Dinner,Credit Card,USA,15.34,2.96,31.5,6,0,1,Delivered
+625,2025-09-21,18,Chinese,Lunch,Cash on Delivery,Australia,36.07,3.96,28.8,6,1,1,Delivered
+626,2025-09-07,22,American,Snack,Debit Card,USA,27.53,0.59,29.37,7,1,0,Delivered
+627,2025-04-29,14,Italian,Snack,Cash on Delivery,Brazil,28.58,6.73,29.09,5,0,1,Delivered
+628,2025-07-29,13,Korean,Lunch,Digital Wallet,France,22.78,9.77,34.22,6,0,1,Delivered
+629,2025-06-04,19,Mediterranean,Lunch,Credit Card,Brazil,41.16,7.01,27.4,3,0,1,Delivered
+630,2025-06-01,18,American,Snack,Credit Card,Brazil,33.89,1.65,24.73,7,1,1,Delivered
+631,2025-03-30,19,American,Lunch,PayPal,UK,28.67,0.51,48.38,7,1,1,Delivered
+632,2025-08-14,12,Korean,Dinner,PayPal,Japan,6.15,4.56,27.04,6,0,1,Delivered
+633,2025-08-06,20,Chinese,Breakfast,Debit Card,Canada,14.46,6.8,19.32,1,0,1,Delivered
+634,2025-07-28,13,Chinese,Breakfast,Digital Wallet,Japan,29.28,4.5,38.99,8,0,1,Delivered
+635,2025-09-21,19,Japanese,Breakfast,PayPal,Australia,43.43,7.91,28.31,2,1,1,Cancelled
+636,2025-09-09,17,Chinese,Snack,Credit Card,France,25.83,26.95,25.33,7,0,0,Late Delivery
+637,2025-04-09,19,Japanese,Breakfast,Credit Card,Germany,46.05,0.33,41.62,2,0,1,Issues with Order
+638,2025-04-19,11,Indian,Snack,Debit Card,Australia,28.48,0.61,41.64,4,1,0,Issues with Order
+639,2025-08-15,21,Mediterranean,Snack,Credit Card,Mexico,46.7,10.56,35.01,6,0,0,Late Delivery
+640,2025-07-13,11,Mexican,Lunch,Digital Wallet,Japan,31.53,2.81,56.88,6,1,0,Issues with Order
+641,2025-08-26,17,American,Dinner,Digital Wallet,France,18.46,7.43,11.69,6,0,0,Delivered
+642,2025-09-04,16,American,Lunch,Digital Wallet,Brazil,33.86,2.93,32.3,4,0,0,Delivered
+643,2025-08-13,21,Japanese,Dinner,Cash on Delivery,India,69.18,4.48,43.15,7,0,0,Late Delivery
+644,2025-08-25,10,Mediterranean,Lunch,PayPal,USA,22.83,3.59,37.83,5,0,0,Delivered
+645,2025-05-19,15,Italian,Dinner,Digital Wallet,Brazil,32.05,3.34,21.57,3,0,0,Issues with Order
+646,2025-06-25,12,Mexican,Dinner,PayPal,Mexico,29.24,4.59,31.43,4,0,1,Delivered
+647,2025-06-10,11,Korean,Snack,Digital Wallet,Australia,25.44,5.03,46.95,2,0,0,Issues with Order
+648,2025-05-09,17,Korean,Breakfast,Digital Wallet,Germany,23.94,2.25,28.16,1,0,0,Delivered
+649,2025-08-20,16,Chinese,Breakfast,PayPal,France,18.88,0.75,29.63,7,0,0,Delivered
+650,2025-04-25,22,Indian,Breakfast,Cash on Delivery,USA,22.8,1.09,10.0,5,0,0,Delivered
+651,2025-06-15,18,Korean,Lunch,PayPal,Brazil,9.95,1.16,37.6,4,1,1,Delivered
+652,2025-09-14,21,Thai,Snack,Digital Wallet,Mexico,22.95,0.04,30.07,2,1,0,Delivered
+653,2025-06-08,22,Thai,Lunch,Debit Card,France,21.91,8.11,22.48,2,1,0,Delivered
+654,2025-04-07,18,Thai,Dinner,Credit Card,Japan,29.8,1.74,57.31,7,0,1,Issues with Order
+655,2025-04-29,17,Mediterranean,Lunch,Cash on Delivery,Japan,33.08,0.46,36.71,4,0,0,Delivered
+656,2025-08-07,13,Indian,Breakfast,PayPal,Japan,16.14,2.12,32.69,6,0,1,Delivered
+657,2025-08-20,11,Chinese,Snack,Cash on Delivery,France,35.76,3.4,30.21,6,0,0,Delivered
+658,2025-06-22,19,Italian,Dinner,Debit Card,France,30.21,2.51,23.47,8,1,1,Delivered
+659,2025-07-16,10,Indian,Lunch,PayPal,Canada,6.97,11.91,14.16,2,0,0,Cancelled
+660,2025-06-07,10,American,Breakfast,PayPal,India,32.72,1.85,45.31,8,1,0,Delivered
+661,2025-08-10,13,Indian,Dinner,Digital Wallet,India,20.17,1.49,31.47,3,1,1,Delivered
+662,2025-09-13,10,Thai,Breakfast,PayPal,Canada,26.45,5.8,23.85,1,1,0,Delivered
+663,2025-09-20,19,Japanese,Breakfast,Cash on Delivery,USA,40.97,3.05,21.09,2,1,1,Delivered
+664,2025-06-03,20,American,Breakfast,Credit Card,Germany,16.12,2.71,26.93,7,0,1,Delivered
+665,2025-07-01,18,Chinese,Dinner,Cash on Delivery,Mexico,23.69,0.42,30.77,2,0,1,Delivered
+666,2025-08-01,17,Mediterranean,Breakfast,Credit Card,Australia,41.14,5.52,28.32,5,0,0,Delivered
+667,2025-07-04,21,Mexican,Breakfast,PayPal,France,14.1,4.5,44.11,6,0,0,Issues with Order
+668,2025-08-01,14,Italian,Dinner,Cash on Delivery,USA,37.48,10.35,37.59,5,0,1,Delivered
+669,2025-07-04,20,Mexican,Breakfast,Cash on Delivery,Brazil,18.88,11.64,33.62,4,0,1,Late Delivery
+670,2025-07-13,14,Korean,Dinner,Cash on Delivery,Brazil,25.58,0.77,22.55,3,1,1,Delivered
+671,2025-04-30,19,Mediterranean,Lunch,Debit Card,Germany,34.6,1.75,27.92,3,0,1,Delivered
+672,2025-05-02,20,Korean,Lunch,PayPal,UK,51.78,0.22,25.14,2,0,1,Delivered
+673,2025-05-02,21,Italian,Dinner,Cash on Delivery,Japan,36.92,2.1,19.72,5,0,0,Delivered
+674,2025-09-05,21,Japanese,Lunch,Debit Card,UK,57.83,9.34,42.87,3,0,0,Delivered
+675,2025-08-29,19,Japanese,Lunch,Digital Wallet,Australia,35.31,5.59,47.75,4,0,1,Issues with Order
+676,2025-09-18,22,French,Lunch,Digital Wallet,Mexico,30.84,7.78,19.05,8,0,0,Delivered
+677,2025-06-29,12,Thai,Snack,Cash on Delivery,Canada,38.92,8.64,27.5,3,1,1,Delivered
+678,2025-04-03,16,Italian,Dinner,Cash on Delivery,Australia,13.17,4.36,23.07,4,0,0,Delivered
+679,2025-04-11,12,French,Snack,PayPal,India,64.57,6.11,13.38,4,0,1,Delivered
+680,2025-04-05,19,Thai,Dinner,Cash on Delivery,Mexico,15.13,0.91,44.82,1,1,1,Issues with Order
+681,2025-04-05,13,Mediterranean,Snack,Credit Card,Brazil,21.73,11.04,27.85,7,1,1,Late Delivery
+682,2025-04-07,13,Japanese,Snack,Cash on Delivery,Germany,30.53,0.13,25.7,5,0,1,Delivered
+683,2025-07-12,14,Korean,Breakfast,Digital Wallet,Canada,38.1,2.08,43.96,8,1,1,Issues with Order
+684,2025-08-01,11,Mexican,Lunch,Cash on Delivery,Japan,23.49,1.86,22.86,6,0,0,Delivered
+685,2025-05-10,17,Korean,Lunch,Cash on Delivery,UK,34.65,2.27,46.16,5,1,0,Delivered
+686,2025-05-06,21,Chinese,Breakfast,Credit Card,India,43.91,0.76,25.38,6,0,0,Issues with Order
+687,2025-08-03,19,Mexican,Snack,Digital Wallet,Japan,20.26,3.52,29.86,1,1,1,Delivered
+688,2025-06-19,19,Mexican,Lunch,Debit Card,Canada,23.98,0.2,34.09,1,0,1,Delivered
+689,2025-06-13,21,French,Dinner,Debit Card,UK,43.67,0.87,26.3,3,0,0,Delivered
+690,2025-03-26,19,Japanese,Breakfast,Cash on Delivery,India,17.94,11.52,26.45,8,0,1,Issues with Order
+691,2025-05-25,13,Korean,Snack,Cash on Delivery,Japan,31.97,4.62,26.66,8,1,1,Delivered
+692,2025-05-27,18,Japanese,Lunch,Credit Card,Canada,21.91,2.08,15.14,3,0,1,Late Delivery
+693,2025-04-04,12,Italian,Dinner,PayPal,UK,20.67,4.03,31.43,1,0,1,Delivered
+694,2025-05-10,12,Japanese,Lunch,Cash on Delivery,Mexico,68.59,8.97,32.5,6,1,1,Delivered
+695,2025-04-18,22,Japanese,Dinner,PayPal,Japan,17.98,1.5,24.57,2,0,0,Delivered
+696,2025-08-13,11,Japanese,Snack,Debit Card,UK,26.08,16.97,21.35,5,0,0,Late Delivery
+697,2025-05-18,21,Indian,Breakfast,Credit Card,Mexico,5.21,4.34,37.48,2,1,0,Delivered
+698,2025-09-18,19,Japanese,Snack,Digital Wallet,France,42.42,4.92,18.92,5,0,1,Delivered
+699,2025-09-01,15,Mexican,Snack,Digital Wallet,India,5.0,25.46,27.14,8,0,0,Late Delivery
+700,2025-05-24,21,Japanese,Lunch,Credit Card,UK,49.38,4.21,38.99,1,1,0,Delivered
+701,2025-04-25,21,Indian,Snack,Cash on Delivery,USA,12.7,2.51,34.97,6,0,0,Delivered
+702,2025-09-05,13,Italian,Lunch,PayPal,Germany,34.64,3.92,24.32,2,0,1,Delivered
+703,2025-08-02,18,American,Breakfast,Credit Card,France,27.54,3.81,34.68,6,1,1,Delivered
+704,2025-08-18,19,Italian,Lunch,Debit Card,France,30.66,7.9,32.8,6,0,1,Delivered
+705,2025-07-26,17,Italian,Lunch,Cash on Delivery,Canada,42.46,14.42,26.3,8,1,0,Late Delivery
+706,2025-06-19,17,Thai,Breakfast,Digital Wallet,Germany,23.75,19.81,18.27,6,0,0,Late Delivery
+707,2025-06-24,11,Mexican,Dinner,Credit Card,France,36.26,4.44,29.49,7,0,0,Delivered
+708,2025-05-07,19,Korean,Snack,Debit Card,Mexico,10.52,1.14,21.57,2,0,1,Delivered
+709,2025-06-12,21,American,Breakfast,PayPal,Japan,19.04,3.58,43.74,2,0,0,Issues with Order
+710,2025-07-19,14,Indian,Dinner,Debit Card,UK,52.16,10.03,27.3,6,1,1,Late Delivery
+711,2025-04-18,17,Mediterranean,Breakfast,Cash on Delivery,Brazil,34.34,8.79,32.86,3,0,0,Delivered
+712,2025-07-27,21,Mediterranean,Dinner,PayPal,Canada,39.98,15.62,44.92,2,1,0,Late Delivery
+713,2025-09-15,12,Indian,Breakfast,Cash on Delivery,Japan,23.03,9.62,28.49,2,0,1,Delivered
+714,2025-09-17,19,Chinese,Dinner,Cash on Delivery,USA,36.66,11.18,27.96,2,0,1,Late Delivery
+715,2025-06-13,10,Korean,Dinner,Debit Card,France,30.94,4.93,10.0,4,0,0,Delivered
+716,2025-06-04,18,American,Snack,Credit Card,Germany,44.57,6.41,27.59,3,0,1,Delivered
+717,2025-04-24,10,Korean,Breakfast,Debit Card,Brazil,17.27,1.78,34.07,6,0,0,Delivered
+718,2025-06-03,12,Japanese,Lunch,Debit Card,UK,62.18,1.63,24.68,5,0,1,Delivered
+719,2025-06-20,18,French,Breakfast,Debit Card,USA,59.3,1.75,35.13,8,0,1,Delivered
+720,2025-04-07,11,Thai,Breakfast,Credit Card,Japan,30.15,0.77,37.16,7,0,0,Delivered
+721,2025-08-25,19,French,Dinner,PayPal,France,57.01,5.37,37.54,4,0,1,Delivered
+722,2025-09-13,22,Mediterranean,Breakfast,Cash on Delivery,Mexico,42.01,4.75,34.5,3,1,0,Issues with Order
+723,2025-04-19,17,Japanese,Snack,Cash on Delivery,Australia,44.6,0.4,21.18,4,1,0,Delivered
+724,2025-08-30,14,American,Snack,Debit Card,France,8.6,0.34,13.67,6,1,1,Delivered
+725,2025-04-02,11,French,Breakfast,PayPal,India,33.11,8.26,26.92,8,0,0,Delivered
+726,2025-06-06,22,American,Lunch,Digital Wallet,UK,25.3,1.78,36.09,7,0,0,Delivered
+727,2025-04-22,15,Mediterranean,Breakfast,PayPal,Brazil,35.01,7.91,21.83,8,0,0,Delivered
+728,2025-07-09,13,Korean,Lunch,Digital Wallet,Canada,23.21,0.38,30.83,8,0,1,Delivered
+729,2025-06-21,13,Korean,Snack,Cash on Delivery,Mexico,8.92,1.32,22.37,6,1,1,Delivered
+730,2025-05-25,12,Chinese,Snack,Credit Card,Mexico,33.73,13.24,23.7,8,1,1,Issues with Order
+731,2025-05-10,14,Thai,Breakfast,Digital Wallet,UK,33.29,1.94,28.06,7,1,1,Delivered
+732,2025-09-07,20,Italian,Breakfast,Debit Card,Canada,16.51,5.11,28.67,1,1,1,Delivered
+733,2025-09-11,12,French,Dinner,Cash on Delivery,Mexico,45.9,2.21,32.77,8,0,1,Delivered
+734,2025-09-16,15,Japanese,Dinner,Cash on Delivery,France,32.18,10.98,33.35,2,0,0,Late Delivery
+735,2025-08-03,16,Mexican,Dinner,Credit Card,France,5.0,4.41,31.84,1,1,0,Late Delivery
+736,2025-04-23,14,Italian,Lunch,Cash on Delivery,Mexico,27.21,5.74,31.89,7,0,1,Delivered
+737,2025-07-01,16,Thai,Snack,Digital Wallet,Australia,33.07,8.64,20.26,3,0,0,Delivered
+738,2025-05-13,18,Thai,Dinner,Cash on Delivery,Canada,27.37,3.67,43.7,5,0,1,Issues with Order
+739,2025-04-29,10,Chinese,Breakfast,Debit Card,India,28.92,1.58,24.91,7,0,0,Delivered
+740,2025-04-29,11,Mexican,Snack,Cash on Delivery,Mexico,6.67,0.72,29.72,7,0,0,Delivered
+741,2025-07-20,18,Thai,Snack,Cash on Delivery,France,19.76,6.9,31.52,4,1,1,Delivered
+742,2025-08-27,10,Korean,Snack,Debit Card,Brazil,18.74,1.62,30.15,5,0,0,Delivered
+743,2025-08-12,19,American,Breakfast,Credit Card,Mexico,21.72,9.14,31.55,8,0,1,Delivered
+744,2025-04-23,19,French,Breakfast,Debit Card,Brazil,32.12,0.54,41.26,5,0,1,Delivered
+745,2025-05-27,17,Chinese,Dinner,Digital Wallet,USA,11.54,9.25,21.81,6,0,0,Delivered
+746,2025-03-28,17,French,Snack,Digital Wallet,France,60.41,11.12,23.36,7,0,0,Late Delivery
+747,2025-06-09,14,Mexican,Breakfast,Digital Wallet,Germany,33.51,2.37,28.63,5,0,1,Issues with Order
+748,2025-08-21,12,Korean,Breakfast,PayPal,Mexico,24.34,2.45,49.82,1,0,1,Delivered
+749,2025-06-05,14,Mexican,Dinner,PayPal,Germany,39.23,0.02,39.26,1,0,1,Delivered
+750,2025-08-27,12,Korean,Lunch,Cash on Delivery,France,30.22,5.49,21.84,3,0,1,Delivered
+751,2025-09-21,13,French,Lunch,Digital Wallet,USA,46.33,1.77,31.97,6,1,1,Delivered
+752,2025-05-02,19,Mexican,Snack,Cash on Delivery,Japan,27.03,5.17,27.15,4,0,1,Delivered
+753,2025-09-05,12,Indian,Dinner,Credit Card,Germany,23.61,15.71,25.5,2,0,1,Delivered
+754,2025-07-25,14,French,Lunch,Cash on Delivery,Japan,5.0,3.06,30.17,8,0,1,Delivered
+755,2025-08-08,16,Italian,Dinner,Cash on Delivery,Japan,28.39,2.31,17.79,6,0,0,Delivered
+756,2025-09-16,10,Chinese,Dinner,Cash on Delivery,Mexico,37.35,9.5,26.8,5,0,0,Delivered
+757,2025-06-02,22,Chinese,Dinner,Digital Wallet,Japan,31.22,3.2,18.61,8,0,0,Delivered
+758,2025-05-26,21,Korean,Lunch,Digital Wallet,France,22.27,5.66,33.65,3,0,0,Delivered
+759,2025-03-28,20,Italian,Breakfast,Credit Card,Japan,16.35,0.73,38.18,2,0,1,Delivered
+760,2025-09-17,17,American,Lunch,PayPal,Germany,37.75,1.9,38.1,4,0,0,Delivered
+761,2025-04-09,19,Indian,Breakfast,Credit Card,UK,13.11,6.24,46.43,3,0,1,Delivered
+762,2025-09-07,19,Mexican,Breakfast,Debit Card,Germany,26.92,1.69,28.52,5,1,1,Delivered
+763,2025-04-14,20,French,Dinner,Cash on Delivery,France,36.84,0.59,28.37,5,0,1,Delivered
+764,2025-04-13,14,Italian,Snack,Cash on Delivery,France,14.07,9.02,31.19,1,1,1,Delivered
+765,2025-06-01,12,French,Breakfast,Cash on Delivery,Australia,41.57,3.39,20.06,7,1,1,Delivered
+766,2025-07-29,11,Mexican,Snack,Debit Card,Mexico,32.79,4.52,10.0,2,0,0,Delivered
+767,2025-05-31,11,Italian,Breakfast,Credit Card,Mexico,34.77,16.55,27.37,5,1,0,Issues with Order
+768,2025-05-03,20,Italian,Breakfast,Cash on Delivery,Germany,59.21,1.87,32.16,3,1,1,Delivered
+769,2025-07-04,19,Italian,Snack,Cash on Delivery,Japan,43.58,3.68,37.18,7,0,1,Delivered
+770,2025-04-12,18,Indian,Breakfast,Cash on Delivery,India,22.62,1.54,31.92,2,1,1,Delivered
+771,2025-06-25,15,Japanese,Snack,Credit Card,UK,46.53,2.14,45.49,6,0,0,Issues with Order
+772,2025-04-15,17,Japanese,Lunch,Debit Card,Brazil,59.83,18.29,16.49,1,0,0,Late Delivery
+773,2025-06-10,21,Thai,Breakfast,PayPal,India,26.73,7.58,32.44,2,0,0,Delivered
+774,2025-07-16,21,Indian,Lunch,Credit Card,Australia,5.0,1.8,20.64,1,0,0,Delivered
+775,2025-08-24,13,French,Snack,Credit Card,Brazil,43.45,6.88,13.57,5,1,1,Delivered
+776,2025-07-19,10,Italian,Dinner,Credit Card,France,26.66,15.83,29.59,1,1,0,Late Delivery
+777,2025-09-09,20,Mediterranean,Snack,Digital Wallet,Canada,35.25,16.45,32.31,4,0,1,Cancelled
+778,2025-07-29,20,Italian,Snack,Digital Wallet,USA,32.53,1.28,23.5,4,0,1,Delivered
+779,2025-04-28,10,Mexican,Breakfast,PayPal,UK,21.25,4.87,26.82,8,0,0,Delivered
+780,2025-08-24,11,Chinese,Breakfast,Cash on Delivery,Mexico,28.93,0.79,44.13,4,1,0,Delivered
+781,2025-06-20,22,Thai,Dinner,Credit Card,Mexico,29.98,2.46,41.4,3,0,0,Delivered
+782,2025-05-19,22,Italian,Lunch,PayPal,UK,20.96,2.12,38.49,2,0,0,Delivered
+783,2025-07-10,12,American,Lunch,Cash on Delivery,Australia,22.66,3.17,34.66,1,0,1,Delivered
+784,2025-09-03,19,Thai,Lunch,Credit Card,India,28.3,0.32,36.2,2,0,1,Cancelled
+785,2025-04-17,21,Korean,Dinner,Cash on Delivery,India,16.65,0.72,50.9,3,0,0,Delivered
+786,2025-08-06,17,Thai,Lunch,Debit Card,Mexico,25.38,1.38,35.85,1,0,0,Delivered
+787,2025-07-31,19,Chinese,Dinner,PayPal,Japan,45.24,0.4,30.07,1,0,1,Delivered
+788,2025-05-14,11,Mediterranean,Breakfast,Digital Wallet,France,45.1,3.08,23.82,4,0,0,Delivered
+789,2025-09-02,20,Indian,Dinner,Credit Card,Australia,5.0,0.22,45.33,2,0,1,Issues with Order
+790,2025-07-25,17,Mexican,Lunch,Credit Card,USA,22.99,1.17,17.68,6,0,0,Delivered
+791,2025-07-15,14,American,Snack,Credit Card,UK,20.71,16.17,35.89,1,0,1,Late Delivery
+792,2025-04-02,17,Mediterranean,Breakfast,Credit Card,Australia,35.58,1.5,33.32,8,0,0,Delivered
+793,2025-06-17,16,Indian,Dinner,Debit Card,UK,45.24,0.38,16.37,6,0,0,Delivered
+794,2025-05-25,21,Thai,Lunch,Cash on Delivery,Australia,26.63,1.05,30.41,2,1,0,Delivered
+795,2025-07-28,10,Thai,Lunch,Debit Card,Mexico,29.26,7.08,30.19,8,0,0,Delivered
+796,2025-06-29,12,French,Lunch,PayPal,Germany,43.73,6.34,17.57,4,1,1,Delivered
+797,2025-04-03,21,Korean,Breakfast,PayPal,Canada,32.2,5.49,17.07,2,0,0,Delivered
+798,2025-07-21,16,Mexican,Dinner,Debit Card,Germany,27.32,7.38,17.97,3,0,0,Delivered
+799,2025-09-05,19,Mexican,Lunch,Credit Card,Japan,21.87,0.05,29.99,8,0,1,Delivered
+800,2025-05-20,19,French,Snack,PayPal,USA,54.28,1.3,27.93,7,0,1,Delivered
+801,2025-05-28,13,American,Snack,Digital Wallet,Australia,12.5,1.94,36.05,3,0,1,Delivered
+802,2025-03-27,16,Italian,Breakfast,Cash on Delivery,Brazil,40.63,0.5,37.14,1,0,0,Delivered
+803,2025-07-04,17,Chinese,Snack,Cash on Delivery,Australia,20.63,3.28,29.34,2,0,0,Delivered
+804,2025-03-29,21,Thai,Lunch,Debit Card,France,17.04,1.7,33.39,5,1,0,Delivered
+805,2025-04-18,10,French,Dinner,Debit Card,India,56.16,24.99,28.19,1,0,0,Late Delivery
+806,2025-04-30,21,Thai,Lunch,PayPal,India,11.56,7.02,13.97,1,0,0,Delivered
+807,2025-04-13,16,American,Breakfast,PayPal,Japan,6.33,7.75,40.08,5,1,0,Issues with Order
+808,2025-08-20,22,Indian,Breakfast,Digital Wallet,France,29.06,2.22,14.2,1,0,0,Delivered
+809,2025-09-14,15,Italian,Breakfast,Cash on Delivery,France,20.47,1.06,37.31,8,1,0,Delivered
+810,2025-06-27,15,Mexican,Breakfast,Digital Wallet,Australia,9.74,0.2,30.33,3,0,0,Delivered
+811,2025-05-26,18,Chinese,Snack,Digital Wallet,Australia,20.93,15.02,36.86,4,0,1,Late Delivery
+812,2025-08-01,20,Thai,Dinner,Credit Card,UK,9.6,4.34,49.83,6,0,1,Delivered
+813,2025-08-07,11,French,Dinner,Cash on Delivery,Mexico,69.26,1.66,31.04,6,0,0,Delivered
+814,2025-09-19,22,Chinese,Lunch,Cash on Delivery,UK,32.79,14.64,27.09,2,0,0,Late Delivery
+815,2025-04-14,11,Mexican,Dinner,Credit Card,Canada,23.11,7.58,39.22,8,0,0,Delivered
+816,2025-05-17,18,Italian,Dinner,Cash on Delivery,Brazil,30.67,1.15,10.0,3,1,1,Delivered
+817,2025-07-11,17,Italian,Dinner,Debit Card,UK,19.97,2.01,33.64,1,0,0,Delivered
+818,2025-05-24,18,American,Snack,Digital Wallet,France,21.34,0.37,34.44,6,1,1,Delivered
+819,2025-09-12,21,Mediterranean,Snack,Cash on Delivery,Germany,5.0,8.33,31.99,3,0,0,Delivered
+820,2025-06-12,12,Japanese,Lunch,Cash on Delivery,France,37.82,5.91,39.58,5,0,1,Delivered
+821,2025-04-07,12,American,Dinner,Cash on Delivery,Canada,31.8,0.82,41.93,3,0,1,Issues with Order
+822,2025-05-09,21,Mexican,Lunch,Debit Card,UK,26.09,1.66,40.53,1,0,0,Issues with Order
+823,2025-07-16,14,American,Lunch,Debit Card,Brazil,19.96,0.68,29.18,1,0,1,Delivered
+824,2025-06-22,12,American,Snack,Digital Wallet,Canada,31.9,0.28,10.0,5,1,1,Delivered
+825,2025-04-01,16,French,Lunch,Cash on Delivery,France,28.69,1.31,19.14,3,0,0,Late Delivery
+826,2025-09-07,21,Japanese,Snack,PayPal,Mexico,63.26,9.43,38.21,3,1,0,Delivered
+827,2025-07-17,15,Chinese,Snack,Credit Card,Canada,7.74,1.97,23.22,2,0,0,Delivered
+828,2025-07-06,19,Indian,Snack,PayPal,UK,33.64,1.0,35.8,6,1,1,Cancelled
+829,2025-08-22,18,Indian,Dinner,Debit Card,USA,32.83,8.22,27.48,2,0,1,Delivered
+830,2025-07-18,20,Chinese,Snack,Debit Card,India,39.6,5.41,12.8,6,0,1,Delivered
+831,2025-08-03,10,American,Snack,Debit Card,Japan,25.85,6.18,21.92,6,1,0,Delivered
+832,2025-03-29,14,American,Dinner,PayPal,India,29.8,4.38,24.31,2,1,1,Delivered
+833,2025-07-17,21,Thai,Snack,PayPal,Canada,31.5,1.76,14.97,7,0,0,Delivered
+834,2025-07-10,12,Korean,Breakfast,Debit Card,Australia,34.7,0.54,38.03,5,0,1,Delivered
+835,2025-08-07,15,Chinese,Snack,Credit Card,USA,44.96,2.3,61.1,7,0,0,Issues with Order
+836,2025-05-09,18,French,Lunch,Debit Card,Canada,61.23,3.1,39.96,7,0,1,Delivered
+837,2025-07-29,10,Japanese,Dinner,Cash on Delivery,Brazil,48.45,6.53,34.98,8,0,0,Delivered
+838,2025-03-26,12,Japanese,Dinner,Cash on Delivery,UK,38.66,8.23,36.77,5,0,1,Delivered
+839,2025-07-29,21,Indian,Breakfast,Credit Card,Germany,19.42,2.04,19.0,8,0,0,Delivered
+840,2025-04-12,19,American,Snack,Digital Wallet,Japan,35.58,4.13,39.38,5,1,1,Delivered
+841,2025-07-25,21,Chinese,Dinner,Digital Wallet,Mexico,24.94,2.39,36.69,1,0,0,Delivered
+842,2025-05-06,19,Italian,Lunch,PayPal,India,40.45,6.63,24.65,3,0,1,Delivered
+843,2025-04-08,14,American,Snack,PayPal,USA,22.06,9.13,29.28,5,0,1,Delivered
+844,2025-09-05,11,Mediterranean,Lunch,Debit Card,UK,34.28,1.34,34.55,3,0,0,Delivered
+845,2025-06-14,20,Japanese,Dinner,PayPal,UK,58.36,3.95,35.75,6,1,1,Delivered
+846,2025-03-29,12,Mediterranean,Dinner,PayPal,India,56.83,9.93,30.4,7,1,1,Delivered
+847,2025-05-06,11,Indian,Lunch,Digital Wallet,Australia,29.92,4.02,24.74,4,0,0,Delivered
+848,2025-08-16,19,Mediterranean,Breakfast,Cash on Delivery,India,23.04,10.02,27.2,2,1,1,Delivered
+849,2025-03-30,17,American,Dinner,PayPal,Canada,20.21,1.71,21.37,8,1,0,Delivered
+850,2025-08-25,18,American,Lunch,PayPal,USA,28.77,7.96,38.1,2,0,1,Delivered
+851,2025-09-19,12,Indian,Dinner,Debit Card,Australia,31.84,4.24,16.34,3,0,1,Delivered
+852,2025-07-12,21,Chinese,Breakfast,Credit Card,India,25.7,1.7,23.6,7,1,0,Delivered
+853,2025-04-03,22,Mediterranean,Breakfast,Cash on Delivery,UK,22.65,4.85,16.47,5,0,0,Late Delivery
+854,2025-09-12,10,Chinese,Breakfast,Digital Wallet,Australia,37.18,2.59,21.32,4,0,0,Delivered
+855,2025-06-23,10,Chinese,Lunch,PayPal,Mexico,19.64,5.78,12.93,6,0,0,Delivered
+856,2025-08-01,22,Korean,Lunch,Digital Wallet,Mexico,20.68,2.34,28.37,2,0,0,Delivered
+857,2025-08-08,13,Indian,Dinner,Debit Card,Brazil,26.6,5.57,35.02,1,0,1,Delivered
+858,2025-04-20,13,Mediterranean,Snack,PayPal,Mexico,20.77,2.71,35.21,3,1,1,Delivered
+859,2025-04-22,12,American,Snack,Cash on Delivery,Australia,20.87,1.63,32.6,4,0,1,Delivered
+860,2025-06-14,11,French,Breakfast,Digital Wallet,Canada,37.39,19.65,13.32,8,1,0,Late Delivery
+861,2025-08-15,21,Italian,Breakfast,PayPal,India,35.39,0.99,22.42,2,0,0,Delivered
+862,2025-07-20,19,Japanese,Snack,Debit Card,Brazil,67.7,6.1,23.87,7,1,1,Delivered
+863,2025-07-13,13,Chinese,Snack,PayPal,Canada,6.54,2.53,20.7,1,1,1,Delivered
+864,2025-07-29,20,Chinese,Snack,Cash on Delivery,Brazil,16.71,3.3,23.37,2,0,1,Delivered
+865,2025-07-05,16,Korean,Breakfast,Debit Card,UK,15.78,5.35,19.96,6,1,0,Delivered
+866,2025-06-20,13,Korean,Snack,Credit Card,Australia,25.88,0.4,33.96,7,0,1,Delivered
+867,2025-06-05,22,Korean,Dinner,Cash on Delivery,France,19.53,4.57,27.28,8,0,0,Delivered
+868,2025-07-07,17,Mediterranean,Dinner,Debit Card,India,52.98,1.56,42.48,2,0,0,Delivered
+869,2025-05-24,20,Mexican,Breakfast,Credit Card,USA,33.11,6.13,18.52,2,1,1,Delivered
+870,2025-04-01,12,Thai,Dinner,Debit Card,Germany,9.25,1.58,39.26,2,0,1,Delivered
+871,2025-09-11,22,Mediterranean,Snack,Cash on Delivery,Australia,47.21,14.66,32.71,5,0,0,Late Delivery
+872,2025-05-31,18,American,Breakfast,Credit Card,Japan,22.85,4.43,32.77,2,1,1,Delivered
+873,2025-06-14,16,French,Snack,Credit Card,USA,60.71,2.62,41.7,3,1,0,Issues with Order
+874,2025-06-11,21,Mexican,Snack,Cash on Delivery,Canada,25.44,1.46,27.44,5,0,0,Delivered
+875,2025-07-28,22,Chinese,Snack,Digital Wallet,Brazil,30.72,2.55,29.38,8,0,0,Delivered
+876,2025-05-05,18,Italian,Snack,PayPal,India,30.38,5.58,34.2,7,0,1,Delivered
+877,2025-06-24,22,Japanese,Dinner,Credit Card,USA,44.65,0.49,28.26,1,0,0,Delivered
+878,2025-06-27,15,Korean,Breakfast,PayPal,Japan,28.17,2.85,31.9,2,0,0,Delivered
+879,2025-06-25,16,American,Breakfast,Debit Card,Australia,20.63,6.43,13.93,4,0,0,Delivered
+880,2025-08-24,11,Chinese,Dinner,Credit Card,France,25.16,4.75,29.13,3,1,0,Late Delivery
+881,2025-04-04,17,Thai,Snack,PayPal,USA,12.08,6.26,36.9,8,0,0,Delivered
+882,2025-06-15,16,Korean,Snack,PayPal,Mexico,28.59,0.07,35.68,2,1,0,Delivered
+883,2025-04-20,21,Indian,Dinner,Cash on Delivery,Brazil,17.16,1.58,23.09,6,1,0,Delivered
+884,2025-06-10,15,Thai,Lunch,Cash on Delivery,UK,42.05,4.67,26.99,4,0,0,Delivered
+885,2025-04-07,14,Korean,Snack,Debit Card,Mexico,19.2,15.13,32.39,2,0,1,Late Delivery
+886,2025-08-24,15,Japanese,Breakfast,Digital Wallet,Brazil,51.12,8.66,34.53,8,1,0,Delivered
+887,2025-06-22,22,Chinese,Dinner,Digital Wallet,Germany,25.76,1.12,37.43,7,1,0,Delivered
+888,2025-06-14,13,Thai,Snack,PayPal,Mexico,39.17,6.7,36.81,8,1,1,Delivered
+889,2025-08-13,12,Italian,Lunch,Digital Wallet,India,25.84,2.32,30.38,4,0,1,Delivered
+890,2025-07-23,14,Mediterranean,Snack,Digital Wallet,USA,36.85,3.86,37.66,4,0,1,Delivered
+891,2025-05-02,13,Mexican,Dinner,Cash on Delivery,Japan,17.14,11.29,16.19,6,0,1,Late Delivery
+892,2025-09-04,13,Thai,Dinner,PayPal,Canada,36.07,3.03,36.41,5,0,1,Delivered
+893,2025-05-25,16,Indian,Breakfast,Debit Card,Australia,11.61,6.11,36.93,1,1,0,Delivered
+894,2025-06-13,17,French,Snack,Cash on Delivery,USA,20.77,5.24,10.0,4,0,0,Delivered
+895,2025-04-29,10,Japanese,Dinner,Digital Wallet,Canada,36.76,2.93,38.6,1,0,0,Delivered
+896,2025-07-28,22,Italian,Breakfast,Credit Card,France,26.72,3.38,30.04,5,0,0,Delivered
+897,2025-07-08,15,Chinese,Snack,Debit Card,Australia,20.07,5.32,44.44,2,0,0,Issues with Order
+898,2025-04-25,18,Korean,Dinner,Cash on Delivery,UK,18.01,0.87,25.08,4,0,1,Delivered
+899,2025-06-14,15,Korean,Snack,Debit Card,Japan,32.9,8.41,33.4,4,1,0,Delivered
+900,2025-05-09,13,Japanese,Snack,Cash on Delivery,Germany,34.58,1.71,33.3,1,0,1,Delivered
+901,2025-06-29,21,Chinese,Dinner,Digital Wallet,Japan,14.15,3.62,21.75,8,1,0,Delivered
+902,2025-06-05,22,Mexican,Dinner,Cash on Delivery,France,5.0,2.18,35.33,5,0,0,Delivered
+903,2025-09-11,22,Italian,Lunch,PayPal,Brazil,40.78,1.84,35.47,7,0,0,Delivered
+904,2025-09-21,15,Chinese,Lunch,Cash on Delivery,Japan,13.54,3.52,16.37,1,1,0,Delivered
+905,2025-07-04,14,Japanese,Breakfast,Debit Card,Germany,41.55,4.03,21.49,4,0,1,Delivered
+906,2025-05-06,17,American,Snack,Credit Card,Germany,10.99,9.79,30.14,2,0,0,Delivered
+907,2025-07-29,17,Thai,Dinner,Cash on Delivery,UK,34.22,9.79,34.83,3,0,0,Delivered
+908,2025-08-02,11,American,Snack,Digital Wallet,Brazil,21.11,4.72,45.91,6,1,0,Delivered
+909,2025-09-06,20,Mexican,Snack,Debit Card,USA,29.74,0.99,20.74,7,1,1,Delivered
+910,2025-06-12,15,Korean,Breakfast,Credit Card,Canada,14.63,0.63,37.44,4,0,0,Delivered
+911,2025-09-08,22,Mexican,Snack,PayPal,India,34.76,3.62,39.18,8,0,0,Delivered
+912,2025-04-29,14,Mexican,Dinner,PayPal,Australia,22.19,2.19,34.25,2,0,1,Delivered
+913,2025-05-11,16,Thai,Lunch,Credit Card,USA,22.83,3.66,26.92,4,1,0,Delivered
+914,2025-07-22,13,Japanese,Lunch,Credit Card,Japan,23.74,0.3,36.0,7,0,1,Delivered
+915,2025-05-03,11,American,Lunch,Digital Wallet,UK,11.22,1.24,24.35,1,1,0,Delivered
+916,2025-07-15,22,French,Snack,Credit Card,Australia,46.69,4.07,34.45,4,0,0,Delivered
+917,2025-06-02,14,French,Snack,Debit Card,Japan,21.21,3.89,11.2,4,0,1,Delivered
+918,2025-06-06,21,Indian,Snack,Debit Card,Japan,35.86,0.94,40.55,3,0,0,Delivered
+919,2025-05-25,19,French,Lunch,PayPal,Mexico,5.46,10.22,30.03,8,1,1,Delivered
+920,2025-06-16,21,Thai,Lunch,Cash on Delivery,Japan,30.49,0.61,52.19,5,0,0,Delivered
+921,2025-04-08,15,Indian,Snack,PayPal,Mexico,15.75,2.06,32.55,1,0,0,Issues with Order
+922,2025-06-11,16,American,Lunch,Digital Wallet,USA,29.33,1.15,21.94,3,0,0,Delivered
+923,2025-08-01,17,American,Snack,Debit Card,UK,33.58,1.14,27.65,6,0,0,Delivered
+924,2025-07-14,12,Japanese,Breakfast,PayPal,USA,5.0,0.09,32.6,3,0,1,Delivered
+925,2025-06-05,21,American,Snack,PayPal,Germany,51.21,4.95,18.88,5,0,0,Delivered
+926,2025-07-15,12,American,Snack,Debit Card,Brazil,14.04,0.05,38.38,8,0,1,Cancelled
+927,2025-04-08,13,Mexican,Breakfast,Cash on Delivery,Germany,27.81,9.04,47.59,3,0,1,Issues with Order
+928,2025-07-30,10,French,Dinner,Digital Wallet,India,50.42,3.32,33.38,8,0,0,Delivered
+929,2025-05-02,11,American,Breakfast,Debit Card,Germany,35.96,3.0,23.74,3,0,0,Delivered
+930,2025-08-03,14,Korean,Lunch,Digital Wallet,USA,28.34,10.71,27.02,3,1,1,Issues with Order
+931,2025-09-15,11,American,Breakfast,PayPal,UK,17.0,2.45,29.36,7,0,0,Delivered
+932,2025-04-22,15,Mexican,Breakfast,Credit Card,India,22.24,3.9,39.41,8,0,0,Delivered
+933,2025-06-02,19,Italian,Dinner,Credit Card,Mexico,27.72,2.35,32.11,8,0,1,Delivered
+934,2025-08-18,12,Indian,Breakfast,PayPal,France,22.05,29.36,43.46,1,0,1,Late Delivery
+935,2025-08-27,16,Chinese,Snack,PayPal,Canada,6.23,1.24,36.2,4,0,0,Delivered
+936,2025-07-06,11,Italian,Lunch,Debit Card,Japan,19.95,0.36,15.29,7,1,0,Delivered
+937,2025-09-09,12,Chinese,Dinner,Cash on Delivery,Japan,18.95,6.41,10.0,5,0,1,Delivered
+938,2025-08-27,12,American,Breakfast,PayPal,Brazil,37.89,0.04,39.68,4,0,1,Delivered
+939,2025-07-03,17,Japanese,Snack,Credit Card,Japan,54.77,3.31,18.62,6,0,0,Delivered
+940,2025-07-15,20,Thai,Breakfast,Credit Card,Brazil,27.69,0.34,45.13,6,0,1,Issues with Order
+941,2025-09-07,20,Mexican,Snack,Digital Wallet,Brazil,29.57,7.62,44.56,2,1,1,Delivered
+942,2025-07-26,14,Mexican,Lunch,PayPal,Australia,32.51,3.65,36.24,7,1,1,Delivered
+943,2025-04-07,18,Chinese,Breakfast,Digital Wallet,UK,29.1,4.84,21.39,7,0,1,Delivered
+944,2025-07-22,20,Korean,Dinner,PayPal,Germany,17.79,1.08,35.29,2,0,1,Delivered
+945,2025-03-30,11,French,Lunch,Debit Card,Japan,49.45,11.94,34.63,1,1,0,Delivered
+946,2025-06-10,15,Korean,Snack,Cash on Delivery,Mexico,30.41,5.31,44.42,5,0,0,Delivered
+947,2025-05-12,13,Mexican,Breakfast,Digital Wallet,Germany,26.91,5.0,39.41,2,0,1,Delivered
+948,2025-03-30,10,Thai,Breakfast,Credit Card,Canada,24.08,6.3,17.83,8,1,0,Delivered
+949,2025-07-07,20,Korean,Snack,PayPal,Mexico,16.52,1.88,23.48,6,0,1,Delivered
+950,2025-09-18,20,Thai,Dinner,Credit Card,Canada,17.42,2.77,23.13,3,0,1,Delivered
+951,2025-03-30,21,Indian,Breakfast,Debit Card,India,25.16,1.04,39.02,3,1,0,Delivered
+952,2025-07-15,20,Mediterranean,Lunch,Credit Card,Germany,37.67,2.41,25.21,8,0,1,Delivered
+953,2025-07-12,10,Chinese,Lunch,Debit Card,India,30.11,7.95,40.31,8,1,0,Issues with Order
+954,2025-08-22,13,Indian,Dinner,Digital Wallet,Japan,34.27,1.53,19.01,1,0,1,Delivered
+955,2025-04-21,20,Thai,Snack,Cash on Delivery,Mexico,26.72,1.96,35.53,5,0,1,Issues with Order
+956,2025-07-28,18,Korean,Snack,Debit Card,USA,16.83,5.93,23.9,1,0,1,Delivered
+957,2025-06-14,18,Chinese,Dinner,Cash on Delivery,India,29.63,1.54,16.33,2,1,1,Delivered
+958,2025-09-07,15,French,Snack,Credit Card,Canada,60.67,7.53,35.37,5,1,0,Delivered
+959,2025-07-24,15,French,Lunch,Digital Wallet,Australia,34.55,0.46,35.82,6,0,0,Delivered
+960,2025-09-10,17,Mexican,Dinner,Cash on Delivery,Japan,15.51,2.83,44.35,6,0,0,Issues with Order
+961,2025-05-06,19,Indian,Dinner,Credit Card,India,28.5,0.2,14.35,3,0,1,Delivered
+962,2025-05-05,19,French,Breakfast,Cash on Delivery,India,26.47,11.41,41.65,5,0,1,Issues with Order
+963,2025-06-25,14,American,Lunch,Debit Card,Brazil,21.71,11.56,37.32,1,0,1,Late Delivery
+964,2025-04-24,19,Indian,Breakfast,Digital Wallet,Australia,20.31,4.3,36.45,8,0,1,Delivered
+965,2025-06-21,22,American,Breakfast,Digital Wallet,Germany,32.57,9.76,36.12,3,1,0,Delivered
+966,2025-08-04,19,Chinese,Breakfast,Cash on Delivery,India,24.03,0.7,24.96,2,0,1,Delivered
+967,2025-08-29,19,Chinese,Breakfast,Digital Wallet,UK,24.61,7.66,28.66,3,0,1,Delivered
+968,2025-05-17,15,Mexican,Dinner,Cash on Delivery,Brazil,6.88,5.31,36.41,8,1,0,Delivered
+969,2025-04-20,12,American,Dinner,Debit Card,UK,31.22,7.18,43.29,4,1,1,Issues with Order
+970,2025-03-27,13,French,Dinner,PayPal,Brazil,61.07,4.9,50.2,3,0,1,Delivered
+971,2025-07-10,15,Indian,Lunch,Digital Wallet,Japan,27.49,4.35,40.45,4,0,0,Delivered
+972,2025-07-08,17,Mediterranean,Dinner,Credit Card,India,56.23,2.47,25.08,3,0,0,Delivered
+973,2025-08-05,11,Chinese,Dinner,PayPal,Japan,30.0,13.17,16.01,3,0,0,Late Delivery
+974,2025-04-04,20,Mexican,Breakfast,Digital Wallet,Germany,22.94,3.75,35.6,7,0,1,Delivered
+975,2025-09-16,21,Mediterranean,Dinner,PayPal,France,42.51,4.5,38.85,1,0,0,Delivered
+976,2025-08-08,19,Mexican,Snack,Cash on Delivery,Australia,24.34,5.62,23.47,8,0,1,Delivered
+977,2025-09-08,16,Indian,Dinner,Credit Card,USA,14.41,14.21,44.82,6,0,0,Late Delivery
+978,2025-04-27,18,Mediterranean,Dinner,Debit Card,UK,35.02,5.87,17.23,5,1,1,Delivered
+979,2025-09-04,12,Italian,Breakfast,Digital Wallet,Mexico,47.14,1.61,43.41,5,0,1,Delivered
+980,2025-07-12,18,Chinese,Breakfast,PayPal,Germany,29.04,4.57,19.78,6,1,1,Delivered
+981,2025-09-08,11,French,Dinner,Digital Wallet,USA,53.44,3.04,21.2,8,0,0,Delivered
+982,2025-05-25,22,Korean,Lunch,PayPal,Germany,34.53,0.93,34.74,5,1,0,Delivered
+983,2025-08-19,20,Mexican,Snack,Digital Wallet,Australia,40.54,9.11,38.54,2,0,1,Delivered
+984,2025-08-22,13,American,Snack,Credit Card,Canada,15.2,2.57,60.62,7,0,1,Delivered
+985,2025-07-12,12,French,Lunch,Cash on Delivery,UK,48.62,1.62,18.49,6,1,1,Delivered
+986,2025-07-07,19,Mediterranean,Snack,PayPal,Mexico,36.81,4.49,37.65,8,0,1,Delivered
+987,2025-07-16,21,French,Snack,Debit Card,Canada,38.01,0.16,28.49,3,0,0,Delivered
+988,2025-07-21,12,Mediterranean,Breakfast,Debit Card,India,25.31,4.67,28.51,8,0,1,Cancelled
+989,2025-08-16,15,Chinese,Snack,Credit Card,UK,13.69,9.94,36.23,6,1,0,Delivered
+990,2025-04-05,18,Mexican,Breakfast,PayPal,Germany,23.34,6.69,32.12,6,1,1,Delivered
+991,2025-07-28,10,Mexican,Lunch,Digital Wallet,Japan,33.95,29.46,23.68,1,0,0,Late Delivery
+992,2025-06-06,13,Mexican,Snack,Credit Card,UK,27.89,3.13,30.75,6,0,1,Delivered
+993,2025-07-10,17,Korean,Dinner,Digital Wallet,India,19.84,18.51,28.04,6,0,0,Late Delivery
+994,2025-08-28,12,Mexican,Snack,Cash on Delivery,India,28.43,13.9,33.08,3,0,1,Late Delivery
+995,2025-09-01,20,Korean,Snack,Cash on Delivery,Australia,22.94,0.37,22.53,7,0,1,Delivered
+996,2025-04-06,20,French,Dinner,Credit Card,Canada,35.11,3.17,22.95,1,1,1,Delivered
+997,2025-06-13,18,Chinese,Breakfast,Debit Card,Mexico,20.09,0.92,27.15,1,0,1,Delivered
+998,2025-08-06,13,French,Breakfast,Credit Card,Brazil,19.47,8.0,25.37,3,0,1,Delivered
+999,2025-06-04,22,Indian,Lunch,Digital Wallet,India,12.97,1.32,19.58,2,0,0,Delivered
+1000,2025-08-28,15,Thai,Breakfast,Cash on Delivery,USA,21.18,2.2,24.2,6,0,0,Delivered
+1001,2025-07-10,10,Mediterranean,Dinner,Cash on Delivery,Germany,29.53,1.18,31.81,2,0,0,Delivered
+1002,2025-04-20,18,Mexican,Dinner,Debit Card,Canada,21.21,2.1,33.32,5,1,1,Delivered
+1003,2025-05-04,14,Thai,Lunch,Credit Card,Mexico,24.69,1.8,21.52,6,1,1,Delivered
+1004,2025-04-09,14,Thai,Breakfast,PayPal,Canada,38.52,0.74,32.82,7,0,1,Delivered
+1005,2025-05-31,16,Chinese,Breakfast,Debit Card,Australia,26.84,0.78,56.93,4,1,0,Issues with Order
+1006,2025-07-02,11,Japanese,Breakfast,PayPal,India,23.6,3.35,37.81,7,0,0,Delivered
+1007,2025-07-08,20,Indian,Breakfast,PayPal,Brazil,24.19,1.83,21.67,2,0,1,Delivered
+1008,2025-08-15,20,Mexican,Dinner,Digital Wallet,Japan,13.14,6.46,10.0,8,0,1,Cancelled
+1009,2025-05-01,15,Mediterranean,Lunch,Debit Card,Brazil,56.99,7.5,38.14,7,0,0,Delivered
+1010,2025-08-15,17,Italian,Breakfast,Cash on Delivery,Mexico,30.03,3.86,38.06,5,0,0,Delivered
+1011,2025-05-07,10,Italian,Snack,PayPal,Mexico,31.65,1.09,38.45,5,0,0,Delivered
+1012,2025-07-01,15,Indian,Dinner,Credit Card,Canada,42.03,3.39,29.25,2,0,0,Delivered
+1013,2025-07-05,21,Chinese,Lunch,Digital Wallet,Germany,37.47,2.24,29.38,7,1,0,Delivered
+1014,2025-08-02,22,American,Dinner,PayPal,India,22.27,1.99,40.54,5,1,0,Delivered
+1015,2025-06-21,13,French,Dinner,Credit Card,Canada,68.44,0.67,27.26,1,1,1,Delivered
+1016,2025-03-27,10,Mexican,Snack,Digital Wallet,India,27.62,4.33,17.45,7,0,0,Delivered
+1017,2025-09-08,20,Chinese,Breakfast,Cash on Delivery,UK,47.19,1.31,28.41,6,0,1,Delivered
+1018,2025-06-30,19,American,Snack,Debit Card,USA,5.0,5.42,38.64,2,0,1,Delivered
+1019,2025-05-14,17,Italian,Lunch,Credit Card,Germany,37.6,1.02,19.03,6,0,0,Delivered
+1020,2025-08-30,20,Japanese,Lunch,Debit Card,India,31.37,1.01,22.85,6,1,1,Issues with Order
+1021,2025-09-22,21,Korean,Lunch,Credit Card,Australia,19.52,13.09,38.33,7,0,0,Delivered
+1022,2025-08-01,17,Mexican,Lunch,Digital Wallet,Mexico,25.67,0.77,34.45,3,0,0,Cancelled
+1023,2025-04-11,12,Japanese,Lunch,Digital Wallet,Germany,63.27,2.29,24.87,4,0,1,Delivered
+1024,2025-03-31,21,Mediterranean,Dinner,Digital Wallet,India,36.39,9.33,21.55,1,0,0,Delivered
+1025,2025-09-06,20,Italian,Dinner,Cash on Delivery,Japan,28.63,5.59,34.84,5,1,1,Delivered
+1026,2025-08-05,17,French,Dinner,Digital Wallet,USA,34.76,10.36,23.23,4,0,0,Delivered
+1027,2025-08-09,17,American,Breakfast,Cash on Delivery,Australia,16.61,0.0,21.13,6,1,0,Delivered
+1028,2025-05-22,21,Thai,Breakfast,Debit Card,Australia,27.96,4.94,33.75,3,0,0,Delivered
+1029,2025-04-11,20,Chinese,Breakfast,Cash on Delivery,Japan,18.63,3.07,34.58,1,0,1,Delivered
+1030,2025-09-02,15,Japanese,Lunch,Credit Card,India,34.28,3.33,27.38,4,0,0,Delivered
+1031,2025-04-08,15,Mediterranean,Lunch,Credit Card,Mexico,23.76,1.36,23.32,8,0,0,Delivered
+1032,2025-09-02,17,Korean,Breakfast,Credit Card,USA,24.3,3.14,38.9,1,0,0,Delivered
+1033,2025-09-19,11,Mexican,Breakfast,Cash on Delivery,USA,18.93,3.34,34.58,5,0,0,Delivered
+1034,2025-07-14,11,Chinese,Breakfast,Digital Wallet,USA,44.39,38.62,15.99,5,0,0,Late Delivery
+1035,2025-08-31,22,Thai,Lunch,Digital Wallet,Mexico,19.74,8.79,43.88,1,1,0,Issues with Order
+1036,2025-07-13,19,Korean,Breakfast,PayPal,USA,19.01,3.57,18.9,8,1,1,Delivered
+1037,2025-08-23,13,Chinese,Breakfast,Credit Card,Mexico,32.68,3.57,32.15,2,1,1,Delivered
+1038,2025-05-14,19,Mexican,Dinner,PayPal,Japan,18.49,0.18,30.02,8,0,1,Delivered
+1039,2025-07-17,12,Indian,Lunch,Credit Card,USA,5.0,9.14,47.25,3,0,1,Delivered
+1040,2025-09-08,22,American,Dinner,Digital Wallet,Brazil,9.47,0.25,26.99,3,0,0,Delivered
+1041,2025-06-13,19,American,Dinner,PayPal,USA,19.3,4.69,33.3,3,0,1,Delivered
+1042,2025-07-12,15,Indian,Lunch,Debit Card,UK,16.85,2.39,24.54,6,1,0,Delivered
+1043,2025-07-25,21,French,Dinner,Digital Wallet,Mexico,38.25,6.95,42.57,6,0,0,Issues with Order
+1044,2025-05-06,11,French,Breakfast,Cash on Delivery,Australia,49.88,1.35,25.54,1,0,0,Delivered
+1045,2025-09-19,13,French,Lunch,Debit Card,India,55.28,13.24,48.49,6,0,1,Late Delivery
+1046,2025-07-06,12,Italian,Dinner,Credit Card,UK,27.32,0.1,28.34,6,1,1,Delivered
+1047,2025-05-01,14,French,Lunch,Digital Wallet,France,46.47,7.46,42.96,1,0,1,Issues with Order
+1048,2025-06-06,12,Indian,Dinner,Debit Card,France,17.97,0.15,17.95,4,0,1,Delivered
+1049,2025-03-31,12,Japanese,Breakfast,Credit Card,Canada,46.38,13.53,32.52,7,0,1,Late Delivery
+1050,2025-06-20,13,Japanese,Snack,Debit Card,France,55.43,5.67,15.38,6,0,1,Delivered
+1051,2025-08-07,22,Korean,Snack,Credit Card,UK,33.69,14.7,25.44,3,0,0,Late Delivery
+1052,2025-05-13,13,Mediterranean,Snack,PayPal,France,38.98,1.62,35.33,7,0,1,Delivered
+1053,2025-05-27,10,Korean,Lunch,Digital Wallet,Germany,33.76,23.08,44.73,3,0,0,Late Delivery
+1054,2025-04-27,18,Korean,Snack,Debit Card,UK,14.12,0.41,17.21,8,1,1,Delivered
+1055,2025-08-30,11,Mexican,Snack,Digital Wallet,France,8.61,2.1,26.08,8,1,0,Delivered
+1056,2025-05-10,15,American,Snack,Cash on Delivery,India,20.32,13.2,18.45,5,1,0,Late Delivery
+1057,2025-08-22,20,Italian,Lunch,Debit Card,Australia,38.89,0.82,18.52,8,0,1,Delivered
+1058,2025-07-05,13,Japanese,Snack,Cash on Delivery,Mexico,44.17,3.48,34.85,3,1,1,Delivered
+1059,2025-06-29,14,Mediterranean,Breakfast,Debit Card,UK,32.76,5.42,13.7,5,1,1,Delivered
+1060,2025-06-24,13,Korean,Breakfast,Cash on Delivery,Brazil,33.25,4.31,38.16,6,0,1,Delivered
+1061,2025-07-23,16,Thai,Dinner,Cash on Delivery,France,15.51,2.57,47.47,5,0,0,Delivered
+1062,2025-05-24,14,Chinese,Dinner,Credit Card,Germany,22.3,5.87,35.94,2,1,1,Delivered
+1063,2025-05-23,11,Chinese,Breakfast,PayPal,USA,16.75,1.02,23.91,4,0,0,Delivered
+1064,2025-09-14,15,Japanese,Dinner,PayPal,Australia,32.46,8.89,11.15,3,1,0,Delivered
+1065,2025-08-12,14,Italian,Dinner,PayPal,France,39.23,3.79,24.3,7,0,1,Delivered
+1066,2025-08-21,22,Italian,Snack,Digital Wallet,Canada,34.25,1.78,11.49,7,0,0,Delivered
+1067,2025-05-18,17,Indian,Snack,Cash on Delivery,France,11.32,0.9,49.87,2,1,0,Delivered
+1068,2025-09-20,16,Indian,Snack,Cash on Delivery,Brazil,26.23,11.64,19.91,1,1,0,Late Delivery
+1069,2025-04-27,14,Italian,Snack,PayPal,France,50.16,5.37,21.54,4,1,1,Delivered
+1070,2025-09-17,22,Thai,Dinner,PayPal,Mexico,44.09,11.43,38.1,1,0,0,Cancelled
+1071,2025-05-04,15,Korean,Snack,Cash on Delivery,Australia,8.45,0.05,20.4,7,1,0,Issues with Order
+1072,2025-05-13,17,Chinese,Dinner,Digital Wallet,India,29.67,0.55,35.06,5,0,0,Delivered
+1073,2025-09-14,18,Mexican,Breakfast,Digital Wallet,India,13.7,0.63,54.12,1,1,1,Issues with Order
+1074,2025-06-06,13,Indian,Dinner,Digital Wallet,UK,26.49,6.71,23.21,8,0,1,Delivered
+1075,2025-05-08,15,Thai,Snack,Debit Card,UK,25.72,3.8,27.88,3,0,0,Delivered
+1076,2025-07-26,21,Chinese,Snack,Debit Card,Canada,7.56,13.93,35.82,4,1,0,Late Delivery
+1077,2025-09-12,17,Mexican,Dinner,Digital Wallet,Australia,5.92,0.26,21.4,8,0,0,Delivered
+1078,2025-03-27,12,French,Breakfast,Cash on Delivery,Mexico,46.94,3.06,26.98,4,0,1,Delivered
+1079,2025-08-18,17,French,Snack,Digital Wallet,USA,53.35,1.46,16.65,2,0,0,Delivered
+1080,2025-07-20,15,Japanese,Snack,Digital Wallet,Canada,17.02,8.67,40.29,7,1,0,Delivered
+1081,2025-07-14,17,Thai,Lunch,Digital Wallet,UK,24.06,2.16,43.26,7,0,0,Cancelled
+1082,2025-06-04,20,Mediterranean,Dinner,Credit Card,Australia,48.84,1.99,24.81,8,0,1,Delivered
+1083,2025-08-14,11,American,Breakfast,Credit Card,Brazil,9.81,9.19,10.0,6,0,0,Delivered
+1084,2025-05-07,14,Indian,Breakfast,Cash on Delivery,USA,19.44,8.26,16.99,2,0,1,Delivered
+1085,2025-09-14,21,French,Snack,PayPal,Japan,38.83,3.07,41.54,4,1,0,Delivered
+1086,2025-04-29,15,French,Snack,Cash on Delivery,UK,51.16,0.63,28.13,2,0,0,Delivered
+1087,2025-05-27,21,French,Lunch,Cash on Delivery,Germany,47.86,3.79,34.49,3,0,0,Delivered
+1088,2025-03-30,19,Chinese,Lunch,PayPal,UK,24.73,2.62,24.86,7,1,1,Delivered
+1089,2025-09-13,22,Italian,Dinner,Debit Card,India,40.44,17.73,20.18,6,1,0,Delivered
+1090,2025-09-14,18,Indian,Snack,Credit Card,Brazil,42.23,0.35,34.99,2,1,1,Delivered
+1091,2025-06-12,17,Italian,Breakfast,Credit Card,Japan,23.45,4.74,27.93,4,0,0,Delivered
+1092,2025-06-29,13,Indian,Breakfast,Credit Card,Japan,26.8,0.4,34.87,1,1,1,Delivered
+1093,2025-06-20,13,Chinese,Lunch,Credit Card,Canada,32.15,2.58,10.0,3,0,1,Delivered
+1094,2025-06-17,15,Mediterranean,Lunch,Digital Wallet,Australia,39.84,4.73,34.28,7,0,0,Delivered
+1095,2025-04-25,13,Indian,Breakfast,PayPal,France,11.28,0.56,22.91,3,0,1,Late Delivery
+1096,2025-03-29,16,Indian,Snack,Debit Card,UK,14.31,5.63,12.13,5,1,0,Delivered
+1097,2025-06-28,10,Chinese,Lunch,Cash on Delivery,Germany,19.44,2.51,32.04,8,1,0,Delivered
+1098,2025-04-21,21,Mediterranean,Lunch,PayPal,UK,30.48,8.78,26.5,6,0,0,Delivered
+1099,2025-09-20,16,Mexican,Dinner,Debit Card,France,24.07,0.92,24.71,8,1,0,Delivered
+1100,2025-08-28,19,French,Snack,Digital Wallet,Australia,47.3,1.32,40.18,1,0,1,Delivered
+1101,2025-04-26,14,Indian,Snack,Debit Card,Mexico,42.55,15.86,30.18,2,1,1,Delivered
+1102,2025-06-09,13,Mexican,Snack,Debit Card,USA,28.54,13.61,27.44,4,0,1,Late Delivery
+1103,2025-07-17,21,American,Lunch,PayPal,France,27.25,4.97,36.93,1,0,0,Delivered
+1104,2025-07-10,20,Japanese,Breakfast,Debit Card,France,66.97,3.79,24.38,6,0,1,Delivered
+1105,2025-08-11,10,Indian,Lunch,Digital Wallet,Japan,17.67,6.57,48.18,6,0,0,Delivered
+1106,2025-04-11,17,Chinese,Lunch,Credit Card,Canada,22.01,8.95,32.74,4,0,0,Delivered
+1107,2025-05-09,19,Mediterranean,Lunch,Debit Card,Brazil,49.41,2.82,31.4,2,0,1,Delivered
+1108,2025-07-23,14,Mexican,Lunch,Debit Card,Japan,32.32,1.45,27.87,3,0,1,Delivered
+1109,2025-06-11,14,Korean,Snack,Debit Card,Germany,24.43,3.61,42.19,8,0,1,Delivered
+1110,2025-07-05,16,Mexican,Snack,Cash on Delivery,Japan,31.73,1.97,12.35,7,1,0,Delivered
+1111,2025-07-27,10,Thai,Snack,Credit Card,Germany,24.06,6.52,34.2,3,1,0,Delivered
+1112,2025-05-09,14,Thai,Snack,PayPal,India,38.08,8.18,18.21,5,0,1,Delivered
+1113,2025-08-28,17,Chinese,Dinner,Debit Card,India,23.7,7.65,35.8,4,0,0,Delivered
+1114,2025-05-13,10,Italian,Dinner,Cash on Delivery,Japan,35.88,5.39,26.64,7,0,0,Delivered
+1115,2025-06-29,16,French,Dinner,Digital Wallet,UK,34.06,13.95,33.61,7,1,0,Late Delivery
+1116,2025-04-26,16,Korean,Lunch,Debit Card,Japan,29.44,1.26,18.48,5,1,0,Delivered
+1117,2025-06-23,18,French,Dinner,Credit Card,Japan,51.76,2.7,11.3,7,0,1,Delivered
+1118,2025-05-27,17,Italian,Dinner,Credit Card,Canada,31.07,2.71,26.62,5,0,0,Delivered
+1119,2025-09-16,12,Japanese,Lunch,Digital Wallet,Mexico,50.83,0.44,32.51,3,0,1,Delivered
+1120,2025-09-06,21,Thai,Snack,Digital Wallet,UK,16.6,0.08,27.75,4,1,0,Delivered
+1121,2025-05-07,16,Japanese,Dinner,Digital Wallet,Brazil,60.73,0.89,46.55,7,0,0,Issues with Order
+1122,2025-04-17,11,Korean,Dinner,Debit Card,Germany,21.26,10.14,24.93,4,0,0,Late Delivery
+1123,2025-06-12,10,Mexican,Snack,Credit Card,UK,23.61,0.26,37.4,2,0,0,Delivered
+1124,2025-07-10,18,Thai,Dinner,Cash on Delivery,Canada,25.83,2.5,24.8,3,0,1,Delivered
+1125,2025-09-22,12,Indian,Snack,Debit Card,Brazil,25.73,0.06,25.89,2,0,1,Delivered
+1126,2025-05-19,12,Indian,Breakfast,Debit Card,Australia,18.23,0.21,40.05,5,0,1,Issues with Order
+1127,2025-07-16,20,Korean,Breakfast,Debit Card,UK,7.69,18.21,44.95,5,0,1,Delivered
+1128,2025-08-22,13,French,Snack,Credit Card,USA,18.99,6.18,33.41,1,0,1,Delivered
+1129,2025-03-27,20,Korean,Breakfast,Credit Card,Australia,29.73,2.35,27.32,1,0,1,Delivered
+1130,2025-08-06,22,Japanese,Snack,Cash on Delivery,France,35.55,2.78,30.7,7,0,0,Delivered
+1131,2025-09-16,15,American,Lunch,PayPal,Japan,29.32,1.27,34.7,7,0,0,Delivered
+1132,2025-06-25,15,Chinese,Breakfast,Cash on Delivery,Japan,31.36,13.32,24.51,3,0,0,Delivered
+1133,2025-08-08,14,Indian,Dinner,Cash on Delivery,Mexico,23.89,2.06,21.03,8,0,1,Delivered
+1134,2025-09-11,13,Italian,Dinner,Credit Card,France,43.13,0.26,22.25,1,0,1,Delivered
+1135,2025-06-17,20,French,Lunch,Digital Wallet,India,5.0,2.04,26.25,7,0,1,Delivered
+1136,2025-04-15,15,Thai,Snack,Credit Card,Japan,31.73,0.88,10.0,5,0,0,Delivered
+1137,2025-05-01,18,Korean,Breakfast,Debit Card,India,38.29,7.14,33.13,2,0,1,Delivered
+1138,2025-09-14,18,French,Lunch,Cash on Delivery,UK,42.42,1.56,28.3,8,1,1,Delivered
+1139,2025-05-26,13,Indian,Lunch,Credit Card,UK,13.46,5.69,12.48,7,0,1,Delivered
+1140,2025-04-02,12,American,Snack,PayPal,Australia,40.68,1.07,21.4,5,0,1,Delivered
+1141,2025-09-13,11,Mexican,Snack,Credit Card,France,11.83,10.86,37.76,4,1,0,Late Delivery
+1142,2025-08-26,11,American,Snack,Cash on Delivery,Brazil,21.87,1.31,36.1,7,0,0,Delivered
+1143,2025-05-22,14,Chinese,Dinner,Credit Card,UK,10.33,5.58,24.99,2,0,1,Delivered
+1144,2025-08-24,13,Chinese,Dinner,Debit Card,France,30.17,8.7,39.73,7,1,1,Delivered
+1145,2025-03-26,14,Italian,Lunch,Cash on Delivery,Japan,21.76,6.7,26.69,6,0,1,Delivered
+1146,2025-09-15,22,Mexican,Lunch,Credit Card,Japan,39.01,1.58,18.58,1,0,0,Delivered
+1147,2025-07-21,15,Mexican,Dinner,Debit Card,India,33.93,10.05,48.3,8,0,0,Delivered
+1148,2025-09-21,10,Korean,Dinner,PayPal,Brazil,22.2,4.83,11.74,2,1,0,Delivered
+1149,2025-09-22,19,French,Lunch,Cash on Delivery,Germany,21.97,2.0,11.2,7,0,1,Late Delivery
+1150,2025-05-04,21,Indian,Lunch,Credit Card,Canada,36.45,1.13,32.1,8,1,0,Delivered
+1151,2025-06-10,20,Mexican,Breakfast,Digital Wallet,Japan,26.85,8.67,34.25,6,0,1,Delivered
+1152,2025-07-25,15,Thai,Snack,Credit Card,Brazil,39.7,0.08,32.95,5,0,0,Delivered
+1153,2025-05-14,21,Mediterranean,Snack,Credit Card,Canada,23.57,7.25,23.23,6,0,0,Delivered
+1154,2025-08-21,22,Italian,Dinner,Cash on Delivery,Canada,42.04,0.54,26.04,3,0,0,Delivered
+1155,2025-07-27,14,Mexican,Lunch,Debit Card,Australia,34.0,1.96,34.51,1,1,1,Delivered
+1156,2025-08-20,11,Mexican,Snack,Cash on Delivery,Canada,34.02,4.62,46.88,1,0,0,Delivered
+1157,2025-05-10,10,Chinese,Dinner,Digital Wallet,Japan,32.36,2.8,47.82,3,1,0,Issues with Order
+1158,2025-04-03,11,Indian,Snack,Cash on Delivery,Germany,34.18,1.28,22.34,3,0,0,Delivered
+1159,2025-06-30,22,Chinese,Snack,Cash on Delivery,Germany,14.5,4.91,37.57,8,0,0,Delivered
+1160,2025-04-25,11,Chinese,Breakfast,Cash on Delivery,Brazil,16.92,0.31,37.1,4,0,0,Issues with Order
+1161,2025-06-04,21,Chinese,Lunch,Cash on Delivery,India,27.84,9.47,20.12,7,0,0,Delivered
+1162,2025-04-27,11,American,Breakfast,Digital Wallet,Canada,22.14,13.22,10.0,7,1,0,Issues with Order
+1163,2025-04-11,18,Korean,Breakfast,Debit Card,UK,20.82,0.07,10.0,3,0,1,Delivered
+1164,2025-09-19,12,Italian,Snack,PayPal,UK,32.77,0.14,26.78,1,0,1,Delivered
+1165,2025-05-17,20,Mexican,Breakfast,Digital Wallet,Germany,14.29,3.97,49.11,1,1,1,Delivered
+1166,2025-06-10,15,Mediterranean,Lunch,Cash on Delivery,USA,28.45,5.45,21.3,4,0,0,Delivered
+1167,2025-08-05,22,Japanese,Snack,Debit Card,Mexico,47.77,4.15,39.38,8,0,0,Delivered
+1168,2025-08-06,15,Korean,Lunch,Credit Card,USA,17.27,0.47,30.01,4,0,0,Cancelled
+1169,2025-06-10,13,Mexican,Lunch,Digital Wallet,France,8.31,12.46,40.59,5,0,1,Late Delivery
+1170,2025-05-31,16,Mexican,Snack,Cash on Delivery,UK,14.32,6.27,27.2,5,1,0,Delivered
+1171,2025-09-19,12,Mediterranean,Lunch,Credit Card,Germany,37.75,5.98,11.42,4,0,1,Delivered
+1172,2025-08-17,20,Mediterranean,Lunch,Cash on Delivery,Canada,36.34,5.64,31.52,6,1,1,Delivered
+1173,2025-07-15,16,Italian,Lunch,Credit Card,Germany,39.41,1.75,31.48,2,0,0,Delivered
+1174,2025-09-17,18,Thai,Breakfast,PayPal,UK,31.53,5.02,18.62,6,0,1,Delivered
+1175,2025-06-03,12,Indian,Dinner,Credit Card,UK,22.62,6.52,30.46,7,0,1,Delivered
+1176,2025-05-21,16,Chinese,Breakfast,Debit Card,Brazil,36.65,4.07,17.54,5,0,0,Delivered
+1177,2025-07-29,11,Mediterranean,Dinner,Digital Wallet,Germany,24.46,0.5,26.22,5,0,0,Delivered
+1178,2025-04-07,12,American,Snack,Debit Card,France,17.4,2.57,32.87,7,0,1,Delivered
+1179,2025-04-27,14,Italian,Lunch,Debit Card,Canada,45.58,0.63,37.21,7,1,1,Delivered
+1180,2025-06-02,10,American,Lunch,Digital Wallet,Japan,12.02,0.06,22.42,8,0,0,Delivered
+1181,2025-06-24,22,French,Dinner,PayPal,Japan,62.55,15.81,31.34,4,0,0,Late Delivery
+1182,2025-06-12,16,American,Breakfast,Credit Card,UK,31.08,0.44,57.66,4,0,0,Issues with Order
+1183,2025-04-09,11,Japanese,Snack,Credit Card,Japan,12.71,4.67,38.76,3,0,0,Delivered
+1184,2025-08-04,20,Mediterranean,Breakfast,Cash on Delivery,USA,18.33,0.5,24.05,4,0,1,Delivered
+1185,2025-03-27,21,Thai,Dinner,Debit Card,Brazil,18.72,0.97,27.12,1,0,0,Delivered
+1186,2025-05-08,20,Mediterranean,Lunch,Debit Card,UK,34.62,3.8,32.75,6,0,1,Delivered
+1187,2025-08-04,15,Italian,Snack,Cash on Delivery,Japan,50.32,1.98,33.38,3,0,0,Delivered
+1188,2025-04-23,15,Indian,Breakfast,PayPal,Germany,16.82,5.58,13.67,8,0,0,Delivered
+1189,2025-05-19,10,Korean,Snack,Debit Card,Germany,13.47,0.71,41.37,1,0,0,Issues with Order
+1190,2025-07-28,10,American,Breakfast,Digital Wallet,India,15.83,4.32,33.27,6,0,0,Delivered
+1191,2025-04-22,10,American,Lunch,Cash on Delivery,France,36.01,7.0,40.61,1,0,0,Delivered
+1192,2025-04-16,18,Mediterranean,Lunch,Cash on Delivery,UK,35.0,6.55,40.83,8,0,1,Delivered
+1193,2025-05-29,13,French,Snack,PayPal,Germany,27.27,0.13,34.49,6,0,1,Delivered
+1194,2025-05-11,18,Japanese,Breakfast,Cash on Delivery,India,38.11,4.8,12.62,3,1,1,Delivered
+1195,2025-07-15,10,American,Lunch,Credit Card,Australia,21.39,0.67,34.16,5,0,0,Issues with Order
+1196,2025-07-11,21,American,Breakfast,Debit Card,Australia,50.55,3.9,23.58,8,0,0,Delivered
+1197,2025-06-02,11,Thai,Snack,Digital Wallet,India,26.96,3.93,20.96,3,0,0,Delivered
+1198,2025-07-06,18,Thai,Lunch,Credit Card,UK,31.57,8.58,17.3,1,1,1,Delivered
+1199,2025-06-22,18,Italian,Lunch,Credit Card,France,34.97,5.84,24.11,7,1,1,Delivered
+1200,2025-03-28,16,French,Dinner,PayPal,India,32.43,4.75,19.21,2,0,0,Delivered
+1201,2025-05-28,19,Mexican,Lunch,Debit Card,Germany,40.9,2.27,35.74,2,0,1,Delivered
+1202,2025-09-21,13,Thai,Lunch,Cash on Delivery,UK,19.81,1.05,51.64,3,1,1,Delivered
+1203,2025-09-03,20,Mexican,Lunch,Credit Card,Canada,30.03,2.22,47.96,7,0,1,Delivered
+1204,2025-05-02,16,Italian,Lunch,Credit Card,USA,30.51,7.27,28.44,7,0,0,Delivered
+1205,2025-06-12,21,Indian,Lunch,PayPal,Japan,14.74,5.63,42.3,8,0,0,Delivered
+1206,2025-04-08,14,Chinese,Dinner,PayPal,Germany,39.26,3.03,24.21,6,0,1,Delivered
+1207,2025-05-28,15,Italian,Lunch,Credit Card,USA,43.15,1.44,28.63,1,0,0,Delivered
+1208,2025-06-16,13,Japanese,Snack,PayPal,Mexico,48.27,17.42,20.21,2,0,1,Late Delivery
+1209,2025-07-29,15,American,Dinner,Credit Card,UK,19.06,2.07,28.34,1,0,0,Delivered
+1210,2025-04-28,15,American,Dinner,Digital Wallet,Brazil,12.49,5.37,30.22,6,0,0,Delivered
+1211,2025-06-04,13,Korean,Snack,Credit Card,UK,13.47,0.61,13.13,3,0,1,Delivered
+1212,2025-08-27,11,Italian,Lunch,Debit Card,India,32.44,2.45,39.6,2,0,0,Late Delivery
+1213,2025-06-11,21,French,Lunch,Digital Wallet,Canada,34.36,5.22,49.53,1,0,0,Delivered
+1214,2025-05-29,22,Mediterranean,Dinner,PayPal,India,37.07,15.46,35.11,2,0,0,Issues with Order
+1215,2025-08-07,18,Italian,Lunch,Digital Wallet,Germany,34.07,4.6,18.05,3,0,1,Delivered
+1216,2025-08-17,10,Indian,Snack,Cash on Delivery,Brazil,7.03,2.06,44.9,2,1,0,Delivered
+1217,2025-07-02,18,Thai,Snack,Digital Wallet,Germany,22.2,0.89,20.35,4,0,1,Delivered
+1218,2025-05-05,19,Indian,Breakfast,Digital Wallet,India,16.6,0.3,36.76,5,0,1,Delivered
+1219,2025-05-21,14,Japanese,Breakfast,Debit Card,Australia,77.48,10.28,41.91,1,0,1,Late Delivery
+1220,2025-09-05,12,Japanese,Lunch,PayPal,USA,17.31,8.12,39.2,4,0,1,Delivered
+1221,2025-05-18,18,Chinese,Breakfast,PayPal,Mexico,16.84,4.17,30.78,6,1,1,Delivered
+1222,2025-09-22,18,Japanese,Lunch,Cash on Delivery,Mexico,41.94,1.76,38.04,5,0,1,Delivered
+1223,2025-04-09,20,Italian,Dinner,Debit Card,Germany,34.11,2.83,29.24,3,0,1,Delivered
+1224,2025-03-30,18,Korean,Breakfast,Cash on Delivery,Germany,17.44,14.03,31.73,4,1,1,Late Delivery
+1225,2025-06-02,13,Korean,Snack,Debit Card,India,30.06,8.81,44.89,4,0,1,Issues with Order
+1226,2025-05-02,17,Chinese,Snack,Debit Card,India,24.54,4.97,21.69,3,0,0,Delivered
+1227,2025-05-10,13,Korean,Snack,Debit Card,Germany,29.91,1.62,35.7,1,1,1,Delivered
+1228,2025-05-10,16,Korean,Lunch,Credit Card,Canada,30.6,0.21,21.86,2,1,0,Delivered
+1229,2025-07-20,20,Thai,Breakfast,Digital Wallet,Canada,29.36,4.35,10.0,1,1,1,Delivered
+1230,2025-06-30,16,Italian,Breakfast,Credit Card,USA,37.24,3.28,34.73,3,0,0,Delivered
+1231,2025-04-16,14,Mexican,Breakfast,Credit Card,UK,18.25,2.9,25.97,6,0,1,Delivered
+1232,2025-04-16,13,Mexican,Snack,Digital Wallet,India,12.35,0.28,45.29,3,0,1,Delivered
+1233,2025-05-27,10,Mediterranean,Dinner,Digital Wallet,UK,45.09,2.42,32.08,1,0,0,Delivered
+1234,2025-04-21,18,Japanese,Breakfast,Digital Wallet,Japan,40.6,0.25,15.51,3,0,1,Cancelled
+1235,2025-04-01,13,Thai,Snack,Debit Card,France,29.26,4.43,34.18,5,0,1,Delivered
+1236,2025-09-17,16,Chinese,Snack,Debit Card,UK,36.41,4.04,24.41,4,0,0,Delivered
+1237,2025-06-06,15,Chinese,Dinner,Credit Card,France,29.44,7.67,41.01,2,0,0,Issues with Order
+1238,2025-05-10,16,Mediterranean,Dinner,Digital Wallet,Canada,16.74,15.84,47.47,7,1,0,Issues with Order
+1239,2025-06-07,15,Chinese,Dinner,Cash on Delivery,France,47.72,1.25,38.89,5,1,0,Delivered
+1240,2025-04-14,22,Italian,Lunch,Debit Card,France,48.24,1.02,49.35,3,0,0,Delivered
+1241,2025-07-26,11,Chinese,Snack,PayPal,Canada,26.46,7.21,23.86,2,1,0,Delivered
+1242,2025-04-27,12,Thai,Dinner,PayPal,India,9.56,5.49,31.32,7,1,1,Delivered
+1243,2025-07-09,19,American,Lunch,Debit Card,Japan,23.88,0.89,21.95,7,0,1,Delivered
+1244,2025-08-10,18,French,Lunch,Cash on Delivery,UK,37.24,2.44,24.52,7,1,1,Delivered
+1245,2025-09-19,22,Indian,Breakfast,Debit Card,France,23.72,3.58,24.39,1,0,0,Delivered
+1246,2025-03-30,15,Mediterranean,Snack,Debit Card,UK,6.48,9.14,26.61,1,1,0,Delivered
+1247,2025-06-26,22,Mexican,Dinner,Cash on Delivery,Canada,25.19,0.32,18.28,7,0,0,Delivered
+1248,2025-05-22,10,Mexican,Breakfast,Debit Card,Japan,26.27,4.17,22.65,1,0,0,Delivered
+1249,2025-07-12,15,Italian,Breakfast,Digital Wallet,UK,36.88,16.07,40.24,8,1,0,Late Delivery
+1250,2025-04-02,12,American,Lunch,Credit Card,Australia,46.04,0.23,35.96,2,0,1,Issues with Order
+1251,2025-05-03,22,Mexican,Snack,Debit Card,Brazil,20.45,0.93,27.81,5,1,0,Delivered
+1252,2025-06-20,17,Italian,Dinner,Credit Card,Canada,15.35,2.22,31.2,1,0,0,Delivered
+1253,2025-04-03,19,Mexican,Lunch,Credit Card,Japan,34.78,0.4,10.0,7,0,1,Delivered
+1254,2025-07-20,18,Japanese,Dinner,Debit Card,Japan,28.3,3.36,47.7,3,1,1,Issues with Order
+1255,2025-04-27,21,Indian,Snack,Digital Wallet,USA,21.39,2.04,29.36,4,1,0,Delivered
+1256,2025-08-16,19,Chinese,Snack,Cash on Delivery,France,26.1,6.52,35.07,7,1,1,Delivered
+1257,2025-05-07,10,American,Snack,Debit Card,Germany,15.75,1.35,14.02,2,0,0,Delivered
+1258,2025-06-26,19,American,Breakfast,Debit Card,Germany,31.21,3.96,40.4,3,0,1,Delivered
+1259,2025-06-13,13,Mediterranean,Lunch,Credit Card,Australia,44.79,0.38,29.52,5,0,1,Delivered
+1260,2025-08-17,22,French,Breakfast,Credit Card,France,31.54,7.63,16.88,2,1,0,Delivered
+1261,2025-03-28,15,Japanese,Snack,Digital Wallet,Australia,45.68,1.27,30.51,6,0,0,Delivered
+1262,2025-06-25,12,Chinese,Dinner,Cash on Delivery,Brazil,9.73,19.13,12.98,2,0,1,Late Delivery
+1263,2025-04-01,19,Thai,Snack,Digital Wallet,USA,30.0,2.03,24.66,5,0,1,Delivered
+1264,2025-09-16,17,Chinese,Breakfast,Debit Card,Australia,19.46,4.32,45.99,3,0,0,Issues with Order
+1265,2025-08-01,18,Korean,Dinner,Cash on Delivery,Canada,29.35,10.07,34.75,6,0,1,Delivered
+1266,2025-07-14,10,Thai,Lunch,Debit Card,Mexico,26.6,0.75,26.34,2,0,0,Delivered
+1267,2025-08-18,20,French,Breakfast,Credit Card,Canada,64.19,2.58,10.0,5,0,1,Delivered
+1268,2025-04-17,17,Chinese,Snack,PayPal,Canada,26.57,0.73,30.06,5,0,0,Delivered
+1269,2025-06-05,19,American,Dinner,Credit Card,UK,15.34,0.71,46.29,3,0,1,Issues with Order
+1270,2025-07-25,14,French,Lunch,Credit Card,Mexico,65.52,3.31,18.31,8,0,1,Late Delivery
+1271,2025-07-06,16,Korean,Lunch,Cash on Delivery,France,6.68,4.5,19.49,6,1,0,Delivered
+1272,2025-09-16,16,Mediterranean,Snack,PayPal,USA,20.84,3.19,32.64,1,0,0,Delivered
+1273,2025-05-27,21,Mediterranean,Breakfast,Debit Card,UK,60.15,1.18,45.94,5,0,0,Delivered
+1274,2025-04-13,13,Thai,Snack,Credit Card,France,37.05,4.15,23.76,8,1,1,Delivered
+1275,2025-08-09,17,Chinese,Breakfast,Debit Card,UK,33.79,4.19,19.23,7,1,0,Delivered
+1276,2025-05-16,16,American,Breakfast,PayPal,France,31.57,4.71,38.28,8,0,0,Delivered
+1277,2025-07-25,11,Japanese,Snack,Credit Card,Brazil,28.33,1.51,29.64,3,0,0,Delivered
+1278,2025-05-02,20,Indian,Dinner,Digital Wallet,USA,43.1,3.6,15.26,7,0,1,Late Delivery
+1279,2025-07-14,17,Indian,Breakfast,Debit Card,USA,6.6,6.63,29.68,7,0,0,Delivered
+1280,2025-09-04,12,Chinese,Lunch,Credit Card,Germany,25.64,14.19,26.4,7,0,1,Delivered
+1281,2025-07-19,16,Mediterranean,Lunch,PayPal,Canada,33.64,0.48,17.01,1,1,0,Issues with Order
+1282,2025-06-21,22,Japanese,Lunch,Debit Card,France,57.79,2.62,51.21,7,1,0,Issues with Order
+1283,2025-05-06,21,Thai,Dinner,Digital Wallet,Japan,34.58,1.09,30.52,1,0,0,Delivered
+1284,2025-08-25,13,Chinese,Lunch,PayPal,France,34.36,4.54,31.85,1,0,1,Delivered
+1285,2025-07-21,12,French,Dinner,Credit Card,Japan,40.54,6.93,43.12,5,0,1,Issues with Order
+1286,2025-04-27,20,French,Breakfast,Credit Card,Australia,47.17,1.0,38.27,4,1,1,Delivered
+1287,2025-08-12,22,Mexican,Snack,Debit Card,France,16.68,1.42,23.62,4,0,0,Delivered
+1288,2025-09-15,19,Italian,Dinner,PayPal,USA,41.27,4.43,11.65,5,0,1,Delivered
+1289,2025-08-01,11,French,Snack,Cash on Delivery,Japan,73.81,0.43,17.77,6,0,0,Delivered
+1290,2025-08-06,22,American,Breakfast,Debit Card,India,10.11,1.67,30.94,7,0,0,Delivered
+1291,2025-08-14,19,Mexican,Snack,Cash on Delivery,Germany,37.4,0.07,26.04,7,0,1,Delivered
+1292,2025-09-21,19,Chinese,Breakfast,Credit Card,UK,38.37,8.01,41.83,1,1,1,Issues with Order
+1293,2025-07-31,21,Korean,Breakfast,Cash on Delivery,Brazil,48.04,5.44,15.21,1,0,0,Delivered
+1294,2025-07-11,13,Indian,Snack,Digital Wallet,Japan,29.8,28.96,31.99,2,0,1,Delivered
+1295,2025-04-26,15,French,Snack,Cash on Delivery,USA,30.4,10.59,40.07,6,1,0,Late Delivery
+1296,2025-06-02,20,Japanese,Dinner,Cash on Delivery,Australia,40.85,1.25,34.51,1,0,1,Delivered
+1297,2025-07-10,10,Italian,Breakfast,Debit Card,France,59.6,1.37,30.01,6,0,0,Delivered
+1298,2025-08-19,16,Indian,Snack,Debit Card,Mexico,32.92,1.87,37.86,7,0,0,Delivered
+1299,2025-08-20,16,Mexican,Snack,Debit Card,Japan,11.5,18.77,25.85,6,0,0,Late Delivery
+1300,2025-04-20,21,Mexican,Breakfast,Digital Wallet,Japan,30.6,1.81,31.88,5,1,0,Delivered
+1301,2025-05-05,15,Indian,Breakfast,Credit Card,USA,31.93,5.88,37.35,7,0,0,Cancelled
+1302,2025-04-02,19,Mediterranean,Breakfast,Digital Wallet,Japan,33.86,0.7,34.17,1,0,1,Delivered
+1303,2025-04-28,17,American,Lunch,Debit Card,Australia,36.95,4.28,38.95,5,0,0,Delivered
+1304,2025-05-27,21,Thai,Dinner,Credit Card,Germany,25.22,1.87,15.39,2,0,0,Delivered
+1305,2025-09-02,10,Korean,Breakfast,Credit Card,India,43.98,6.84,20.52,2,0,0,Delivered
+1306,2025-06-06,14,Mexican,Breakfast,Credit Card,India,19.99,1.57,15.82,6,0,1,Delivered
+1307,2025-05-18,16,Chinese,Snack,Credit Card,Japan,30.96,12.0,23.66,2,1,0,Late Delivery
+1308,2025-05-18,20,Thai,Snack,PayPal,India,38.41,11.36,23.07,3,1,1,Cancelled
+1309,2025-09-10,19,Korean,Breakfast,Credit Card,France,21.61,15.65,33.7,6,0,1,Late Delivery
+1310,2025-08-12,10,Mexican,Dinner,Credit Card,Australia,9.92,0.32,18.43,1,0,0,Delivered
+1311,2025-08-05,18,Mexican,Lunch,PayPal,UK,15.1,1.43,29.65,4,0,1,Cancelled
+1312,2025-05-21,11,Mexican,Dinner,PayPal,India,34.9,10.42,24.13,4,0,0,Late Delivery
+1313,2025-08-14,20,Japanese,Snack,Cash on Delivery,Japan,56.74,9.73,25.69,7,0,1,Delivered
+1314,2025-05-29,12,Indian,Dinner,Cash on Delivery,UK,19.35,5.86,34.23,5,0,1,Delivered
+1315,2025-05-17,21,French,Snack,Cash on Delivery,Japan,47.24,2.01,33.64,5,1,0,Delivered
+1316,2025-09-01,11,Korean,Snack,Cash on Delivery,Australia,47.21,3.57,30.09,6,0,0,Delivered
+1317,2025-09-03,11,French,Lunch,Credit Card,Brazil,39.6,8.11,22.72,5,0,0,Delivered
+1318,2025-06-09,19,Mediterranean,Dinner,Cash on Delivery,USA,33.45,5.43,33.41,2,0,1,Delivered
+1319,2025-06-16,16,Mexican,Dinner,Debit Card,UK,32.31,14.57,35.9,4,0,0,Late Delivery
+1320,2025-06-14,11,Italian,Dinner,Credit Card,France,44.8,0.71,25.74,4,1,0,Delivered
+1321,2025-06-16,13,Mediterranean,Breakfast,Cash on Delivery,Germany,47.35,5.66,38.72,4,0,1,Delivered
+1322,2025-04-21,18,Japanese,Breakfast,Digital Wallet,Japan,53.3,0.92,26.33,7,0,1,Delivered
+1323,2025-06-15,13,Indian,Breakfast,Cash on Delivery,India,25.73,3.23,28.5,1,1,1,Delivered
+1324,2025-07-11,11,Chinese,Snack,Debit Card,Mexico,21.49,0.92,40.5,6,0,0,Issues with Order
+1325,2025-03-31,14,Italian,Breakfast,Cash on Delivery,Germany,37.14,1.05,42.29,3,0,1,Issues with Order
+1326,2025-08-09,18,Italian,Dinner,Credit Card,UK,36.09,4.64,48.07,8,1,1,Delivered
+1327,2025-06-11,14,American,Dinner,Cash on Delivery,UK,37.75,8.85,28.48,6,0,1,Delivered
+1328,2025-04-07,16,Japanese,Snack,Cash on Delivery,UK,36.1,9.13,33.15,6,0,0,Delivered
+1329,2025-04-21,10,Indian,Breakfast,Credit Card,Canada,37.18,2.25,40.57,2,0,0,Issues with Order
+1330,2025-07-15,13,Mexican,Breakfast,Debit Card,France,28.61,0.6,36.08,1,0,1,Delivered
+1331,2025-04-08,14,Italian,Breakfast,Credit Card,Germany,46.2,0.24,27.77,2,0,1,Delivered
+1332,2025-09-18,19,Thai,Dinner,Debit Card,Canada,25.73,4.99,31.87,8,0,1,Delivered
+1333,2025-06-15,12,Korean,Snack,Cash on Delivery,UK,15.84,14.24,21.63,4,1,1,Late Delivery
+1334,2025-06-05,15,French,Lunch,Credit Card,Germany,59.95,2.5,22.7,5,0,0,Delivered
+1335,2025-06-24,18,Indian,Lunch,Credit Card,UK,29.24,2.3,30.39,8,0,1,Delivered
+1336,2025-09-13,13,French,Snack,Debit Card,India,24.48,3.68,17.47,2,1,1,Delivered
+1337,2025-08-24,22,Mediterranean,Dinner,PayPal,India,47.15,3.52,28.42,3,1,0,Delivered
+1338,2025-04-22,12,Indian,Dinner,Cash on Delivery,India,13.62,20.3,30.24,4,0,1,Late Delivery
+1339,2025-06-05,16,Mexican,Dinner,Digital Wallet,UK,23.19,5.44,28.94,3,0,0,Delivered
+1340,2025-04-22,21,Chinese,Lunch,Credit Card,India,9.47,2.74,47.46,3,0,0,Delivered
+1341,2025-08-08,17,American,Dinner,Credit Card,Brazil,18.78,8.58,35.83,2,0,0,Delivered
+1342,2025-05-19,12,Thai,Snack,Digital Wallet,France,15.05,3.06,48.27,1,0,1,Issues with Order
+1343,2025-04-07,20,Thai,Snack,Debit Card,Germany,33.58,3.6,21.72,4,0,1,Delivered
+1344,2025-08-25,14,Mediterranean,Snack,Digital Wallet,Japan,45.76,27.29,13.28,2,0,1,Late Delivery
+1345,2025-04-23,13,Chinese,Breakfast,Credit Card,Mexico,32.93,2.12,28.78,5,0,1,Delivered
+1346,2025-08-09,11,Japanese,Lunch,Digital Wallet,Japan,23.86,0.0,25.91,7,1,0,Delivered
+1347,2025-05-21,21,Japanese,Snack,Debit Card,Canada,34.28,0.64,35.21,4,0,0,Delivered
+1348,2025-06-07,21,Korean,Dinner,Credit Card,UK,26.49,13.21,27.12,3,1,0,Late Delivery
+1349,2025-07-26,21,Japanese,Lunch,Debit Card,France,30.07,3.59,28.18,2,1,0,Delivered
+1350,2025-06-19,17,Mexican,Breakfast,Cash on Delivery,Japan,12.67,4.86,15.1,6,0,0,Late Delivery
+1351,2025-04-14,12,Italian,Dinner,Cash on Delivery,Mexico,27.97,0.18,33.29,1,0,1,Delivered
+1352,2025-05-28,17,Chinese,Breakfast,Credit Card,Mexico,23.94,8.11,25.46,5,0,0,Delivered
+1353,2025-08-07,18,Mexican,Lunch,Credit Card,UK,18.08,5.63,10.31,5,0,1,Delivered
+1354,2025-06-19,17,French,Dinner,Digital Wallet,Germany,62.08,10.05,30.28,8,0,0,Delivered
+1355,2025-06-24,14,American,Snack,Credit Card,Germany,27.77,3.3,29.78,1,0,1,Delivered
+1356,2025-07-09,13,Mexican,Dinner,Cash on Delivery,USA,27.48,24.23,13.74,4,0,1,Late Delivery
+1357,2025-07-14,15,Indian,Breakfast,Debit Card,Japan,15.25,0.04,43.04,2,0,0,Issues with Order
+1358,2025-09-15,18,French,Lunch,PayPal,France,23.68,8.54,24.83,6,0,1,Delivered
+1359,2025-07-10,14,Japanese,Lunch,Credit Card,Mexico,60.03,0.0,25.02,6,0,1,Delivered
+1360,2025-04-26,16,French,Dinner,PayPal,UK,29.04,1.33,22.1,1,1,0,Delivered
+1361,2025-09-17,12,French,Lunch,Digital Wallet,Germany,18.43,2.7,34.72,3,0,1,Delivered
+1362,2025-06-07,11,Japanese,Breakfast,Cash on Delivery,USA,58.8,11.79,26.99,4,1,0,Delivered
+1363,2025-04-08,17,Japanese,Breakfast,Cash on Delivery,France,13.87,0.56,29.14,1,0,0,Cancelled
+1364,2025-06-23,14,Mediterranean,Lunch,Credit Card,Germany,22.32,1.93,19.41,3,0,1,Delivered
+1365,2025-05-15,16,Korean,Breakfast,PayPal,Australia,29.64,0.65,24.49,1,0,0,Delivered
+1366,2025-06-24,13,Thai,Snack,Cash on Delivery,UK,16.09,0.37,33.2,5,0,1,Delivered
+1367,2025-08-25,14,Mexican,Snack,PayPal,Mexico,26.81,0.41,43.03,3,0,1,Issues with Order
+1368,2025-04-29,16,Mediterranean,Lunch,PayPal,Germany,32.56,9.62,32.2,2,0,0,Delivered
+1369,2025-09-02,17,Mediterranean,Lunch,Cash on Delivery,Japan,35.09,7.34,26.74,2,0,0,Delivered
+1370,2025-07-17,21,American,Dinner,Cash on Delivery,France,18.61,1.71,21.09,7,0,0,Delivered
+1371,2025-07-09,17,Italian,Breakfast,Cash on Delivery,UK,18.34,3.93,14.0,3,0,0,Delivered
+1372,2025-06-11,22,Indian,Dinner,Debit Card,Mexico,29.88,0.92,21.32,5,0,0,Issues with Order
+1373,2025-04-27,16,Italian,Snack,Digital Wallet,India,35.42,7.96,10.31,1,1,0,Late Delivery
+1374,2025-09-08,11,American,Breakfast,PayPal,Mexico,32.9,0.85,43.01,8,0,0,Issues with Order
+1375,2025-04-26,21,Korean,Breakfast,Debit Card,Brazil,16.44,2.37,30.98,3,1,0,Delivered
+1376,2025-07-30,12,Indian,Lunch,PayPal,Germany,19.96,1.6,29.05,1,0,1,Delivered
+1377,2025-09-01,21,Indian,Breakfast,Credit Card,USA,21.17,0.99,28.76,3,0,0,Delivered
+1378,2025-04-25,18,Chinese,Lunch,Debit Card,UK,30.57,0.76,28.66,8,0,1,Issues with Order
+1379,2025-07-04,10,Chinese,Dinner,Cash on Delivery,India,21.0,19.88,32.69,3,0,0,Late Delivery
+1380,2025-08-12,14,Korean,Snack,Digital Wallet,UK,38.15,2.1,24.34,7,0,1,Delivered
+1381,2025-03-31,12,Mexican,Lunch,Debit Card,Brazil,13.24,0.79,34.88,4,0,1,Delivered
+1382,2025-06-08,14,Chinese,Snack,PayPal,Germany,27.79,8.26,38.62,7,1,1,Delivered
+1383,2025-04-22,17,Thai,Snack,Debit Card,USA,22.97,1.88,24.72,5,0,0,Delivered
+1384,2025-08-17,16,Italian,Dinner,Credit Card,Mexico,18.18,0.8,43.2,8,1,0,Delivered
+1385,2025-04-30,17,French,Dinner,Credit Card,Canada,63.56,2.41,33.8,6,0,0,Delivered
+1386,2025-08-01,13,American,Snack,Digital Wallet,UK,22.22,1.36,26.63,3,0,1,Delivered
+1387,2025-06-24,20,Korean,Dinner,Cash on Delivery,Canada,34.79,4.59,16.28,5,0,1,Delivered
+1388,2025-09-10,14,Thai,Breakfast,Cash on Delivery,Japan,15.15,8.69,44.05,8,0,1,Issues with Order
+1389,2025-08-02,22,Mediterranean,Dinner,Debit Card,France,33.2,8.07,15.67,6,1,0,Delivered
+1390,2025-07-07,11,Italian,Breakfast,Debit Card,Australia,31.06,5.76,38.01,2,0,0,Delivered
+1391,2025-07-31,20,French,Dinner,Debit Card,Australia,39.52,4.71,28.49,2,0,1,Delivered
+1392,2025-05-09,21,Thai,Snack,Credit Card,USA,18.96,0.42,16.17,5,0,0,Delivered
+1393,2025-04-13,17,American,Breakfast,Debit Card,France,20.48,0.47,22.11,2,1,0,Delivered
+1394,2025-06-30,12,Korean,Lunch,Debit Card,Germany,14.39,1.84,29.55,8,0,1,Delivered
+1395,2025-06-07,13,Indian,Lunch,Cash on Delivery,Brazil,28.2,10.79,46.54,4,1,1,Delivered
+1396,2025-04-19,13,Italian,Lunch,Credit Card,France,53.54,1.09,54.14,7,1,1,Issues with Order
+1397,2025-06-21,12,Mediterranean,Snack,Debit Card,Australia,21.83,7.13,15.23,8,1,1,Delivered
+1398,2025-06-25,19,Mediterranean,Lunch,Credit Card,India,39.57,6.7,28.64,7,0,1,Delivered
+1399,2025-04-13,19,Chinese,Lunch,Digital Wallet,Germany,34.5,0.25,32.43,2,1,1,Delivered
+1400,2025-05-24,10,Korean,Dinner,Credit Card,Australia,22.6,1.29,13.3,5,1,0,Delivered
+1401,2025-05-29,16,American,Breakfast,Debit Card,Germany,28.02,2.76,31.76,2,0,0,Delivered
+1402,2025-05-26,18,Korean,Dinner,Cash on Delivery,Mexico,27.97,2.94,28.98,1,0,1,Delivered
+1403,2025-04-23,19,French,Dinner,Credit Card,USA,12.06,12.01,28.38,6,0,1,Late Delivery
+1404,2025-04-10,12,Indian,Dinner,Credit Card,Australia,40.13,8.35,33.98,8,0,1,Delivered
+1405,2025-06-22,11,Thai,Breakfast,Digital Wallet,India,17.0,9.43,10.92,3,1,0,Delivered
+1406,2025-04-05,11,Italian,Snack,Digital Wallet,Australia,49.32,14.15,24.45,6,1,0,Late Delivery
+1407,2025-05-23,10,Italian,Breakfast,Debit Card,Brazil,51.72,8.18,37.11,7,0,0,Delivered
+1408,2025-03-30,18,French,Breakfast,Cash on Delivery,Japan,40.01,0.26,40.94,3,1,1,Issues with Order
+1409,2025-04-30,11,French,Breakfast,Digital Wallet,France,70.04,2.99,20.57,6,0,0,Delivered
+1410,2025-04-09,13,Indian,Breakfast,Digital Wallet,USA,17.58,5.04,42.92,4,0,1,Issues with Order
+1411,2025-08-10,19,Italian,Breakfast,Debit Card,USA,42.03,3.94,22.63,2,1,1,Issues with Order
+1412,2025-05-11,14,Italian,Dinner,PayPal,Mexico,27.15,6.9,20.69,4,1,1,Delivered
+1413,2025-04-28,19,Thai,Snack,Credit Card,UK,10.01,17.1,29.08,2,0,1,Delivered
+1414,2025-07-30,21,American,Lunch,Cash on Delivery,Germany,16.16,11.41,10.0,6,0,0,Late Delivery
+1415,2025-09-09,13,Mediterranean,Dinner,PayPal,Brazil,57.27,1.45,32.24,2,0,1,Issues with Order
+1416,2025-09-22,19,French,Dinner,Credit Card,Australia,29.46,1.15,28.53,3,0,1,Delivered
+1417,2025-08-06,13,Japanese,Lunch,Credit Card,France,59.4,4.0,34.62,3,0,1,Cancelled
+1418,2025-09-20,17,French,Breakfast,Credit Card,India,52.11,4.58,22.79,1,1,0,Delivered
+1419,2025-08-23,16,Japanese,Breakfast,Credit Card,Germany,58.31,18.53,37.61,7,1,0,Late Delivery
+1420,2025-07-02,17,Italian,Lunch,Debit Card,Japan,12.67,5.23,38.64,3,0,0,Delivered
+1421,2025-08-09,10,Japanese,Breakfast,Digital Wallet,France,39.76,8.46,22.27,1,1,0,Delivered
+1422,2025-06-20,14,Korean,Lunch,Credit Card,France,8.54,3.21,45.06,7,0,1,Issues with Order
+1423,2025-04-09,22,Chinese,Snack,PayPal,Brazil,20.88,10.19,39.13,8,0,0,Late Delivery
+1424,2025-08-05,14,Mexican,Snack,Cash on Delivery,Australia,25.97,9.4,28.56,3,0,1,Delivered
+1425,2025-06-05,22,Japanese,Breakfast,Debit Card,Brazil,40.8,0.9,17.21,5,0,0,Delivered
+1426,2025-07-05,10,Korean,Dinner,PayPal,Germany,28.14,5.04,48.38,5,1,0,Issues with Order
+1427,2025-08-28,10,Chinese,Dinner,Digital Wallet,France,19.19,0.21,23.89,5,0,0,Delivered
+1428,2025-07-17,17,Italian,Snack,Credit Card,India,42.56,9.76,11.23,1,0,0,Delivered
+1429,2025-07-26,20,Mediterranean,Lunch,Cash on Delivery,USA,26.22,15.3,48.9,2,1,1,Issues with Order
+1430,2025-04-11,17,Mexican,Dinner,PayPal,Germany,28.33,3.75,31.7,8,0,0,Delivered
+1431,2025-09-03,12,Mexican,Breakfast,Debit Card,UK,18.92,1.8,33.63,1,0,1,Delivered
+1432,2025-08-02,17,Korean,Dinner,Credit Card,Brazil,49.85,4.59,42.53,4,1,0,Delivered
+1433,2025-05-31,14,Italian,Dinner,Digital Wallet,USA,30.23,4.8,18.98,4,1,1,Delivered
+1434,2025-04-14,18,French,Breakfast,Digital Wallet,UK,46.15,4.48,31.24,4,0,1,Delivered
+1435,2025-08-19,15,Thai,Breakfast,Cash on Delivery,Germany,30.68,4.88,19.5,3,0,0,Late Delivery
+1436,2025-06-19,16,American,Snack,PayPal,Mexico,22.51,3.76,55.02,1,0,0,Cancelled
+1437,2025-08-24,10,Chinese,Lunch,PayPal,Brazil,27.43,1.1,10.0,6,1,0,Delivered
+1438,2025-06-30,19,Italian,Lunch,Cash on Delivery,UK,28.74,0.44,35.07,2,0,1,Delivered
+1439,2025-05-22,19,Mediterranean,Snack,Digital Wallet,UK,58.08,2.88,22.25,1,0,1,Delivered
+1440,2025-09-10,18,Mediterranean,Snack,PayPal,Germany,40.32,2.13,12.98,4,0,1,Delivered
+1441,2025-06-09,13,American,Lunch,PayPal,Australia,5.0,6.68,30.28,8,0,1,Delivered
+1442,2025-04-24,21,Indian,Snack,Cash on Delivery,France,24.7,2.05,24.54,2,0,0,Delivered
+1443,2025-08-02,11,American,Snack,Digital Wallet,Australia,41.43,3.32,33.61,8,1,0,Delivered
+1444,2025-05-23,19,Mexican,Lunch,Cash on Delivery,Mexico,48.91,1.35,33.77,3,0,1,Delivered
+1445,2025-06-07,15,American,Breakfast,Credit Card,Japan,5.0,0.39,23.7,7,1,0,Delivered
+1446,2025-05-02,19,French,Lunch,Debit Card,India,34.27,3.52,23.9,1,0,1,Delivered
+1447,2025-07-11,14,Mediterranean,Snack,Credit Card,Canada,23.18,0.19,31.99,1,0,1,Delivered
+1448,2025-04-01,21,Mexican,Breakfast,Debit Card,Brazil,36.78,1.52,27.87,7,0,0,Delivered
+1449,2025-06-24,12,Thai,Lunch,PayPal,UK,19.82,2.98,29.12,6,0,1,Delivered
+1450,2025-06-20,19,Korean,Breakfast,Credit Card,UK,41.85,2.02,48.44,6,0,1,Issues with Order
+1451,2025-09-03,17,Thai,Dinner,Cash on Delivery,Canada,18.21,2.28,26.82,3,0,0,Delivered
+1452,2025-08-23,18,Chinese,Lunch,Credit Card,Mexico,27.17,16.95,26.73,6,1,1,Late Delivery
+1453,2025-06-16,17,Mexican,Dinner,Credit Card,Australia,40.99,1.68,38.02,5,0,0,Delivered
+1454,2025-04-07,19,Mediterranean,Snack,PayPal,France,26.26,3.29,51.48,7,0,1,Delivered
+1455,2025-05-01,10,Indian,Snack,Digital Wallet,Germany,16.91,1.91,39.57,6,0,0,Late Delivery
+1456,2025-05-07,11,Japanese,Dinner,Cash on Delivery,India,58.1,4.71,29.7,4,0,0,Delivered
+1457,2025-06-07,14,Korean,Breakfast,Debit Card,Germany,8.84,2.1,33.0,3,1,1,Cancelled
+1458,2025-04-02,19,Italian,Lunch,Credit Card,India,37.31,3.62,41.45,1,0,1,Delivered
+1459,2025-08-19,16,French,Lunch,Cash on Delivery,Germany,43.43,4.62,33.93,2,0,0,Delivered
+1460,2025-04-25,17,Thai,Snack,PayPal,UK,27.35,13.48,24.6,3,0,0,Late Delivery
+1461,2025-04-24,15,Chinese,Lunch,Credit Card,France,14.8,4.36,32.06,3,0,0,Delivered
+1462,2025-06-04,17,Mediterranean,Breakfast,PayPal,USA,28.99,10.59,44.27,7,0,0,Issues with Order
+1463,2025-05-13,18,Italian,Breakfast,Debit Card,Canada,44.0,4.88,32.79,7,0,1,Delivered
+1464,2025-05-21,20,Indian,Dinner,Cash on Delivery,Canada,21.04,1.13,22.32,8,0,1,Delivered
+1465,2025-07-31,14,Mexican,Lunch,Credit Card,Brazil,26.89,5.64,32.97,4,0,1,Delivered
+1466,2025-07-29,18,Korean,Lunch,Debit Card,USA,15.86,7.06,24.24,7,0,1,Delivered
+1467,2025-08-30,16,Korean,Lunch,PayPal,India,9.62,4.79,28.55,3,1,0,Delivered
+1468,2025-05-24,14,French,Snack,Cash on Delivery,Mexico,43.61,3.16,27.54,6,1,1,Delivered
+1469,2025-06-09,11,Indian,Breakfast,PayPal,Japan,21.12,1.14,26.94,8,0,0,Delivered
+1470,2025-09-11,16,Chinese,Lunch,Cash on Delivery,France,20.93,4.17,44.71,2,0,0,Delivered
+1471,2025-04-27,22,French,Snack,Digital Wallet,Japan,64.67,10.82,27.76,4,1,0,Delivered
+1472,2025-05-20,22,Thai,Breakfast,Digital Wallet,France,25.8,12.22,21.41,5,0,0,Late Delivery
+1473,2025-07-17,16,Thai,Dinner,Credit Card,Germany,36.4,0.72,26.13,8,0,0,Delivered
+1474,2025-06-20,20,Italian,Dinner,Cash on Delivery,Japan,37.0,2.26,34.17,4,0,1,Delivered
+1475,2025-05-07,18,Indian,Breakfast,Digital Wallet,Mexico,23.87,2.02,32.22,6,0,1,Delivered
+1476,2025-08-11,10,Italian,Snack,Credit Card,France,47.21,13.25,37.7,6,0,0,Late Delivery
+1477,2025-09-09,10,Mediterranean,Lunch,PayPal,Brazil,42.15,6.71,24.1,4,0,0,Delivered
+1478,2025-08-10,16,Indian,Dinner,Debit Card,France,23.38,1.66,23.75,6,1,0,Delivered
+1479,2025-08-14,21,Indian,Breakfast,Credit Card,USA,38.51,18.78,38.86,2,0,0,Late Delivery
+1480,2025-04-05,12,Japanese,Dinner,Credit Card,Australia,63.18,2.85,25.07,4,1,1,Delivered
+1481,2025-06-30,20,Thai,Lunch,PayPal,UK,23.0,14.75,32.32,2,0,1,Delivered
+1482,2025-07-10,10,Italian,Lunch,Credit Card,Mexico,26.89,7.06,19.06,7,0,0,Delivered
+1483,2025-08-28,14,American,Snack,Digital Wallet,USA,40.59,2.94,14.7,5,0,1,Delivered
+1484,2025-05-16,11,Japanese,Snack,Cash on Delivery,Germany,32.39,0.3,37.5,7,0,0,Issues with Order
+1485,2025-08-16,14,French,Dinner,Digital Wallet,Brazil,41.36,0.92,11.1,4,1,1,Delivered
+1486,2025-07-31,21,Thai,Dinner,Digital Wallet,UK,13.42,0.3,13.18,8,0,0,Delivered
+1487,2025-04-01,16,Indian,Snack,PayPal,India,34.58,0.82,32.08,2,0,0,Delivered
+1488,2025-06-19,12,Chinese,Breakfast,Digital Wallet,Canada,41.84,2.72,40.0,4,0,1,Delivered
+1489,2025-07-29,19,Indian,Breakfast,Debit Card,Japan,17.65,3.51,46.56,8,0,1,Issues with Order
+1490,2025-05-24,10,French,Dinner,Cash on Delivery,Germany,40.77,2.3,30.98,6,1,0,Delivered
+1491,2025-04-04,15,Korean,Snack,Credit Card,Germany,24.44,3.49,33.38,4,0,0,Delivered
+1492,2025-07-29,18,French,Dinner,Debit Card,France,48.84,4.36,34.83,8,0,1,Delivered
+1493,2025-08-04,18,Chinese,Breakfast,Cash on Delivery,UK,28.81,3.05,33.12,7,0,1,Delivered
+1494,2025-03-29,12,Mediterranean,Breakfast,Debit Card,Australia,6.71,17.01,24.85,8,1,1,Late Delivery
+1495,2025-07-12,17,Mexican,Snack,Debit Card,Brazil,19.85,9.94,32.44,7,1,0,Delivered
+1496,2025-06-09,11,Thai,Dinner,PayPal,Brazil,17.34,3.99,29.65,6,0,0,Delivered
+1497,2025-06-29,19,Mexican,Lunch,PayPal,Brazil,34.9,1.14,27.83,4,1,1,Delivered
+1498,2025-06-29,18,Korean,Dinner,Cash on Delivery,India,27.23,0.28,42.62,4,1,1,Issues with Order
+1499,2025-04-29,12,Mediterranean,Snack,Credit Card,France,35.15,1.72,34.8,7,0,1,Delivered
+1500,2025-07-24,11,Italian,Dinner,Debit Card,Australia,48.75,1.82,29.02,2,0,0,Delivered
+1501,2025-06-18,11,Italian,Snack,Digital Wallet,Canada,31.43,1.77,27.54,2,0,0,Delivered
+1502,2025-08-16,13,American,Breakfast,Debit Card,Germany,23.47,1.29,45.08,5,1,1,Issues with Order
+1503,2025-08-22,21,Japanese,Dinner,Digital Wallet,Japan,37.74,14.06,20.34,5,0,0,Late Delivery
+1504,2025-05-16,11,Korean,Lunch,Credit Card,Australia,11.71,11.09,29.39,5,0,0,Delivered
+1505,2025-04-27,22,Mediterranean,Snack,PayPal,Mexico,56.76,20.59,26.57,5,1,0,Late Delivery
+1506,2025-08-30,20,French,Lunch,Debit Card,USA,30.42,1.02,39.82,4,1,1,Delivered
+1507,2025-04-18,22,Korean,Lunch,Debit Card,Canada,20.21,3.15,33.59,8,0,0,Delivered
+1508,2025-06-16,11,Italian,Lunch,Digital Wallet,India,19.29,0.14,49.34,7,0,0,Issues with Order
+1509,2025-08-01,22,Chinese,Lunch,Digital Wallet,Japan,28.96,2.84,32.64,7,0,0,Delivered
+1510,2025-09-22,17,American,Dinner,Digital Wallet,France,7.92,2.46,56.38,2,0,0,Issues with Order
+1511,2025-05-07,20,Japanese,Lunch,Cash on Delivery,Brazil,61.46,13.08,14.34,8,0,1,Late Delivery
+1512,2025-09-17,11,Mediterranean,Snack,PayPal,Canada,35.13,3.01,35.61,1,0,0,Delivered
+1513,2025-07-23,22,American,Snack,Debit Card,Mexico,27.44,1.66,19.1,4,0,0,Delivered
+1514,2025-05-10,21,Italian,Lunch,Cash on Delivery,France,26.89,33.6,14.28,4,1,0,Delivered
+1515,2025-04-19,15,Japanese,Breakfast,Digital Wallet,Germany,46.66,0.43,23.74,1,1,0,Delivered
+1516,2025-09-06,17,Thai,Breakfast,PayPal,Germany,22.95,3.57,18.27,1,1,0,Delivered
+1517,2025-04-02,21,French,Snack,Cash on Delivery,Canada,32.15,0.45,18.74,8,0,0,Delivered
+1518,2025-09-07,22,Mediterranean,Breakfast,Credit Card,France,33.08,4.23,34.3,1,1,0,Delivered
+1519,2025-05-04,21,Mexican,Lunch,Credit Card,Japan,25.45,0.07,35.58,2,1,0,Delivered
+1520,2025-06-14,11,Mediterranean,Dinner,Debit Card,Mexico,30.93,5.9,13.57,1,1,0,Delivered
+1521,2025-09-14,15,Mexican,Dinner,Digital Wallet,USA,28.24,3.81,11.96,7,1,0,Delivered
+1522,2025-09-12,20,Italian,Breakfast,Debit Card,Brazil,20.89,18.96,26.65,3,0,1,Issues with Order
+1523,2025-04-06,14,Korean,Lunch,Digital Wallet,Japan,24.94,4.62,41.79,3,1,1,Issues with Order
+1524,2025-03-26,14,Japanese,Dinner,Credit Card,France,48.66,5.94,14.79,8,0,1,Delivered
+1525,2025-09-20,11,Korean,Snack,Credit Card,UK,27.77,4.73,30.09,2,1,0,Delivered
+1526,2025-04-17,12,American,Breakfast,Debit Card,USA,37.87,0.93,23.9,4,0,1,Delivered
+1527,2025-07-21,11,Indian,Dinner,Debit Card,Canada,9.37,2.83,18.21,5,0,0,Late Delivery
+1528,2025-05-10,14,Mexican,Dinner,Cash on Delivery,Australia,24.15,7.9,45.1,4,1,1,Delivered
+1529,2025-06-09,14,French,Dinner,Credit Card,India,17.37,8.3,38.92,6,0,1,Delivered
+1530,2025-06-23,22,Mediterranean,Snack,Debit Card,USA,25.89,3.51,22.79,7,0,0,Delivered
+1531,2025-08-18,13,Thai,Dinner,PayPal,Australia,26.64,2.95,51.96,6,0,1,Issues with Order
+1532,2025-06-02,11,Mediterranean,Lunch,PayPal,Australia,35.86,9.95,34.71,8,0,0,Delivered
+1533,2025-04-24,18,Mexican,Snack,Debit Card,India,27.1,10.12,19.08,6,0,1,Late Delivery
+1534,2025-08-23,10,American,Breakfast,PayPal,USA,41.32,2.33,36.22,3,1,0,Delivered
+1535,2025-06-19,15,Chinese,Lunch,PayPal,Germany,24.08,2.51,21.12,3,0,0,Delivered
+1536,2025-05-12,22,Italian,Snack,Digital Wallet,India,30.43,17.02,35.46,7,0,0,Late Delivery
+1537,2025-05-27,14,American,Dinner,Cash on Delivery,Japan,32.6,17.0,27.08,5,0,1,Delivered
+1538,2025-05-24,22,Mediterranean,Breakfast,Cash on Delivery,Japan,12.35,3.73,24.04,5,1,0,Delivered
+1539,2025-07-06,19,Italian,Lunch,Digital Wallet,Canada,21.55,6.67,39.29,5,1,1,Delivered
+1540,2025-09-20,18,Indian,Lunch,Debit Card,France,9.27,1.9,17.79,1,1,1,Delivered
+1541,2025-06-13,22,Mexican,Dinner,Cash on Delivery,Japan,5.0,1.07,28.99,3,0,0,Delivered
+1542,2025-09-10,12,Indian,Lunch,PayPal,Germany,11.79,4.3,10.0,2,0,1,Delivered
+1543,2025-05-17,16,Chinese,Lunch,Debit Card,Brazil,36.59,4.67,39.73,6,1,0,Cancelled
+1544,2025-06-22,11,French,Snack,Debit Card,India,48.93,0.33,23.9,7,1,0,Delivered
+1545,2025-09-22,13,Chinese,Snack,Debit Card,France,40.09,1.18,36.06,3,0,1,Delivered
+1546,2025-06-17,14,Thai,Snack,Digital Wallet,UK,23.61,1.23,42.05,6,0,1,Issues with Order
+1547,2025-08-23,10,Indian,Lunch,Debit Card,France,37.07,3.94,14.73,6,1,0,Delivered
+1548,2025-03-26,19,Korean,Snack,Credit Card,Australia,21.18,1.36,23.2,3,0,1,Delivered
+1549,2025-04-06,13,Japanese,Snack,Credit Card,France,38.65,6.09,16.34,7,1,1,Delivered
+1550,2025-07-12,12,Japanese,Dinner,Cash on Delivery,India,36.22,2.48,17.6,1,1,1,Delivered
+1551,2025-07-11,12,Mexican,Snack,Digital Wallet,UK,18.7,0.35,37.32,8,0,1,Delivered
+1552,2025-06-22,20,Chinese,Snack,Credit Card,Canada,13.63,3.53,21.07,6,1,1,Delivered
+1553,2025-08-02,16,French,Breakfast,Cash on Delivery,Japan,52.42,9.32,33.83,7,1,0,Delivered
+1554,2025-06-11,16,Japanese,Breakfast,Digital Wallet,India,65.92,1.88,19.55,6,0,0,Delivered
+1555,2025-06-19,18,American,Breakfast,Debit Card,Japan,26.54,0.05,26.63,7,0,1,Delivered
+1556,2025-04-15,12,Italian,Dinner,Digital Wallet,Germany,14.35,5.91,20.84,4,0,1,Delivered
+1557,2025-08-30,21,French,Snack,Credit Card,India,33.56,8.35,40.36,5,1,0,Delivered
+1558,2025-07-21,15,Italian,Dinner,PayPal,Japan,29.41,6.49,12.12,6,0,0,Delivered
+1559,2025-04-01,18,Japanese,Lunch,PayPal,France,55.22,4.7,18.46,7,0,1,Late Delivery
+1560,2025-06-10,20,Italian,Breakfast,PayPal,USA,40.07,1.61,45.57,7,0,1,Delivered
+1561,2025-04-27,21,Mexican,Snack,Cash on Delivery,Germany,5.0,4.33,26.83,6,1,0,Delivered
+1562,2025-09-18,19,Indian,Snack,Credit Card,UK,26.7,4.99,39.55,6,0,1,Delivered
+1563,2025-05-02,19,Chinese,Snack,Digital Wallet,UK,18.46,1.33,30.27,6,0,1,Delivered
+1564,2025-06-11,16,Thai,Breakfast,Debit Card,Germany,5.34,1.0,29.17,2,0,0,Delivered
+1565,2025-07-14,11,Indian,Dinner,PayPal,Mexico,5.0,1.49,30.47,4,0,0,Delivered
+1566,2025-04-07,15,Korean,Snack,Debit Card,Japan,14.0,13.14,28.92,5,0,0,Late Delivery
+1567,2025-06-04,18,Italian,Snack,Debit Card,Germany,39.85,0.56,37.16,5,0,1,Cancelled
+1568,2025-03-30,22,Thai,Lunch,PayPal,Germany,31.49,7.3,35.82,8,1,0,Delivered
+1569,2025-09-04,15,Chinese,Lunch,Debit Card,USA,28.07,8.99,21.75,6,0,0,Delivered
+1570,2025-08-29,14,Korean,Snack,Digital Wallet,Japan,43.59,3.07,39.82,6,0,1,Delivered
+1571,2025-07-25,18,Italian,Dinner,PayPal,France,28.69,5.09,30.32,6,0,1,Delivered
+1572,2025-05-03,17,French,Lunch,Digital Wallet,Canada,43.13,1.73,21.95,7,1,0,Delivered
+1573,2025-04-03,20,Korean,Breakfast,Cash on Delivery,Brazil,14.08,5.88,31.35,6,0,1,Late Delivery
+1574,2025-06-11,14,American,Snack,Cash on Delivery,USA,20.0,0.55,34.39,3,0,1,Delivered
+1575,2025-05-07,19,American,Snack,Cash on Delivery,USA,5.0,0.56,50.42,5,0,1,Issues with Order
+1576,2025-05-25,16,Mediterranean,Lunch,Cash on Delivery,Mexico,45.67,8.81,33.61,2,1,0,Cancelled
+1577,2025-05-19,11,Korean,Dinner,Debit Card,Canada,18.33,0.6,31.98,7,0,0,Delivered
+1578,2025-06-24,22,Indian,Snack,Digital Wallet,Germany,20.94,2.43,23.83,6,0,0,Delivered
+1579,2025-09-03,11,American,Snack,Debit Card,Japan,26.46,9.01,35.85,8,0,0,Delivered
+1580,2025-06-07,17,Mexican,Lunch,Cash on Delivery,Germany,18.77,6.66,33.38,1,1,0,Delivered
+1581,2025-06-19,22,French,Lunch,Credit Card,Japan,57.59,2.08,16.42,7,0,0,Delivered
+1582,2025-07-09,13,Italian,Lunch,Debit Card,Mexico,38.85,0.12,28.35,2,0,1,Delivered
+1583,2025-07-08,10,American,Lunch,Debit Card,Mexico,35.8,9.05,39.43,8,0,0,Delivered
+1584,2025-06-28,10,Korean,Snack,Digital Wallet,Brazil,38.3,0.69,43.21,4,1,0,Issues with Order
+1585,2025-06-28,21,Indian,Lunch,Cash on Delivery,Australia,23.75,0.2,38.47,6,1,0,Delivered
+1586,2025-04-11,10,Indian,Snack,Cash on Delivery,Australia,35.82,6.04,25.44,8,0,0,Delivered
+1587,2025-05-10,17,Mediterranean,Breakfast,Digital Wallet,France,26.98,2.78,29.39,3,1,0,Delivered
+1588,2025-04-12,10,Italian,Snack,Digital Wallet,India,44.32,5.12,29.44,7,1,0,Issues with Order
+1589,2025-05-31,21,Mediterranean,Breakfast,Digital Wallet,Brazil,38.14,0.34,10.5,1,1,0,Delivered
+1590,2025-04-10,14,Thai,Breakfast,PayPal,Japan,24.32,3.25,32.3,8,0,1,Delivered
+1591,2025-04-26,11,Mexican,Dinner,Digital Wallet,UK,38.7,5.43,19.14,3,1,0,Delivered
+1592,2025-09-10,15,Mexican,Lunch,Cash on Delivery,Australia,15.09,1.9,39.21,5,0,0,Delivered
+1593,2025-07-21,21,French,Lunch,PayPal,France,50.26,0.2,21.56,5,0,0,Delivered
+1594,2025-06-18,22,French,Dinner,Digital Wallet,Germany,60.02,11.07,32.65,1,0,0,Late Delivery
+1595,2025-06-07,10,Indian,Dinner,Digital Wallet,France,7.19,0.4,10.0,5,1,0,Delivered
+1596,2025-05-05,19,Japanese,Snack,Cash on Delivery,Germany,59.94,1.4,35.29,3,0,1,Delivered
+1597,2025-09-19,12,Mexican,Dinner,Cash on Delivery,Germany,36.73,10.48,27.27,4,0,1,Delivered
+1598,2025-06-11,12,Korean,Breakfast,PayPal,France,28.11,1.07,14.21,7,0,1,Delivered
+1599,2025-05-08,15,Mexican,Dinner,Digital Wallet,France,30.52,0.25,36.8,7,0,0,Delivered
+1600,2025-07-28,20,Mexican,Snack,Debit Card,India,22.87,2.1,41.79,7,0,1,Delivered
+1601,2025-06-21,13,Japanese,Lunch,Debit Card,Canada,31.83,7.07,31.0,5,1,1,Delivered
+1602,2025-04-25,20,Indian,Dinner,Cash on Delivery,India,12.26,1.04,33.35,1,0,1,Delivered
+1603,2025-08-07,13,Indian,Dinner,Credit Card,Japan,36.5,0.09,32.97,2,0,1,Delivered
+1604,2025-08-02,11,Japanese,Breakfast,Credit Card,India,46.44,8.56,24.07,4,1,0,Delivered
+1605,2025-05-11,21,Indian,Lunch,Cash on Delivery,Canada,13.43,4.54,16.67,1,1,0,Delivered
+1606,2025-06-02,18,Japanese,Breakfast,Debit Card,UK,56.21,4.35,43.99,3,0,1,Cancelled
+1607,2025-05-27,19,Korean,Snack,Cash on Delivery,UK,33.43,1.15,41.63,1,0,1,Delivered
+1608,2025-05-15,17,Chinese,Snack,Credit Card,India,16.31,0.7,26.57,4,0,0,Cancelled
+1609,2025-08-26,17,Japanese,Breakfast,Digital Wallet,Japan,57.75,16.45,34.18,2,0,0,Late Delivery
+1610,2025-09-06,13,Korean,Snack,Credit Card,Germany,13.54,0.56,34.66,7,1,1,Delivered
+1611,2025-07-30,20,Mexican,Dinner,Digital Wallet,India,28.23,4.82,42.84,5,0,1,Issues with Order
+1612,2025-08-09,13,American,Dinner,Digital Wallet,Brazil,32.07,8.99,39.79,5,1,1,Delivered
+1613,2025-04-23,22,Mexican,Snack,Credit Card,France,20.39,5.11,37.57,8,0,0,Delivered
+1614,2025-05-10,11,Thai,Dinner,Credit Card,India,26.99,0.17,29.19,6,1,0,Delivered
+1615,2025-08-10,12,Indian,Breakfast,Debit Card,Australia,13.05,6.23,32.86,5,1,1,Delivered
+1616,2025-06-15,22,Mediterranean,Snack,Credit Card,Germany,28.59,3.41,23.46,4,1,0,Delivered
+1617,2025-05-04,15,Mexican,Lunch,Cash on Delivery,Canada,29.21,3.47,24.22,3,1,0,Delivered
+1618,2025-05-05,15,Mediterranean,Snack,Digital Wallet,Japan,20.16,0.85,36.76,5,0,0,Delivered
+1619,2025-06-01,17,Japanese,Dinner,Debit Card,Germany,57.85,7.03,46.77,6,1,0,Issues with Order
+1620,2025-06-14,17,Japanese,Snack,Digital Wallet,Japan,37.38,2.6,11.41,7,1,0,Issues with Order
+1621,2025-04-09,16,American,Lunch,Cash on Delivery,Germany,15.41,4.16,16.47,1,0,0,Delivered
+1622,2025-05-16,13,Japanese,Dinner,PayPal,USA,49.71,1.54,28.13,6,0,1,Delivered
+1623,2025-07-01,15,Mediterranean,Lunch,Debit Card,Mexico,43.29,0.92,32.66,8,0,0,Delivered
+1624,2025-04-22,11,Indian,Lunch,PayPal,India,24.51,14.57,34.89,8,0,0,Late Delivery
+1625,2025-09-10,16,French,Lunch,PayPal,Mexico,27.2,1.04,40.58,7,0,0,Late Delivery
+1626,2025-06-04,18,American,Snack,PayPal,UK,19.27,0.78,27.24,8,0,1,Delivered
+1627,2025-04-13,15,Thai,Lunch,Debit Card,Mexico,23.22,7.94,20.87,5,1,0,Delivered
+1628,2025-08-16,11,French,Lunch,PayPal,Mexico,27.85,0.51,35.42,5,1,0,Delivered
+1629,2025-06-08,21,Italian,Lunch,Credit Card,France,29.15,5.33,40.74,6,1,0,Issues with Order
+1630,2025-05-19,12,American,Snack,Debit Card,India,44.73,5.74,34.15,6,0,1,Delivered
+1631,2025-09-15,21,Japanese,Dinner,Digital Wallet,USA,24.18,0.2,37.64,3,0,0,Delivered
+1632,2025-07-09,16,Thai,Snack,Credit Card,Brazil,34.73,4.21,28.89,1,0,0,Delivered
+1633,2025-08-04,15,Italian,Snack,Credit Card,Brazil,41.01,5.61,21.22,6,0,0,Delivered
+1634,2025-07-29,14,Korean,Dinner,Credit Card,UK,14.09,8.01,37.94,2,0,1,Delivered
+1635,2025-04-23,18,Mexican,Breakfast,Digital Wallet,India,27.17,12.05,26.97,4,0,1,Late Delivery
+1636,2025-07-14,14,French,Snack,Debit Card,France,67.85,2.81,16.34,2,0,1,Delivered
+1637,2025-08-20,15,French,Snack,Credit Card,Japan,17.68,7.18,24.02,5,0,0,Issues with Order
+1638,2025-03-30,10,Indian,Dinner,Cash on Delivery,Canada,26.32,6.69,28.85,5,1,0,Delivered
+1639,2025-08-22,20,American,Snack,Debit Card,Mexico,24.0,1.56,29.43,6,0,1,Delivered
+1640,2025-08-20,12,Indian,Lunch,Debit Card,Germany,27.33,6.38,37.21,3,0,1,Delivered
+1641,2025-08-09,19,Italian,Lunch,Digital Wallet,France,45.47,0.14,20.34,2,1,1,Delivered
+1642,2025-06-14,13,Indian,Lunch,PayPal,Canada,39.5,0.79,15.74,7,1,1,Delivered
+1643,2025-05-24,13,American,Breakfast,Debit Card,India,19.62,5.28,36.55,2,1,1,Delivered
+1644,2025-06-30,10,French,Lunch,Cash on Delivery,USA,69.43,0.57,13.92,8,0,0,Delivered
+1645,2025-05-15,13,Thai,Breakfast,Credit Card,Canada,32.92,36.7,24.29,2,0,1,Delivered
+1646,2025-07-29,21,Korean,Dinner,PayPal,Japan,18.14,5.44,21.57,4,0,0,Delivered
+1647,2025-04-18,22,Mediterranean,Dinner,Cash on Delivery,Germany,52.43,0.73,30.14,2,0,0,Delivered
+1648,2025-03-30,10,Thai,Snack,Cash on Delivery,UK,19.93,0.53,21.51,6,1,0,Delivered
+1649,2025-06-13,11,Thai,Dinner,Debit Card,UK,33.09,2.38,24.16,7,0,0,Delivered
+1650,2025-03-30,14,American,Breakfast,Debit Card,Australia,22.46,19.92,23.37,3,1,1,Late Delivery
+1651,2025-05-04,12,French,Breakfast,Credit Card,Mexico,27.35,0.91,48.21,4,1,1,Issues with Order
+1652,2025-06-29,19,Thai,Lunch,Cash on Delivery,Canada,21.61,0.29,28.28,3,1,1,Delivered
+1653,2025-05-03,21,Mexican,Dinner,Credit Card,Canada,27.09,13.21,20.15,1,1,0,Late Delivery
+1654,2025-09-02,15,Japanese,Dinner,Credit Card,USA,63.42,2.95,29.88,6,0,0,Issues with Order
+1655,2025-04-03,21,Mexican,Snack,Credit Card,Brazil,35.22,0.96,39.19,7,0,0,Delivered
+1656,2025-08-07,12,Mexican,Breakfast,Credit Card,France,38.64,0.37,16.21,4,0,1,Delivered
+1657,2025-04-23,17,French,Snack,Digital Wallet,India,53.19,27.9,10.0,3,0,0,Late Delivery
+1658,2025-03-26,14,French,Snack,PayPal,Canada,65.18,2.83,28.92,6,0,1,Delivered
+1659,2025-06-27,19,Chinese,Snack,Cash on Delivery,Mexico,29.22,10.88,43.1,4,0,1,Issues with Order
+1660,2025-05-01,13,Chinese,Breakfast,Cash on Delivery,Germany,42.3,4.97,15.23,2,0,1,Delivered
+1661,2025-05-29,12,Japanese,Dinner,Cash on Delivery,Mexico,28.62,0.49,27.46,5,0,1,Delivered
+1662,2025-04-28,15,Thai,Dinner,Debit Card,Mexico,17.67,6.66,23.3,1,0,0,Delivered
+1663,2025-07-02,20,Italian,Lunch,Debit Card,USA,35.81,0.89,10.0,3,0,1,Delivered
+1664,2025-05-25,12,Thai,Dinner,Credit Card,Mexico,22.34,7.19,40.37,8,1,1,Issues with Order
+1665,2025-09-02,19,Thai,Snack,Debit Card,India,25.56,3.04,26.9,5,0,1,Delivered
+1666,2025-04-25,21,Japanese,Dinner,PayPal,Canada,41.41,2.75,30.09,5,0,0,Delivered
+1667,2025-07-28,22,Mediterranean,Snack,Credit Card,France,29.56,6.59,47.26,5,0,0,Delivered
+1668,2025-09-06,10,Mediterranean,Lunch,Credit Card,Australia,43.06,4.44,24.27,8,1,0,Delivered
+1669,2025-04-25,18,Japanese,Lunch,PayPal,Germany,34.99,4.94,22.67,8,0,1,Delivered
+1670,2025-04-16,18,Mexican,Snack,Digital Wallet,Australia,21.93,1.49,42.01,3,0,1,Issues with Order
+1671,2025-03-30,13,American,Lunch,Digital Wallet,Brazil,28.86,2.97,38.38,1,1,1,Delivered
+1672,2025-06-26,18,Indian,Lunch,PayPal,Canada,10.53,4.93,29.41,2,0,1,Delivered
+1673,2025-09-04,20,Korean,Lunch,Debit Card,Brazil,5.0,4.17,10.0,7,0,1,Delivered
+1674,2025-06-05,10,Thai,Dinner,Cash on Delivery,Brazil,42.49,4.41,26.09,7,0,0,Delivered
+1675,2025-07-23,15,Mexican,Dinner,Credit Card,UK,11.07,3.12,29.65,5,0,0,Delivered
+1676,2025-09-13,14,Indian,Breakfast,Credit Card,Japan,27.82,2.04,28.27,3,1,1,Delivered
+1677,2025-05-06,22,Indian,Snack,Debit Card,Japan,25.46,4.99,36.23,7,0,0,Delivered
+1678,2025-05-28,15,Chinese,Lunch,PayPal,Canada,14.25,2.36,31.25,7,0,0,Delivered
+1679,2025-08-22,20,Mexican,Lunch,Cash on Delivery,Canada,27.46,2.96,21.98,5,0,1,Delivered
+1680,2025-03-28,20,Chinese,Dinner,Digital Wallet,UK,18.09,0.9,36.88,8,0,1,Delivered
+1681,2025-07-16,14,Chinese,Snack,Debit Card,UK,32.18,6.2,28.42,6,0,1,Delivered
+1682,2025-04-05,16,Japanese,Breakfast,Cash on Delivery,Japan,53.38,0.44,10.0,3,1,0,Delivered
+1683,2025-09-19,22,French,Dinner,Debit Card,Brazil,54.78,0.58,13.69,2,0,0,Late Delivery
+1684,2025-05-26,20,French,Snack,Cash on Delivery,USA,26.13,6.32,37.32,2,0,1,Delivered
+1685,2025-06-05,21,Japanese,Dinner,Digital Wallet,France,55.39,4.77,41.06,7,0,0,Issues with Order
+1686,2025-06-25,11,Italian,Breakfast,Cash on Delivery,Australia,20.91,22.12,22.11,8,0,0,Delivered
+1687,2025-06-02,11,French,Snack,Digital Wallet,Brazil,67.07,5.77,23.01,7,0,0,Delivered
+1688,2025-08-24,22,Chinese,Breakfast,Credit Card,Australia,18.26,1.65,22.56,6,1,0,Delivered
+1689,2025-08-27,16,Thai,Breakfast,PayPal,India,10.56,0.1,25.17,8,0,0,Delivered
+1690,2025-08-06,10,Thai,Snack,Credit Card,Australia,12.29,0.04,17.53,3,0,0,Late Delivery
+1691,2025-04-20,14,Thai,Breakfast,Cash on Delivery,Germany,34.51,0.79,35.27,6,1,1,Delivered
+1692,2025-06-22,15,Indian,Dinner,Cash on Delivery,USA,29.33,4.79,24.91,6,1,0,Delivered
+1693,2025-09-04,14,Mexican,Lunch,Digital Wallet,Brazil,26.26,1.85,25.31,6,0,1,Delivered
+1694,2025-06-23,22,Mexican,Snack,Credit Card,France,37.85,8.33,23.74,6,0,0,Delivered
+1695,2025-05-23,15,Japanese,Breakfast,Credit Card,Japan,53.66,2.61,28.71,6,0,0,Delivered
+1696,2025-09-05,12,Thai,Lunch,PayPal,India,24.08,11.39,45.56,6,0,1,Late Delivery
+1697,2025-06-26,22,Mexican,Lunch,PayPal,USA,18.92,8.18,35.93,2,0,0,Delivered
+1698,2025-06-13,18,Mediterranean,Dinner,Digital Wallet,Brazil,29.44,15.21,37.69,3,0,1,Late Delivery
+1699,2025-05-15,11,Chinese,Snack,PayPal,Canada,48.88,5.18,41.84,6,0,0,Issues with Order
+1700,2025-07-02,11,Japanese,Breakfast,PayPal,Australia,45.56,13.46,27.26,8,0,0,Late Delivery
+1701,2025-05-04,20,Japanese,Breakfast,Cash on Delivery,Australia,60.11,0.07,35.18,4,1,1,Delivered
+1702,2025-05-22,17,Indian,Lunch,Credit Card,Germany,5.0,3.46,51.12,4,0,0,Issues with Order
+1703,2025-07-27,17,Thai,Lunch,Cash on Delivery,Canada,27.11,3.5,25.12,7,1,0,Delivered
+1704,2025-07-03,21,Japanese,Dinner,PayPal,Japan,43.68,0.81,45.89,6,0,0,Delivered
+1705,2025-05-25,15,Mediterranean,Dinner,Credit Card,Canada,22.45,10.29,34.73,6,1,0,Late Delivery
+1706,2025-05-28,22,Mediterranean,Lunch,Credit Card,Brazil,21.99,16.4,33.58,8,0,0,Late Delivery
+1707,2025-08-27,13,American,Lunch,Cash on Delivery,Germany,17.09,4.93,30.34,1,0,1,Delivered
+1708,2025-07-16,17,Korean,Snack,Credit Card,Canada,32.68,8.51,23.76,1,0,0,Delivered
+1709,2025-08-16,20,Italian,Dinner,Cash on Delivery,Canada,35.02,3.03,34.15,2,1,1,Delivered
+1710,2025-04-11,21,Japanese,Dinner,Credit Card,Mexico,36.69,3.96,33.82,8,0,0,Delivered
+1711,2025-04-29,16,Indian,Snack,PayPal,Brazil,16.32,2.71,30.98,5,0,0,Delivered
+1712,2025-08-18,22,Mediterranean,Snack,Debit Card,Brazil,42.02,0.69,26.3,6,0,0,Delivered
+1713,2025-08-29,10,American,Breakfast,Credit Card,Mexico,19.65,4.88,32.95,2,0,0,Delivered
+1714,2025-05-06,21,Indian,Lunch,Digital Wallet,Canada,36.84,1.33,24.1,3,0,0,Issues with Order
+1715,2025-04-25,15,Chinese,Breakfast,Cash on Delivery,Mexico,12.3,6.25,36.69,7,0,0,Delivered
+1716,2025-07-01,21,French,Lunch,PayPal,Canada,48.92,0.68,40.23,2,0,0,Delivered
+1717,2025-07-14,14,French,Breakfast,Debit Card,Germany,27.25,6.03,27.47,7,0,1,Delivered
+1718,2025-06-23,20,Chinese,Dinner,Cash on Delivery,UK,20.96,3.53,32.65,5,0,1,Delivered
+1719,2025-08-15,10,American,Breakfast,Debit Card,USA,31.46,3.84,30.19,1,0,0,Issues with Order
+1720,2025-06-12,10,Korean,Dinner,Credit Card,Canada,35.79,3.4,26.72,4,0,0,Delivered
+1721,2025-07-31,12,Mediterranean,Lunch,PayPal,UK,21.86,9.38,10.0,3,0,1,Delivered
+1722,2025-08-19,12,French,Lunch,Digital Wallet,Canada,39.91,2.03,41.67,8,0,1,Delivered
+1723,2025-06-13,14,Chinese,Dinner,Debit Card,Mexico,52.55,1.36,26.94,3,0,1,Delivered
+1724,2025-07-31,13,Korean,Lunch,Digital Wallet,France,24.33,2.03,44.55,8,0,1,Issues with Order
+1725,2025-07-03,22,French,Breakfast,Digital Wallet,UK,41.02,14.91,26.0,6,0,0,Delivered
+1726,2025-07-29,13,Thai,Breakfast,PayPal,USA,16.15,3.09,24.79,8,0,1,Delivered
+1727,2025-09-10,21,Korean,Breakfast,Digital Wallet,UK,29.86,4.01,10.51,6,0,0,Delivered
+1728,2025-08-17,19,Mediterranean,Snack,Digital Wallet,Australia,25.99,16.84,10.0,5,1,1,Late Delivery
+1729,2025-05-15,14,Thai,Snack,Cash on Delivery,Japan,11.05,1.4,22.92,2,0,1,Delivered
+1730,2025-07-29,11,American,Snack,Digital Wallet,Japan,40.83,1.15,27.42,5,0,0,Delivered
+1731,2025-06-07,22,Italian,Breakfast,Debit Card,UK,52.13,2.07,25.81,5,1,0,Delivered
+1732,2025-08-19,18,Mexican,Dinner,Credit Card,Brazil,11.11,6.77,33.0,1,0,1,Late Delivery
+1733,2025-07-02,13,American,Breakfast,Cash on Delivery,Brazil,28.07,2.17,27.52,3,0,1,Delivered
+1734,2025-09-16,21,Italian,Lunch,Credit Card,India,23.72,11.82,41.58,3,0,0,Late Delivery
+1735,2025-04-13,21,Indian,Snack,Debit Card,Mexico,23.42,3.4,28.16,1,1,0,Issues with Order
+1736,2025-05-17,21,Chinese,Dinner,Credit Card,Australia,31.8,3.94,28.01,6,1,0,Delivered
+1737,2025-07-03,13,American,Snack,Credit Card,Canada,34.24,5.38,19.49,3,0,1,Delivered
+1738,2025-09-01,20,Japanese,Snack,Digital Wallet,Germany,39.32,0.6,31.45,4,0,1,Delivered
+1739,2025-09-09,21,Japanese,Snack,Credit Card,Japan,53.82,3.56,36.2,7,0,0,Delivered
+1740,2025-05-13,22,French,Dinner,Digital Wallet,USA,32.84,1.68,25.35,7,0,0,Issues with Order
+1741,2025-04-27,20,Indian,Breakfast,Credit Card,UK,38.51,3.88,23.46,3,1,1,Delivered
+1742,2025-07-29,11,Mexican,Dinner,Debit Card,Germany,23.02,13.53,21.18,7,0,0,Delivered
+1743,2025-08-18,14,Chinese,Breakfast,Cash on Delivery,Australia,36.66,3.14,35.31,2,0,1,Delivered
+1744,2025-07-31,13,Mexican,Breakfast,Cash on Delivery,India,16.88,10.43,27.13,2,0,1,Issues with Order
+1745,2025-05-12,11,Chinese,Lunch,Cash on Delivery,Mexico,19.38,3.59,34.79,6,0,0,Delivered
+1746,2025-05-01,17,Korean,Breakfast,Digital Wallet,Australia,48.38,14.61,27.64,4,0,0,Delivered
+1747,2025-05-04,15,Japanese,Lunch,PayPal,India,62.72,0.26,53.44,4,1,0,Issues with Order
+1748,2025-05-04,14,Mediterranean,Breakfast,Debit Card,Canada,26.87,9.04,34.16,4,1,1,Delivered
+1749,2025-07-16,10,French,Breakfast,Debit Card,Mexico,37.86,1.43,21.74,5,0,0,Delivered
+1750,2025-05-01,18,American,Breakfast,Credit Card,UK,11.35,3.36,22.89,7,0,1,Delivered
+1751,2025-03-30,19,Mexican,Dinner,PayPal,USA,26.91,0.29,29.64,3,1,1,Delivered
+1752,2025-09-17,13,Italian,Snack,Credit Card,Mexico,28.59,9.05,31.51,1,0,1,Delivered
+1753,2025-08-18,11,Indian,Breakfast,Digital Wallet,Brazil,55.77,4.12,43.6,2,0,0,Delivered
+1754,2025-07-25,19,Thai,Dinner,Digital Wallet,Japan,20.47,1.92,25.07,8,0,1,Delivered
+1755,2025-05-25,20,French,Dinner,PayPal,India,24.9,0.62,34.32,8,1,1,Delivered
+1756,2025-05-04,17,Mediterranean,Dinner,Debit Card,Canada,42.01,1.76,36.14,5,1,0,Delivered
+1757,2025-05-09,16,Japanese,Lunch,PayPal,USA,59.91,7.63,43.74,7,0,0,Issues with Order
+1758,2025-07-21,16,Mediterranean,Lunch,Cash on Delivery,Canada,37.06,0.85,33.91,6,0,0,Delivered
+1759,2025-07-07,16,Thai,Snack,Cash on Delivery,India,31.32,1.17,25.26,7,0,0,Delivered
+1760,2025-06-20,15,Thai,Lunch,Digital Wallet,Australia,27.01,2.58,25.77,4,0,0,Delivered
+1761,2025-05-13,19,Indian,Dinner,Cash on Delivery,Brazil,27.27,0.47,36.36,7,0,1,Delivered
+1762,2025-06-12,13,Thai,Lunch,Cash on Delivery,UK,14.87,0.26,13.13,8,0,1,Delivered
+1763,2025-09-01,16,Italian,Lunch,Debit Card,France,22.23,2.56,29.9,3,0,0,Delivered
+1764,2025-08-05,16,Mexican,Snack,Credit Card,Australia,37.09,8.13,23.39,7,0,0,Delivered
+1765,2025-05-09,14,Korean,Lunch,Cash on Delivery,Mexico,21.08,2.34,19.82,4,0,1,Delivered
+1766,2025-06-15,17,Indian,Lunch,Cash on Delivery,France,28.81,6.14,25.55,1,1,0,Delivered
+1767,2025-04-11,11,Italian,Breakfast,Credit Card,France,29.04,0.56,18.47,2,0,0,Delivered
+1768,2025-06-25,13,Mexican,Lunch,PayPal,UK,16.04,21.32,33.03,6,0,1,Late Delivery
+1769,2025-07-18,17,American,Lunch,PayPal,Germany,19.82,4.32,43.25,2,0,0,Issues with Order
+1770,2025-05-03,12,Thai,Breakfast,Digital Wallet,Mexico,26.13,0.96,38.57,7,1,1,Delivered
+1771,2025-08-14,20,French,Dinner,Debit Card,UK,60.94,5.17,26.24,3,0,1,Delivered
+1772,2025-04-19,22,Italian,Lunch,Cash on Delivery,India,45.69,11.22,33.66,7,1,0,Late Delivery
+1773,2025-08-23,21,American,Snack,Digital Wallet,Mexico,41.64,7.07,33.05,3,1,0,Delivered
+1774,2025-03-31,17,Korean,Dinner,PayPal,UK,13.62,7.98,33.64,6,0,0,Cancelled
+1775,2025-09-01,14,Thai,Lunch,Credit Card,Australia,20.51,3.12,32.39,6,0,1,Delivered
+1776,2025-04-16,15,Korean,Snack,Credit Card,Mexico,19.98,0.09,19.93,7,0,0,Delivered
+1777,2025-06-27,14,Indian,Dinner,Digital Wallet,USA,35.97,4.83,10.0,8,0,1,Delivered
+1778,2025-05-07,10,Indian,Dinner,PayPal,India,34.7,1.21,34.71,7,0,0,Delivered
+1779,2025-06-03,21,French,Breakfast,PayPal,Brazil,45.05,19.93,42.3,1,0,0,Issues with Order
+1780,2025-08-19,10,Japanese,Snack,Debit Card,India,40.64,5.08,24.06,7,0,0,Delivered
+1781,2025-09-19,20,Japanese,Snack,PayPal,France,53.81,0.34,27.94,7,0,1,Delivered
+1782,2025-06-21,12,American,Dinner,Digital Wallet,Australia,47.06,5.29,41.99,8,1,1,Issues with Order
+1783,2025-09-13,11,American,Breakfast,Credit Card,Canada,17.6,9.28,16.65,2,1,0,Delivered
+1784,2025-05-10,15,Chinese,Lunch,Digital Wallet,Australia,29.89,4.14,25.44,2,1,0,Delivered
+1785,2025-03-28,21,Italian,Dinner,Digital Wallet,UK,44.48,1.16,39.7,3,0,0,Delivered
+1786,2025-07-21,20,American,Breakfast,Digital Wallet,UK,35.59,2.83,31.98,1,0,1,Delivered
+1787,2025-05-16,21,Chinese,Lunch,Credit Card,UK,24.48,0.77,35.03,1,0,0,Delivered
+1788,2025-09-17,13,Indian,Breakfast,Credit Card,Japan,30.23,1.93,28.72,6,0,1,Delivered
+1789,2025-05-14,17,Indian,Snack,Digital Wallet,Canada,18.44,6.45,27.64,8,0,0,Delivered
+1790,2025-09-15,19,Italian,Snack,Debit Card,Brazil,47.41,2.92,23.11,1,0,1,Cancelled
+1791,2025-06-01,12,Mediterranean,Lunch,Credit Card,UK,53.34,2.41,29.19,4,1,1,Delivered
+1792,2025-06-16,22,Indian,Lunch,Cash on Delivery,Mexico,5.0,2.29,20.48,5,0,0,Delivered
+1793,2025-08-02,20,Japanese,Lunch,Cash on Delivery,Germany,65.68,2.25,31.16,6,1,1,Delivered
+1794,2025-08-08,10,Japanese,Dinner,Debit Card,UK,75.65,1.57,32.9,1,0,0,Delivered
+1795,2025-04-10,19,Thai,Breakfast,Cash on Delivery,USA,27.87,6.43,28.53,2,0,1,Delivered
+1796,2025-06-26,21,Korean,Breakfast,Digital Wallet,Germany,43.58,0.15,39.71,6,0,0,Delivered
+1797,2025-07-26,15,French,Dinner,Cash on Delivery,France,47.89,3.95,53.92,4,1,0,Delivered
+1798,2025-09-18,15,Thai,Snack,Cash on Delivery,France,18.31,1.07,27.75,7,0,0,Delivered
+1799,2025-07-22,17,Mexican,Lunch,Cash on Delivery,Japan,23.85,3.14,35.67,1,0,0,Delivered
+1800,2025-06-15,16,Mexican,Snack,PayPal,USA,28.13,3.55,47.82,7,1,0,Issues with Order
+1801,2025-05-09,12,Korean,Lunch,Debit Card,UK,33.08,0.92,21.52,1,0,1,Delivered
+1802,2025-05-03,14,American,Lunch,Credit Card,India,23.28,1.69,16.4,7,1,1,Delivered
+1803,2025-08-13,14,Indian,Lunch,Cash on Delivery,Mexico,32.33,5.26,17.26,8,0,1,Delivered
+1804,2025-05-05,17,Italian,Dinner,Credit Card,UK,31.26,0.38,42.28,6,0,0,Issues with Order
+1805,2025-05-01,13,Mediterranean,Snack,Debit Card,Japan,54.18,0.04,37.34,8,0,1,Late Delivery
+1806,2025-09-03,12,American,Dinner,Digital Wallet,Japan,19.45,4.21,30.22,2,0,1,Delivered
+1807,2025-08-08,14,American,Dinner,Debit Card,France,5.0,14.5,50.42,8,0,1,Issues with Order
+1808,2025-05-18,15,Indian,Dinner,Cash on Delivery,Germany,20.26,3.13,31.89,6,1,0,Delivered
+1809,2025-06-18,21,Indian,Lunch,PayPal,Mexico,23.14,3.04,14.01,4,0,0,Delivered
+1810,2025-08-29,13,Indian,Snack,Digital Wallet,India,6.74,0.9,40.47,1,0,1,Delivered
+1811,2025-07-02,22,Mexican,Dinner,Credit Card,Brazil,37.88,5.45,30.15,8,0,0,Delivered
+1812,2025-06-02,11,French,Snack,Debit Card,Germany,52.63,12.16,28.11,3,0,0,Late Delivery
+1813,2025-07-25,13,Indian,Breakfast,PayPal,France,32.31,17.19,35.38,8,0,1,Late Delivery
+1814,2025-06-15,17,American,Lunch,Debit Card,Mexico,27.32,3.78,39.01,2,1,0,Delivered
+1815,2025-04-10,21,Indian,Dinner,Debit Card,Japan,46.85,4.07,23.13,7,0,0,Delivered
+1816,2025-03-28,14,Japanese,Lunch,Debit Card,Germany,31.89,4.16,39.63,1,0,1,Issues with Order
+1817,2025-04-15,15,French,Lunch,Cash on Delivery,Japan,42.44,6.93,21.87,3,0,0,Delivered
+1818,2025-06-14,11,Japanese,Snack,PayPal,Australia,44.78,2.0,11.98,8,1,0,Delivered
+1819,2025-08-23,12,American,Breakfast,Credit Card,USA,36.22,5.76,28.13,6,1,1,Delivered
+1820,2025-06-28,12,American,Snack,Digital Wallet,USA,22.78,10.33,32.86,7,1,1,Late Delivery
+1821,2025-06-17,19,Italian,Dinner,PayPal,Mexico,20.4,3.59,18.78,1,0,1,Delivered
+1822,2025-04-09,21,Mexican,Snack,Credit Card,UK,34.4,2.52,26.1,3,0,0,Delivered
+1823,2025-08-06,12,Indian,Breakfast,PayPal,France,21.65,2.44,16.59,6,0,1,Late Delivery
+1824,2025-04-12,17,Thai,Breakfast,Digital Wallet,Japan,26.43,3.52,32.27,7,1,0,Delivered
+1825,2025-08-13,11,Indian,Snack,Debit Card,UK,24.79,0.3,32.89,5,0,0,Delivered
+1826,2025-04-09,20,Mediterranean,Breakfast,Credit Card,Australia,29.75,0.85,13.74,8,0,1,Cancelled
+1827,2025-05-24,12,Mexican,Dinner,PayPal,Japan,31.1,6.39,14.45,7,1,1,Late Delivery
+1828,2025-07-30,10,Thai,Breakfast,Credit Card,Australia,40.44,4.13,30.85,1,0,0,Delivered
+1829,2025-08-22,17,Italian,Dinner,Credit Card,Mexico,23.08,0.67,31.36,6,0,0,Delivered
+1830,2025-05-07,16,Indian,Lunch,Digital Wallet,USA,7.67,0.11,32.21,5,0,0,Delivered
+1831,2025-06-29,18,Thai,Lunch,Debit Card,Mexico,34.56,17.34,53.25,5,1,1,Late Delivery
+1832,2025-05-31,16,Chinese,Dinner,Cash on Delivery,USA,17.65,4.01,29.73,8,1,0,Delivered
+1833,2025-09-08,20,Mediterranean,Snack,Debit Card,Canada,13.15,11.86,22.94,2,0,1,Delivered
+1834,2025-05-17,13,Korean,Dinner,Debit Card,Mexico,29.52,2.6,17.91,5,1,1,Delivered
+1835,2025-04-08,20,Indian,Dinner,Debit Card,Brazil,23.85,1.54,26.54,1,0,1,Delivered
+1836,2025-05-20,12,American,Lunch,Cash on Delivery,Japan,28.13,1.56,31.3,6,0,1,Delivered
+1837,2025-07-04,19,Mexican,Snack,Cash on Delivery,Brazil,17.33,13.59,30.68,5,0,1,Late Delivery
+1838,2025-05-28,11,Korean,Breakfast,Credit Card,USA,32.06,8.68,41.91,1,0,0,Issues with Order
+1839,2025-03-26,14,French,Snack,Digital Wallet,Canada,48.72,6.26,30.78,2,0,1,Cancelled
+1840,2025-09-07,13,Thai,Dinner,Credit Card,Germany,25.32,0.62,38.06,7,1,1,Delivered
+1841,2025-06-10,22,Italian,Breakfast,PayPal,Canada,22.12,4.49,30.81,5,0,0,Delivered
+1842,2025-05-17,11,Italian,Snack,Debit Card,USA,63.07,0.05,26.66,2,1,0,Cancelled
+1843,2025-07-20,19,Mediterranean,Dinner,PayPal,USA,34.52,15.03,15.96,8,1,1,Delivered
+1844,2025-05-20,11,Thai,Snack,Credit Card,USA,12.66,6.27,11.01,8,0,0,Delivered
+1845,2025-07-23,16,Mexican,Breakfast,Digital Wallet,USA,9.18,2.65,38.17,2,0,0,Delivered
+1846,2025-06-05,21,Japanese,Snack,Debit Card,Germany,40.12,0.13,20.63,1,0,0,Delivered
+1847,2025-05-13,13,French,Breakfast,Credit Card,Mexico,55.34,1.12,23.16,7,0,1,Delivered
+1848,2025-09-21,17,Indian,Breakfast,PayPal,France,24.5,0.05,21.7,2,1,0,Delivered
+1849,2025-07-20,17,Mediterranean,Lunch,PayPal,France,36.8,9.64,30.98,3,1,0,Delivered
+1850,2025-09-05,15,Thai,Lunch,Digital Wallet,Japan,21.63,7.64,31.38,6,0,0,Delivered
+1851,2025-06-22,22,Japanese,Lunch,Cash on Delivery,Brazil,50.89,3.55,34.54,7,1,0,Delivered
+1852,2025-07-14,11,Korean,Dinner,Debit Card,France,30.83,6.49,25.49,6,0,0,Delivered
+1853,2025-07-19,22,Mediterranean,Lunch,Credit Card,France,26.69,7.86,23.41,3,1,0,Delivered
+1854,2025-08-11,20,Mexican,Lunch,Debit Card,Japan,20.75,9.21,40.58,2,0,1,Issues with Order
+1855,2025-08-01,18,Italian,Breakfast,Digital Wallet,USA,45.9,13.03,31.23,5,0,1,Late Delivery
+1856,2025-05-07,21,Indian,Dinner,Cash on Delivery,UK,32.98,10.96,18.23,6,0,0,Late Delivery
+1857,2025-08-13,16,Mediterranean,Snack,Debit Card,Mexico,62.31,1.04,21.48,6,0,0,Delivered
+1858,2025-09-18,22,Chinese,Lunch,Cash on Delivery,Canada,24.61,0.45,12.45,4,0,0,Delivered
+1859,2025-08-02,22,Chinese,Snack,Debit Card,UK,26.37,0.78,59.18,5,1,0,Delivered
+1860,2025-05-18,18,Chinese,Lunch,Credit Card,USA,5.69,3.69,23.26,1,1,1,Delivered
+1861,2025-05-18,12,Chinese,Breakfast,PayPal,India,24.08,7.16,30.16,2,1,1,Delivered
+1862,2025-06-25,20,Thai,Breakfast,Digital Wallet,Germany,16.19,0.27,44.04,6,0,1,Delivered
+1863,2025-07-13,19,Korean,Snack,Digital Wallet,Mexico,17.34,1.02,18.72,1,1,1,Delivered
+1864,2025-04-03,17,American,Dinner,Credit Card,Germany,13.51,2.2,32.56,8,0,0,Delivered
+1865,2025-07-02,22,Mediterranean,Breakfast,Cash on Delivery,Mexico,41.6,2.44,48.01,6,0,0,Issues with Order
+1866,2025-04-01,16,Italian,Snack,Credit Card,India,53.65,0.03,10.05,5,0,0,Delivered
+1867,2025-04-16,13,Chinese,Snack,Cash on Delivery,France,27.19,12.63,25.54,4,0,1,Late Delivery
+1868,2025-06-16,14,Mediterranean,Snack,Debit Card,Mexico,25.55,4.21,16.06,7,0,1,Cancelled
+1869,2025-08-24,20,Italian,Snack,Credit Card,Brazil,30.57,5.53,32.14,3,1,1,Delivered
+1870,2025-09-20,19,Thai,Breakfast,PayPal,Mexico,16.98,0.25,10.0,2,1,1,Delivered
+1871,2025-07-29,12,French,Dinner,Debit Card,USA,53.34,3.03,24.09,5,0,1,Delivered
+1872,2025-07-13,11,Mexican,Breakfast,Debit Card,India,16.1,9.63,14.78,8,1,0,Delivered
+1873,2025-07-03,22,Mexican,Snack,Credit Card,Germany,16.54,0.62,39.26,3,0,0,Delivered
+1874,2025-09-16,19,French,Lunch,Cash on Delivery,UK,48.96,4.36,28.44,2,0,1,Delivered
+1875,2025-04-28,21,Korean,Breakfast,Cash on Delivery,India,48.82,2.28,38.27,6,0,0,Delivered
+1876,2025-07-14,10,Mediterranean,Dinner,Digital Wallet,UK,36.26,0.62,43.88,7,0,0,Issues with Order
+1877,2025-08-15,21,Thai,Breakfast,Credit Card,UK,26.07,13.79,19.21,5,0,0,Late Delivery
+1878,2025-07-25,16,Mediterranean,Lunch,Debit Card,UK,44.12,7.22,26.06,1,0,0,Delivered
+1879,2025-08-19,12,Indian,Snack,Digital Wallet,France,27.91,1.11,24.93,5,0,1,Delivered
+1880,2025-09-10,12,Korean,Snack,Credit Card,Brazil,25.31,6.46,10.0,1,0,1,Delivered
+1881,2025-05-02,14,Mexican,Snack,Credit Card,France,22.75,3.32,20.71,1,0,1,Delivered
+1882,2025-03-29,11,Mediterranean,Dinner,Digital Wallet,Brazil,50.85,0.94,31.69,1,1,0,Delivered
+1883,2025-04-30,15,Indian,Snack,Debit Card,Australia,31.0,4.06,39.58,8,0,0,Delivered
+1884,2025-05-19,11,Mexican,Snack,Digital Wallet,Brazil,17.65,0.74,46.67,2,0,0,Delivered
+1885,2025-08-03,12,Chinese,Snack,Digital Wallet,UK,28.08,5.1,50.68,3,1,1,Delivered
+1886,2025-09-02,15,Indian,Dinner,Cash on Delivery,USA,31.76,4.43,27.31,7,0,0,Late Delivery
+1887,2025-07-05,10,Indian,Dinner,Cash on Delivery,India,23.98,7.06,21.58,4,1,0,Delivered
+1888,2025-04-27,17,Korean,Snack,Debit Card,Australia,24.73,11.26,44.56,5,1,0,Delivered
+1889,2025-07-10,11,Mediterranean,Breakfast,Debit Card,USA,27.8,11.44,14.41,6,0,0,Delivered
+1890,2025-09-08,22,American,Dinner,Digital Wallet,Mexico,28.1,9.79,36.61,6,0,0,Delivered
+1891,2025-07-24,18,French,Snack,Digital Wallet,Brazil,30.51,1.37,24.61,3,0,1,Delivered
+1892,2025-04-18,21,French,Dinner,Digital Wallet,Brazil,22.09,1.93,24.97,2,0,0,Delivered
+1893,2025-06-02,14,Japanese,Lunch,PayPal,France,38.81,4.25,22.61,4,0,1,Delivered
+1894,2025-06-23,14,Indian,Dinner,Digital Wallet,Japan,5.25,6.86,22.51,5,0,1,Delivered
+1895,2025-07-12,20,Indian,Lunch,PayPal,Australia,27.72,2.02,34.17,6,1,1,Delivered
+1896,2025-08-14,15,Indian,Snack,Digital Wallet,Brazil,18.42,0.7,34.62,3,0,0,Delivered
+1897,2025-06-08,20,Indian,Lunch,Digital Wallet,France,35.92,1.41,24.52,3,1,1,Delivered
+1898,2025-07-31,15,Indian,Snack,Cash on Delivery,Germany,28.61,1.46,39.68,8,0,0,Delivered
+1899,2025-05-02,14,Korean,Breakfast,PayPal,UK,37.91,5.33,55.88,7,0,1,Issues with Order
+1900,2025-03-26,11,Indian,Dinner,Cash on Delivery,India,30.15,1.85,26.23,5,0,0,Delivered
+1901,2025-07-11,13,Japanese,Breakfast,Cash on Delivery,India,22.94,3.92,17.37,2,0,1,Delivered
+1902,2025-07-03,15,Chinese,Lunch,Debit Card,UK,31.77,8.13,19.2,6,0,0,Delivered
+1903,2025-04-08,10,Chinese,Dinner,Credit Card,Brazil,41.19,5.42,34.16,5,0,0,Delivered
+1904,2025-04-19,21,Thai,Lunch,Credit Card,Mexico,36.21,1.75,24.76,1,1,0,Late Delivery
+1905,2025-09-01,21,Japanese,Dinner,Cash on Delivery,Australia,68.61,2.38,34.57,4,0,0,Delivered
+1906,2025-08-27,19,Japanese,Dinner,Debit Card,Canada,39.22,8.52,11.32,1,0,1,Delivered
+1907,2025-06-15,22,Indian,Lunch,Cash on Delivery,Australia,25.8,5.42,37.59,1,1,0,Delivered
+1908,2025-04-18,19,Korean,Dinner,Cash on Delivery,UK,32.64,8.68,20.2,2,0,1,Delivered
+1909,2025-07-08,13,Indian,Snack,Digital Wallet,Canada,22.43,0.47,40.82,3,0,1,Issues with Order
+1910,2025-03-26,13,Japanese,Snack,Digital Wallet,Mexico,22.49,1.72,26.53,7,0,1,Delivered
+1911,2025-05-24,11,Chinese,Snack,Cash on Delivery,India,22.28,4.53,42.34,3,1,0,Issues with Order
+1912,2025-08-30,22,Thai,Breakfast,Digital Wallet,Germany,22.4,0.47,23.44,4,1,0,Delivered
+1913,2025-07-29,16,Mediterranean,Dinner,PayPal,USA,16.88,13.55,27.79,8,0,0,Late Delivery
+1914,2025-07-17,19,Indian,Dinner,Debit Card,UK,15.16,4.14,25.49,7,0,1,Delivered
+1915,2025-07-07,13,Indian,Dinner,PayPal,Japan,35.84,3.24,32.1,5,0,1,Delivered
+1916,2025-06-08,13,Thai,Snack,Credit Card,Mexico,8.9,4.08,23.03,4,1,1,Delivered
+1917,2025-04-11,17,Italian,Snack,Digital Wallet,France,28.53,0.01,27.45,6,0,0,Delivered
+1918,2025-07-29,16,French,Snack,Credit Card,Japan,63.38,4.25,28.17,5,0,0,Delivered
+1919,2025-06-02,15,Japanese,Snack,Debit Card,Canada,33.42,0.9,25.02,4,0,0,Delivered
+1920,2025-09-07,18,Korean,Lunch,Credit Card,Japan,34.12,11.81,23.31,6,1,1,Delivered
+1921,2025-05-05,11,Korean,Breakfast,PayPal,UK,21.53,0.6,37.71,5,0,0,Delivered
+1922,2025-06-09,12,Thai,Dinner,Debit Card,Australia,28.37,0.9,39.15,7,0,1,Delivered
+1923,2025-08-06,11,Indian,Breakfast,Digital Wallet,USA,7.98,6.67,24.39,3,0,0,Delivered
+1924,2025-07-24,16,Mexican,Lunch,Credit Card,Australia,27.61,0.28,29.75,2,0,0,Delivered
+1925,2025-06-02,22,Mexican,Breakfast,Cash on Delivery,Brazil,22.25,3.5,10.0,6,0,0,Delivered
+1926,2025-05-04,18,Mexican,Lunch,Credit Card,France,36.36,10.39,20.87,3,1,1,Late Delivery
+1927,2025-03-31,18,Mediterranean,Breakfast,Cash on Delivery,Canada,37.01,8.74,41.62,3,0,1,Delivered
+1928,2025-04-28,13,Korean,Dinner,Digital Wallet,Germany,16.71,1.91,13.95,8,0,1,Delivered
+1929,2025-05-09,21,Chinese,Lunch,Debit Card,Mexico,6.93,16.3,27.25,1,0,0,Delivered
+1930,2025-03-26,14,French,Snack,Cash on Delivery,Brazil,35.57,3.74,27.07,7,0,1,Delivered
+1931,2025-07-23,20,Mediterranean,Dinner,Digital Wallet,Mexico,32.72,2.84,15.03,7,0,1,Delivered
+1932,2025-08-07,16,Mexican,Snack,Debit Card,USA,31.43,2.78,38.04,4,0,0,Late Delivery
+1933,2025-06-10,11,Korean,Snack,Cash on Delivery,Japan,12.58,7.44,18.74,5,0,0,Delivered
+1934,2025-06-14,17,Indian,Breakfast,Debit Card,Japan,23.89,0.7,44.42,3,1,0,Issues with Order
+1935,2025-04-30,20,Japanese,Snack,Debit Card,Canada,51.47,3.29,37.4,1,0,1,Delivered
+1936,2025-07-16,14,French,Snack,Cash on Delivery,India,51.69,16.87,30.19,6,0,1,Late Delivery
+1937,2025-07-10,10,Indian,Lunch,Credit Card,Germany,31.09,1.1,24.43,6,0,0,Issues with Order
+1938,2025-07-02,20,Thai,Breakfast,Digital Wallet,Germany,31.6,2.6,19.27,6,0,1,Delivered
+1939,2025-08-14,17,Italian,Snack,Credit Card,France,45.11,11.72,30.23,6,0,0,Delivered
+1940,2025-05-07,10,Chinese,Lunch,Digital Wallet,Germany,21.0,4.83,19.7,1,0,0,Cancelled
+1941,2025-09-03,18,American,Breakfast,Cash on Delivery,Japan,11.69,4.57,10.0,6,0,1,Delivered
+1942,2025-07-21,15,Korean,Dinner,PayPal,France,35.92,1.61,15.24,1,0,0,Delivered
+1943,2025-08-22,11,French,Snack,Cash on Delivery,Brazil,48.59,0.37,37.33,1,0,0,Delivered
+1944,2025-08-13,21,Korean,Breakfast,Debit Card,Japan,25.62,1.81,21.88,6,0,0,Delivered
+1945,2025-07-16,21,Japanese,Lunch,Debit Card,Australia,27.18,4.31,26.03,2,0,0,Delivered
+1946,2025-06-04,16,Indian,Breakfast,Credit Card,Germany,25.04,0.43,35.92,1,0,0,Delivered
+1947,2025-05-14,16,Korean,Lunch,Cash on Delivery,Canada,9.68,9.69,41.5,7,0,0,Issues with Order
+1948,2025-05-18,10,Chinese,Lunch,Credit Card,Germany,11.66,1.06,27.16,8,1,0,Delivered
+1949,2025-05-21,17,Mexican,Snack,Credit Card,UK,17.36,7.29,38.76,8,0,0,Delivered
+1950,2025-06-21,19,American,Snack,PayPal,Mexico,18.66,3.13,19.54,6,1,1,Delivered
+1951,2025-06-17,18,Mexican,Dinner,Digital Wallet,Australia,19.3,0.81,18.21,4,0,1,Delivered
+1952,2025-07-15,17,Japanese,Dinner,Digital Wallet,Germany,5.0,11.55,37.78,8,0,0,Late Delivery
+1953,2025-04-08,19,Japanese,Dinner,Credit Card,Canada,42.34,3.38,36.56,4,0,1,Delivered
+1954,2025-05-21,13,French,Lunch,Credit Card,Brazil,23.15,1.11,25.78,6,0,1,Delivered
+1955,2025-07-06,16,Korean,Dinner,PayPal,UK,26.07,1.52,26.55,4,1,0,Delivered
+1956,2025-07-27,20,Chinese,Dinner,Credit Card,Japan,29.19,3.3,33.6,7,1,1,Delivered
+1957,2025-05-04,16,French,Breakfast,PayPal,France,50.13,1.12,29.4,2,1,0,Delivered
+1958,2025-07-28,17,Thai,Lunch,Cash on Delivery,Japan,18.02,0.95,20.46,4,0,0,Delivered
+1959,2025-08-29,22,Mexican,Dinner,Debit Card,Mexico,32.56,4.78,27.78,6,0,0,Delivered
+1960,2025-04-16,11,Chinese,Breakfast,Credit Card,Canada,31.8,0.25,28.62,7,0,0,Delivered
+1961,2025-04-18,22,Mexican,Breakfast,Credit Card,India,28.2,4.78,15.93,3,0,0,Late Delivery
+1962,2025-06-27,20,American,Breakfast,Credit Card,Canada,23.98,5.24,25.18,5,0,1,Delivered
+1963,2025-04-04,19,Chinese,Breakfast,Digital Wallet,USA,34.76,1.93,43.99,4,0,1,Issues with Order
+1964,2025-07-29,11,Japanese,Dinner,Digital Wallet,Brazil,42.68,0.69,21.39,2,0,0,Delivered
+1965,2025-06-06,12,Chinese,Snack,Digital Wallet,Germany,24.63,1.91,36.6,3,0,1,Delivered
+1966,2025-09-21,18,Chinese,Snack,Digital Wallet,Australia,24.88,1.86,45.87,5,1,1,Delivered
+1967,2025-09-12,12,French,Snack,PayPal,Brazil,49.4,5.59,32.49,5,0,1,Delivered
+1968,2025-09-22,16,Thai,Lunch,PayPal,France,25.86,7.2,24.13,4,0,0,Delivered
+1969,2025-05-03,21,Mexican,Breakfast,Credit Card,USA,21.27,10.71,25.0,2,1,0,Delivered
+1970,2025-04-27,12,Chinese,Dinner,PayPal,France,5.0,0.04,17.09,4,1,1,Delivered
+1971,2025-07-15,16,Chinese,Dinner,Debit Card,India,20.18,3.89,40.99,1,0,0,Delivered
+1972,2025-06-22,11,Italian,Breakfast,PayPal,Japan,49.21,15.62,40.36,3,1,0,Late Delivery
+1973,2025-07-05,22,American,Snack,Debit Card,France,5.0,15.36,37.45,7,1,0,Late Delivery
+1974,2025-08-18,21,Mexican,Breakfast,Debit Card,Germany,11.26,0.68,39.67,7,0,0,Late Delivery
+1975,2025-05-02,10,Mexican,Lunch,Digital Wallet,Mexico,20.89,5.4,40.22,8,0,0,Issues with Order
+1976,2025-05-11,16,Italian,Breakfast,PayPal,France,18.06,4.6,28.63,6,1,0,Delivered
+1977,2025-04-21,17,Mediterranean,Lunch,Debit Card,Canada,33.46,3.96,23.48,6,0,0,Delivered
+1978,2025-08-02,14,Mediterranean,Snack,Digital Wallet,Mexico,53.98,8.8,25.93,4,1,1,Delivered
+1979,2025-04-05,17,Korean,Dinner,Digital Wallet,India,26.65,13.65,16.18,1,1,0,Delivered
+1980,2025-07-25,16,French,Lunch,PayPal,Mexico,49.43,1.81,32.89,4,0,0,Delivered
+1981,2025-06-10,20,Italian,Lunch,Digital Wallet,Germany,22.39,0.86,10.0,7,0,1,Delivered
+1982,2025-08-08,13,Italian,Lunch,Cash on Delivery,Australia,25.56,0.44,22.16,7,0,1,Delivered
+1983,2025-04-14,22,Japanese,Snack,Credit Card,Brazil,47.03,5.5,37.29,5,0,0,Delivered
+1984,2025-09-11,10,French,Lunch,Digital Wallet,Brazil,41.22,4.86,36.72,5,0,0,Delivered
+1985,2025-05-25,16,Mediterranean,Dinner,Debit Card,Brazil,41.05,2.16,36.27,4,1,0,Issues with Order
+1986,2025-04-15,15,Indian,Snack,Credit Card,UK,31.14,0.0,10.0,3,0,0,Delivered
+1987,2025-05-31,12,Japanese,Dinner,Cash on Delivery,Canada,33.81,1.44,23.38,7,1,1,Delivered
+1988,2025-05-06,15,Chinese,Dinner,PayPal,Brazil,18.79,1.06,38.62,2,0,0,Cancelled
+1989,2025-04-26,10,Indian,Breakfast,PayPal,Canada,36.19,1.38,30.13,2,1,0,Delivered
+1990,2025-06-20,11,Mediterranean,Snack,Digital Wallet,UK,32.36,6.88,23.55,8,0,0,Delivered
+1991,2025-06-05,22,Chinese,Dinner,Credit Card,France,38.16,16.04,32.1,3,0,0,Late Delivery
+1992,2025-05-29,21,Italian,Breakfast,Credit Card,Canada,40.54,3.4,43.01,3,0,0,Delivered
+1993,2025-09-18,18,Indian,Snack,PayPal,USA,14.44,5.49,26.46,6,0,1,Delivered
+1994,2025-07-14,11,Mediterranean,Snack,Debit Card,Canada,42.77,4.42,13.72,4,0,0,Delivered
+1995,2025-07-27,22,Korean,Breakfast,Debit Card,India,37.24,1.54,28.02,8,1,0,Delivered
+1996,2025-09-06,15,Indian,Breakfast,Credit Card,India,41.98,5.45,10.0,4,1,0,Late Delivery
+1997,2025-03-30,20,American,Dinner,Cash on Delivery,USA,20.08,5.19,43.28,6,1,1,Delivered
+1998,2025-08-25,18,Mediterranean,Breakfast,Digital Wallet,Canada,52.42,0.1,22.61,8,0,1,Delivered
+1999,2025-08-14,21,American,Breakfast,Digital Wallet,USA,24.36,10.53,15.49,6,0,0,Delivered
+2000,2025-07-12,14,Italian,Breakfast,Credit Card,Germany,44.25,3.31,30.49,3,1,1,Delivered
